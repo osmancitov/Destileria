@@ -53,9 +53,47 @@ Tres secciones en orden. Concisa — no decorativa.
 
 **REGISTRO DE ENTRADA** — campos en pares **Campo** — Valor. La palabra más frecuente con contenido —excluyendo artículos, preposiciones, conjunciones— revela la obsesión central: si coincide con lo que el corpus declara, confirma; si no coincide, expone.
 
+El campo **Rendimiento de destilación** expresa la relación entre el volumen del corpus y el volumen del producto generado. Se calcula como el complemento del porcentaje de palabras usadas: si el producto emplea el 8% de las palabras del corpus, el rendimiento es 92°. Se expresa en grados de pureza, como los destilados de alto contenido alcohólico. Un corpus de 80.000 palabras destilado en un producto de 6.400 palabras es un destilado de 92°. Cuanto más alto el grado, más severa la compresión, más noble el resultado.
+
 **Sinopsis y Figuras Clave** — 3 a 5 oraciones de sinopsis en prosa. Luego una línea por figura relevante: nombre y quién es. Sin interpretación.
 
 **Materias Primas Dominantes** — 2 o 3 ejes formulados como tensión o pregunta. No los temas que el corpus menciona — los que trabaja de forma sostenida.
+
+## Prompt de Portada del Producto
+
+Antes de cualquier otra sección del documento producido, y separado de la portada del corpus, se genera este prompt. Su propósito es distinto: no encarna la atmósfera del libro analizado, sino que imagina el *objeto físico del producto de la Destilería* como si fuera él mismo un libro publicado. Un libro sobre el libro. Una obra derivada que existe en el mundo.
+
+La cubierta debe evocar una edición de análisis literario de alta factura — no un resumen ni un manual, sino un objeto editorial con carácter propio. Puede ser austera e intelectual, o densa y ornamental, según lo que el corpus analizado le exija. El título de la obra original aparece en cubierta como objeto de estudio, no como nombre propio del producto.
+
+**Elementos que siempre aparecen en la imagen:**
+- El título del corpus original, visible y legible, como materia analizada
+- La marca *Destilería Osmancito* como colofón o sello editorial
+- Una indicación tipográfica del módulo o fase (puede ser sutil: *Análisis completo*, *Edición crítica*, *Destilado*, etc.)
+- Una ilustración o elemento visual que surge de la tensión central del corpus — no una escena, sino su símbolo más comprimido
+
+**El objeto puede presentarse como:**
+- Un libro cerrado sobre una superficie con peso y textura reales
+- Un libro abierto en la página que más importa
+- Una cubierta vista de frente, sola, con materialidad visible (tela, papel, cuero, barniz)
+- Una pila de ediciones como si el producto tuviera tiraje
+- El libro junto a los instrumentos de análisis que lo acompañaron
+
+```
+[Objeto editorial — el producto de la Destilería como libro físico —
+presentado en [posición y contexto derivados del corpus]].
+[Cubierta con tipografía que lleva: el título del corpus analizado en posición dominante /
+DESTILERÍA OSMANCITO como sello editorial / subtítulo de edición crítica].
+[Elemento visual en cubierta: la tensión central del corpus comprimida en símbolo,
+sin ilustrar una escena concreta].
+[Materialidad de la cubierta: tela, papel, cuero, barniz mate —
+derivada del carácter del corpus].
+[Superficie y contexto: mesa de trabajo, estante, suelo de piedra, luz de tarde —
+derivados de la temperatura emocional del análisis].
+[Paleta: coherente con los demás prompts del producto — específica, no genérica].
+Ilustración editorial de alta factura. Sin fotorrealismo. Relación de aspecto 2:3.
+```
+
+---
 
 ## Prompt de Portada
 
@@ -80,6 +118,8 @@ La portada encarna la atmósfera del corpus — no ilustra una escena. Generado 
 Estilo pictórico, sin fotorrealismo.
 En la esquina inferior, etiqueta discreta:
 DESTILERÍA OSMANCITO · [TÍTULO EN MAYÚSCULAS] · [APELLIDO EN MAYÚSCULAS].
+```
+Estilo pictórico, sin fotorrealismo. Relación de aspecto 2:3.
 ```
 
 ---
@@ -175,7 +215,7 @@ lugar, luz, hora, clima emocional — sorprendente, no genérica].
 Una etiqueta visible incluye: DESTILERÍA OSMANCITO / [TÍTULO] · [APELLIDO] /
 [TIPO DE BEBIDA Y ORIGEN] · [AÑO IMAGINARIO] / "[frase final de la Nota de Cata]".
 [Paleta de color derivada de la bebida y del tono emocional del corpus — específica].
-Estilo pictórico, sin fotorrealismo. Iluminación en claroscuro.
+Estilo pictórico, sin fotorrealismo. Iluminación en claroscuro. Relación de aspecto 2:3.
 ```
 
 ---
@@ -285,7 +325,7 @@ casco oxidado, submarino recién emergido, fantasma que no proyecta sombra].
 El documento en mano del inspector lee: DESTILERÍA OSMANCITO / [TÍTULO] · [APELLIDO] /
 [ARQUETIPO] · [VEREDICTO].
 [Paleta derivada del clima del dictamen — específica, no genérica].
-Estilo pictórico, sin fotorrealismo. Luz de trabajo en claroscuro.
+Estilo pictórico, sin fotorrealismo. Luz de trabajo en claroscuro. Relación de aspecto 2:3.
 ```
 
 ---
@@ -355,7 +395,7 @@ no genérica, derivada de las ausencias, síntomas y cifras encontradas].
 En esquina, cuaderno con etiqueta: DESTILERÍA OSMANCITO / [TÍTULO] · [APELLIDO] /
 [EL COMPUESTO BASE].
 [Paleta derivada de la temperatura del corpus y los hallazgos del Laboratorio — específica].
-Ilustración científica de precisión. Sin fotorrealismo. Luz en claroscuro.
+Ilustración científica de precisión. Sin fotorrealismo. Luz en claroscuro. Relación de aspecto 2:3.
 ```
 
 ---
@@ -442,7 +482,7 @@ elementos apagados componen la imagen.
 Grabado o impreso en el objeto central:
 DESTILERÍA OSMANCITO / [TÍTULO] · [APELLIDO] / [ESTRATEGIA DE GRANDEZA].
 [Paleta derivada del núcleo de curvatura — específica, intensa].
-Ilustración científica del siglo XIX. Sin fotorrealismo. Fondo negro profundo.
+Ilustración científica del siglo XIX. Sin fotorrealismo. Fondo negro profundo. Relación de aspecto 2:3.
 ```
 
 ---
@@ -457,6 +497,7 @@ Ilustración científica del siglo XIX. Sin fotorrealismo. Fondo negro profundo.
 # Destilería Osmancito
 ## [Título de la obra]
 
+## Prompt de Portada del Producto
 # REGISTRO DE ENTRADA
 # MÓDULO ALAMBIQUE — DESTILACIÓN
   ## Destilado Maestro

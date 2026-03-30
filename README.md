@@ -19,10 +19,11 @@ No es un resumidor ni un buscador. Es una planta de extracción que produce frac
 CORPUS
   ↓
 RECEPCIÓN DE MATERIA PRIMA
-  · Registro de entrada (palabras, riqueza léxica, primera y más frecuente palabra de contenido)
+  · Prompt de portada del producto (el paquete completo como objeto editorial)
+  · Registro de entrada (palabras, rendimiento de destilación en grados, obsesión central)
   · Sinopsis y figuras clave
   · Materias primas dominantes
-  · Prompt de portada
+  · Prompt de portada (atmósfera del corpus)
   ↓
 TALLER PRINCIPAL — cuatro módulos en secuencia
   │
@@ -77,11 +78,14 @@ Cada módulo produce un prompt en español para generador de imágenes externo. 
 
 | Prompt | Qué genera |
 |---|---|
+| **Portada del Producto** | El producto de la Destilería imaginado como libro físico — objeto editorial con cubierta, sello y materialidad propios |
 | **Portada** | Atmósfera del corpus — imagen que puede preceder todo el paquete |
 | **Imagen A** | El mundo donde vive la bebida elegida — escena construida desde la fusión de la bebida y el corpus |
 | **Imagen B** | El arquetipo de nave específico en el estado que revela el veredicto |
 | **Imagen C** | El hallazgo del Laboratorio hecho visible — derivado de las ausencias, síntomas y cifras concretas |
 | **Imagen D** | La etiqueta química del corpus — su firma topológica como objeto único listo para despacho |
+
+Todos los prompts especifican relación de aspecto 2:3.
 
 ---
 
@@ -136,6 +140,7 @@ El sistema ejecuta la Recepción de Materia Prima + los cuatro módulos del tall
 | **Núcleo de curvatura** | El concepto de mayor gravitación semántica |
 | **Compuesto base** | El núcleo de sentido más irreducible del corpus |
 | **Etiqueta química** | El conjunto de variables topológicas que identifican el corpus como objeto |
+| **Rendimiento de destilación** | Grados de pureza del producto: complemento del porcentaje de palabras usadas respecto al corpus. Un destilado de 92° usó el 8% del corpus |
 
 ---
 

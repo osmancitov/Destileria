@@ -104,14 +104,19 @@ destileria/
 
 ## Cómo instalar
 
-**1.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
+**1.** Descargar los materiales:
+   * [Descargar system-prompt.md](https://github.com/osmancitov/Destileria/raw/main/system-prompt.md)
+   * [Descargar protocolo-destileria.md](https://github.com/osmancitov/Destileria/raw/main/protocolo-destileria.md)
+   * [Descargar README.md](https://github.com/osmancitov/Destileria/raw/main/README.md)
 
-**2.** Subir los tres archivos: `system-prompt.md`, `protocolo-destileria.md`, `README.md`.
+**2.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
 
-**3.** En el recuadro de instrucciones del proyecto, escribir exactamente:
+**3.** Subir los tres archivos: `system-prompt.md`, `protocolo-destileria.md`, `README.md`.
+
+**4.** En el recuadro de instrucciones del proyecto, escribir exactamente:
 > *Lee el archivo system-prompt.md*
 
-**4.** Verificar: abrir conversación nueva y escribir **Hola**. El sistema debe responder:
+**5.** Verificar: abrir conversación nueva y escribir **Hola**. El sistema debe responder:
 > *Soy la Destilería Osmancito. Entra la materia prima. Sale el destilado puro.*
 
 ---

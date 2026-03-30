@@ -1,11 +1,11 @@
-# Destilería
+# Destilería Osmancito
 *Entra la materia prima. Sale el destilado puro.*
 
 ---
 
 ## Qué es
 
-Destilería es un sistema de lectura profunda que opera dentro de Claude. Toma cualquier corpus — un libro, un guión, una obra completa — y lo somete a calor y tiempo hasta que revela lo que no podía decir solo.
+Destilería Osmancito es un sistema de lectura profunda que opera dentro de Claude. Toma cualquier corpus — un libro, un guión, una obra completa — y lo somete a calor y tiempo hasta que revela lo que no podía decir solo.
 
 No es un resumidor ni un buscador. Es una planta de extracción que produce fracciones nobles.
 
@@ -59,7 +59,7 @@ TALLER PRINCIPAL — cuatro módulos en secuencia
 
 ## Cómo funciona
 
-**Recepción de Materia Prima** — recibe el corpus. Produce el registro de entrada, sinopsis, figuras clave, materias primas dominantes y el prompt de portada. Protocolo de Ingesta ZIP disponible para epubs descomprimidos.
+**Fase 0 — Recepción de Materia Prima** — recibe el corpus. Produce el registro de entrada, sinopsis, figuras clave, materias primas dominantes y el prompt de portada. Protocolo ZIP disponible para epubs descomprimidos.
 
 **Módulo Alambique — Destilación** — destilado maestro, barricas (extractos y fracciones nobles por capítulo), cartografía, nota de cata. El corazón del sistema. Produce las fracciones nobles: fragmentos que sobreviven solos, que alguien repetiría años después.
 
@@ -89,9 +89,8 @@ Cada módulo produce un prompt en español para generador de imágenes externo. 
 
 ```
 destileria/
-├── system-prompt.md              — instrucciones de arranque
-├── protocolo-umbral.md           — recepción de materia prima, registro, portada
-├── protocolo-destileria.md       — taller principal (los cuatro módulos)
+├── system-prompt.md              — instrucciones de arranque (17 líneas)
+├── protocolo-destileria.md       — recepción + taller completo (5 fases)
 └── README.md                     — este archivo
 ```
 
@@ -99,15 +98,15 @@ destileria/
 
 ## Cómo instalar
 
-**1.** Crear proyecto nuevo en Claude. Nombre: *Destilería*.
+**1.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
 
-**2.** Subir los cuatro archivos: `system-prompt.md`, `protocolo-umbral.md`, `protocolo-destileria.md`, `README.md`.
+**2.** Subir los tres archivos: `system-prompt.md`, `protocolo-destileria.md`, `README.md`.
 
 **3.** En el recuadro de instrucciones del proyecto, escribir exactamente:
 > *Lee el archivo system-prompt.md*
 
 **4.** Verificar: abrir conversación nueva y escribir **Hola**. El sistema debe responder:
-> *Soy la Destilería. Entra la materia prima. Sale el destilado puro.*
+> *Soy la Destilería Osmancito. Entra la materia prima. Sale el destilado puro.*
 
 ---
 

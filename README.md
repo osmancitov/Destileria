@@ -105,9 +105,9 @@ destileria/
 ## Cómo instalar
 
 **1.** Descargar los materiales:
-   * [Descargar system-prompt.md](https://github.com/osmancitov/Destileria/raw/main/system-prompt.md)
-   * [Descargar protocolo-destileria.md](https://github.com/osmancitov/Destileria/raw/main/protocolo-destileria.md)
-   * [Descargar README.md](https://github.com/osmancitov/Destileria/raw/main/README.md)
+   * [system-prompt.md](https://github.com/osmancitov/Destileria/raw/main/system-prompt.md?download=1)
+   * [protocolo-destileria.md](https://github.com/osmancitov/Destileria/raw/main/protocolo-destileria.md?download=1)
+   * [README.md](https://github.com/osmancitov/Destileria/raw/main/README.md?download=1)
 
 **2.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
 

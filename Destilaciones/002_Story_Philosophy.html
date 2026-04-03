@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Destilería Osmancito — The Story of Philosophy — Durant</title>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Fira+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
+<link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
+<link rel="apple-touch-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
+
+<!-- OGMT -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Story of Philosophy" />
+<meta property="og:description" content="Historia popular de la filosofía occidental." />
+<meta property="og:url" content="https://osmancitov.github.io/Destilaciones/002_Story_Philosophy.html" />
+<meta property="og:site_name" content="Destilería Osmancito" />
+<meta property="og:image" content="https://osmancitov.github.io/Destilaciones/img/002_Story_Philosophy_00_Preview.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="1200" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Destilería Osmancito">
+<meta name="twitter:description" content="Historia popular de la filosofía occidental.">
+<meta name="twitter:image" content="https://osmancitov.github.io/Destilaciones/img/002_Story_Philosophy_00_Preview.jpg">
+<style>
+  :root {
+    --ink: #1a1410;
+    --sepia: #3d2b1f;
+    --amber: #b5732a;
+    --gold: #c9993a;
+    --cream: #f5f0e8;
+    --parchment: #ede7d6;
+    --pale: #faf7f2;
+    --rule: #c9a96e;
+    --shadow: rgba(58,35,15,0.15);
+    --muted: #6b5540;
+    --faint: #9c856b;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--pale);
+    color: var(--ink);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
+  /* ── MASTHEAD ── */
+  #masthead {
+    background: var(--sepia);
+    color: var(--cream);
+    text-align: center;
+    padding: 3.5rem 2rem 3rem;
+    border-bottom: 4px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+  #masthead::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 40px,
+      rgba(201,153,58,0.04) 40px,
+      rgba(201,153,58,0.04) 42px
+    );
+  }
+  .masthead-label {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.35em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  #masthead h1 {
+    font-family: 'IM Fell English', serif;
+    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--cream);
+    letter-spacing: 0.02em;
+  }
+  #masthead .subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--rule);
+    margin-top: 0.5rem;
+  }
+  .masthead-rule {
+    width: 80px;
+    height: 2px;
+    background: var(--gold);
+    margin: 1.5rem auto;
+  }
+  .masthead-meta {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--faint);
+  }
+
+  /* ── TOC ── */
+  #toc {
+    background: var(--parchment);
+    border-bottom: 2px solid var(--rule);
+    padding: 2.5rem max(2rem, calc(50vw - 380px));
+  }
+  #toc h2 {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 1.5rem;
+  }
+  .toc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.2rem 2rem;
+  }
+  .toc-grid a {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.95rem;
+    color: var(--sepia);
+    text-decoration: none;
+    padding: 0.2rem 0;
+    border-bottom: 1px dotted var(--rule);
+    transition: color 0.2s, padding-left 0.2s;
+  }
+  .toc-grid a:hover { color: var(--amber); padding-left: 0.4rem; }
+  .toc-h1 { font-weight: 600; color: var(--sepia) !important; }
+  .toc-h2 { padding-left: 0.8rem !important; font-style: italic; font-size: 0.88rem !important; }
+
+  /* ── MAIN LAYOUT ── */
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 3rem 2rem 6rem;
+  }
+
+  /* ── SECTION HEADERS ── */
+  .module-header {
+    margin: 4rem 0 2rem;
+    padding: 1.5rem 0 1rem;
+    border-top: 3px solid var(--sepia);
+    position: relative;
+  }
+  .module-tag {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 0.4rem;
+  }
+  .module-header h2 {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--sepia);
+    line-height: 1.2;
+  }
+  .module-voice {
+    font-style: italic;
+    font-size: 0.88rem;
+    color: var(--faint);
+    margin-top: 0.5rem;
+    border-left: 2px solid var(--rule);
+    padding-left: 0.75rem;
+  }
+
+  h3 {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--sepia);
+    margin: 2.5rem 0 0.75rem;
+  }
+  h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--amber);
+    margin: 2rem 0 0.4rem;
+    letter-spacing: 0.03em;
+  }
+
+  /* ── PROSE ── */
+  p { margin-bottom: 1.1rem; }
+
+  .field-block {
+    background: var(--parchment);
+    border-left: 3px solid var(--rule);
+    padding: 1rem 1.25rem;
+    margin: 1rem 0 1.5rem;
+    font-size: 0.95rem;
+  }
+  .field-block .field {
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+  }
+  .field-block .label {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-right: 0.5rem;
+  }
+
+  /* ── BARRICA ── */
+  .barrica {
+    margin: 2.5rem 0;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.5rem;
+  }
+  .barrica-title {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.1rem;
+    color: var(--sepia);
+    margin-bottom: 0.2rem;
+  }
+  .barrica-sub {
+    font-style: italic;
+    font-size: 0.88rem;
+    color: var(--faint);
+    margin-bottom: 1rem;
+  }
+  .extracto {
+    background: rgba(181,115,42,0.06);
+    border-left: 2px solid var(--amber);
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 1.2rem;
+    font-size: 0.96rem;
+  }
+  .extracto-label {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 0.4rem;
+  }
+  .fraccion {
+    margin: 1.5rem 0 0.5rem;
+    padding-left: 1.2rem;
+    border-left: 3px solid var(--gold);
+  }
+  .fraccion-hook {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--sepia);
+    margin-bottom: 0.5rem;
+  }
+
+  /* ── NOTA DE CATA ── */
+  .cata-box {
+    background: var(--sepia);
+    color: var(--cream);
+    padding: 1.75rem 2rem;
+    margin: 2rem 0;
+    border-radius: 2px;
+  }
+  .cata-box .cata-label {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+  }
+  .cata-field {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  .cata-key {
+    font-weight: 600;
+    color: var(--gold);
+    margin-right: 0.4rem;
+  }
+
+  /* ── VEREDICTO ── */
+  .veredicto {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 1.25rem 1.75rem;
+    margin: 1.5rem 0;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+  }
+  .veredicto .v-label {
+    color: var(--gold);
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+
+  /* ── COMPUESTO BASE ── */
+  .compuesto {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    border: 1px solid var(--rule);
+    position: relative;
+  }
+  .compuesto::before {
+    content: 'COMPUESTO BASE';
+    position: absolute;
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--pale);
+    padding: 0 0.75rem;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    color: var(--amber);
+  }
+  .compuesto p {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--sepia);
+    margin: 0;
+  }
+
+  /* ── FALLAS ── */
+  .falla {
+    margin: 0.75rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted var(--rule);
+  }
+  .falla strong {
+    color: var(--sepia);
+    font-style: italic;
+  }
+  .falla-type {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-left: 0.5rem;
+  }
+  .falla-root {
+    color: var(--gold);
+    font-weight: 700;
+  }
+
+  /* ── PROMPT BOXES ── */
+  .prompt-box {
+    background: #1a1410;
+    color: #c8bfb0;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.72rem;
+    line-height: 1.7;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-left: 3px solid var(--amber);
+    white-space: pre-wrap;
+  }
+  .prompt-box .p-label {
+    color: var(--gold);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    display: block;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(201,153,58,0.3);
+    padding-bottom: 0.5rem;
+  }
+
+  /* ── NOTA NAVAL / POÉTICA ── */
+  .nota-poetica {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--sepia);
+    border-left: 3px solid var(--sepia);
+    padding: 0.75rem 1.25rem;
+    margin: 1.5rem 0;
+    line-height: 1.8;
+  }
+
+  /* ── TOPOLOGÍA ── */
+  .topo-field {
+    margin: 0.5rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.96rem;
+  }
+  .topo-key {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--amber);
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+
+  .grandeza {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--sepia);
+    padding: 1.5rem;
+    border: 2px solid var(--sepia);
+    margin: 2rem 0;
+  }
+
+  /* ── COLOPHON ── */
+  #colophon {
+    text-align: center;
+    padding: 3rem 2rem;
+    border-top: 3px solid var(--sepia);
+    margin-top: 4rem;
+  }
+  #colophon p {
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    color: var(--faint);
+    margin-bottom: 0.25rem;
+  }
+  #colophon .lema {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--sepia);
+    margin-top: 0.75rem;
+  }
+
+  /* ── UTILS ── */
+  hr.section-rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2rem 0;
+  }
+
+  @media (max-width: 600px) {
+    main { padding: 2rem 1.25rem 4rem; }
+    .toc-grid { grid-template-columns: 1fr; }
+    .prompt-box { font-size: 0.65rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header id="masthead">
+  <div class="masthead-label">Destilería Osmancito · Análisis Completo · v3.8</div>
+  <div class="masthead-rule"></div>
+  <h1>The Story of Philosophy</h1>
+  <div class="subtitle">Will Durant · 1926</div>
+  <div class="masthead-rule"></div>
+  <div class="masthead-meta">Lote procesado · 2026-04-02 · Cuatro módulos · Cuatro imágenes</div>
+</header>
+
+<!-- TOC -->
+<nav id="toc">
+  <h2>Índice de Contenidos</h2>
+  <div class="toc-grid">
+    <a href="#recepcion" class="toc-h1">Registro de Entrada</a>
+    <a href="#alambique" class="toc-h1">Módulo Alambique — Destilación</a>
+    <a href="#destilado" class="toc-h2">Destilado Maestro</a>
+    <a href="#barricas" class="toc-h2">Barricas</a>
+    <a href="#cartografia" class="toc-h2">Cartografía</a>
+    <a href="#cata" class="toc-h2">Nota de Cata</a>
+    <a href="#img-alambique" class="toc-h2">Prompt de Imagen A</a>
+    <a href="#inspeccion" class="toc-h1">Módulo Control de Calidad — Inspección</a>
+    <a href="#estratos" class="toc-h2">Los Seis Estratos</a>
+    <a href="#dictamen" class="toc-h2">Dictamen</a>
+    <a href="#img-inspeccion" class="toc-h2">Prompt de Imagen B</a>
+    <a href="#laboratorio" class="toc-h1">Módulo Laboratorio — Análisis de Sedimento</a>
+    <a href="#ausencias" class="toc-h2">Ausencias</a>
+    <a href="#sintomas" class="toc-h2">Síntomas</a>
+    <a href="#cifras" class="toc-h2">Cifras</a>
+    <a href="#lentes" class="toc-h2">Los Cuatro Lentes</a>
+    <a href="#base" class="toc-h2">El Compuesto Base</a>
+    <a href="#img-laboratorio" class="toc-h2">Prompt de Imagen C</a>
+    <a href="#etiquetado" class="toc-h1">Módulo Etiquetado — Topología y Firma</a>
+    <a href="#fallas" class="toc-h2">Fallas de Cierre</a>
+    <a href="#curvatura" class="toc-h2">Núcleo de Curvatura</a>
+    <a href="#red" class="toc-h2">Red Conceptual</a>
+    <a href="#grandeza" class="toc-h2">Estrategia de Grandeza</a>
+    <a href="#img-etiquetado" class="toc-h2">Prompt de Imagen D</a>
+  </div>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PROMPT PORTADA DEL PRODUCTO -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div class="module-header" style="margin-top:2rem;">
+  <div class="module-tag">Prompt · Portada del Producto</div>
+  <h2>El objeto editorial</h2>
+</div>
+
+<div class="prompt-box"><span class="p-label">PROMPT — PORTADA DEL PRODUCTO</span>Objeto editorial — el producto de la Destilería como libro físico —
+presentado cerrado sobre una mesa de roble oscuro, visto ligeramente desde arriba,
+con un marcador de seda entre las páginas y el canto abierto hacia el espectador.
+Cubierta con tipografía que lleva: THE STORY OF PHILOSOPHY en posición dominante,
+en serifas romanas de alta legibilidad / DESTILERÍA OSMANCITO como sello editorial
+en colofón inferior derecho / subtítulo: Edición Crítica — Análisis Completo.
+Elemento visual en cubierta: un busto clásico fragmentado — sin rostro, solo la nuca
+y el cráneo, que cae hacia adelante sobre un plinto — símbolo de la tensión central
+entre la gloria de los sistemas y su inevitable caducidad.
+Materialidad de la cubierta: tela de lino crudo con letras grabadas en oro viejo,
+sin barniz, con señales de uso intelectual real — márgenes marcados, lomo desgastado.
+Superficie: mesa de trabajo de roble con luz de tarde entrando oblicua, papeles
+de apuntes al costado, pluma de mango de madera.
+Paleta: ocres profundos, lino natural, dorado envejecido, sombra sepia caliente.
+Ilustración editorial de alta factura. Sin fotorrealismo. Relación de aspecto 2:3.</div>
+
+<figure class="image-container">
+    <img role="img" src="img/002_Preview_Portada_00_Preview.jpg" style="width: 100%; height: auto;">
+</figure>
+
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- FASE 0 — RECEPCIÓN -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div class="module-header" id="recepcion">
+  <div class="module-tag">Fase 0 · Recepción de Materia Prima</div>
+  <h2>Registro de Entrada</h2>
+  <div class="module-voice">Materia prima recibida. Iniciando registro. Recepción completa. El Alambique puede operar.</div>
+</div>
+
+<div class="field-block">
+  <div class="field"><span class="label">Título</span>The Story of Philosophy</div>
+  <div class="field"><span class="label">Autor</span>Will Durant</div>
+  <div class="field"><span class="label">Año de primera edición</span>1926 (segunda edición 1933)</div>
+  <div class="field"><span class="label">Género</span>Historia de la filosofía — ensayo de divulgación de alta factura</div>
+  <div class="field"><span class="label">Barricas identificadas</span>12 (Introducción + 11 capítulos principales)</div>
+  <div class="field"><span class="label">Palabras del corpus</span>~184.500</div>
+  <div class="field"><span class="label">Palabra más frecuente con contenido</span><em>man</em> — el ser humano como pregunta y como respuesta; coincide con lo que el corpus declara pero también expone su sesgo: el pensador universal es, casi sin excepción, un hombre europeo</div>
+  <div class="field"><span class="label">Rendimiento de destilación</span>~93° — producto en torno a 13.000 palabras sobre 184.500 del corpus</div>
+  <div class="field"><span class="label">Idioma del corpus</span>Inglés</div>
+  <div class="field"><span class="label">Idioma del producto</span>Español</div>
+</div>
+
+<h3>Sinopsis y Figuras Clave</h3>
+
+<p>Durant recorre diez filósofos capitales de Occidente — de Platón a Dewey — con el propósito declarado de hacer la filosofía accesible a quien no es filósofo de oficio. El libro no es un manual ni un compendio neutral: es una galería de retratos, cada uno iluminado por la convicción de que el pensamiento filosófico es inseparable de la vida, el carácter y la época de quien lo produce. La tesis implícita es que la filosofía es, ante todo, un acto de amor hacia la sabiduría —y que ese amor puede transmitirse.</p>
+
+<p>Lo que unifica el corpus no es un argumento sino un método: Durant presenta a cada filósofo como héroe intelectual cuya grandeza se prueba en la lucha contra la oscuridad de su tiempo. El resultado es una obra que siente más como biografía apasionada que como historia académica.</p>
+
+<div class="field-block">
+  <div class="field"><span class="label">Platón</span>El origen: la forma pura del proyecto filosófico, la política como ética ampliada</div>
+  <div class="field"><span class="label">Aristóteles</span>El sistematizador: la razón como método universal</div>
+  <div class="field"><span class="label">Francis Bacon</span>El pivote entre escolástica y ciencia moderna</div>
+  <div class="field"><span class="label">Spinoza</span>El hereje sereno: Dios como naturaleza, la libertad como comprensión</div>
+  <div class="field"><span class="label">Voltaire</span>El guerrero ilustrado: la ironía como arma política</div>
+  <div class="field"><span class="label">Kant</span>El arquitecto del pensamiento moderno</div>
+  <div class="field"><span class="label">Schopenhauer</span>El pesimista lúcido: la voluntad detrás de la razón</div>
+  <div class="field"><span class="label">Spencer</span>El darwinista social: evolución como teodicea secular</div>
+  <div class="field"><span class="label">Nietzsche</span>El iconoclasta: el poder como valor supremo</div>
+  <div class="field"><span class="label">Bergson / Croce / Russell</span>La modernidad filosófica europea fragmentada</div>
+  <div class="field"><span class="label">Santayana / James / Dewey</span>La filosofía americana como pragmatismo y experiencia</div>
+</div>
+
+<h3>Materias Primas Dominantes</h3>
+
+<p><strong>¿Puede el pensamiento individual transformar la civilización, o la civilización produce el pensamiento que necesita?</strong> Durant oscila permanentemente entre el culto al genio filosófico y la consciencia de que cada sistema es hijo de su momento histórico.</p>
+
+<p><strong>¿La sabiduría es comprensible para todos, o su divulgación inevitablemente la traiciona?</strong> El libro entero es una apuesta por que sí, pero la elegancia con que Durant simplifica a Kant o a Spinoza roza siempre el peligro de la distorsión.</p>
+
+<p><strong>¿Puede la filosofía —sin Dios, sin iglesia— devolverle sentido a una vida secular?</strong> La pregunta recorre el libro desde la Introducción hasta las últimas páginas sobre Dewey, sin recibir nunca respuesta directa.</p>
+
+<!-- PROMPT PORTADA -->
+<h3 style="margin-top:2.5rem;">Prompt de Portada</h3>
+<div class="prompt-box"><span class="p-label">PROMPT — PORTADA DEL CORPUS</span>Un corredor de mármol griego en ruinas, visto desde el interior hacia una abertura
+de luz intensa al fondo — la columna rota a la izquierda, la arquitectura perfecta
+a la derecha, y entre ambas un hombre de espaldas que camina hacia la luz
+sin que podamos ver su rostro ni su destino.
+Época ambigua: el corredor es antiguo pero la silueta viste una levita del XIX.
+Tensión visual: la arquitectura promete totalidad; el hombre la atraviesa solo.
+Paleta: piedra blanca desgastada, sombra profunda azul pizarra, luz ámbar intensa
+en el umbral, casi cegadora.
+Estilo pictórico, sin fotorrealismo.
+En la esquina inferior, etiqueta discreta:
+DESTILERÍA OSMANCITO · THE STORY OF PHILOSOPHY · DURANT.
+Relación de aspecto 2:3.</div>
+
+<figure class="image-container">
+    <img role="img" src="img/002_Story_Philosophy_01_portada.jpg" style="width: 100%; height: auto;">
+</figure>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- FASE 1 — ALAMBIQUE -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div class="module-header" id="alambique">
+  <div class="module-tag">Fase 1 · Módulo Alambique</div>
+  <h2>Destilación</h2>
+  <div class="module-voice">Materia prima en el alambique. Comenzando destilación. Barrica por barrica. Componiendo el destilado maestro.</div>
+</div>
+
+<h3 id="destilado">Destilado Maestro</h3>
+
+<p>Hay un hombre, en algún punto entre los siglos V a.C. y el XX, sentado a solas con una pregunta que no puede dejar en paz. No es el mismo hombre —es Platón junto al mar Egeo, es Spinoza en su cuarto de La Haya, es Nietzsche en Turín hundiéndose en la locura — pero la postura es idéntica: alguien que se niega a aceptar la realidad tal como viene envasada por su tiempo, y que construye en cambio un sistema desde cero, como si pudiera hacer el mundo de nuevo.</p>
+
+<p>Este libro los persigue a todos. Los alcanza en sus gabinetes y en sus exilios, en sus amores fracasados y en sus enfermedades, en la crueldad con que sus épocas los tratan y en la improbable gloria que reciben después de muertos. No pretende ser neutro: elige a los grandes, los presenta como héroes, y convierte la historia de las ideas en algo parecido a una épica. La filosofía, en estas páginas, no es un sistema de categorías sino una forma de estar vivo — la única forma, sugiere el libro, que está a la altura de la dignidad humana.</p>
+
+<p>Lo que se destila a lo largo de once capítulos es una pregunta que ninguno de los filósofos reunidos aquí logra cerrar del todo: ¿puede la razón sola — sin fe, sin iglesia, sin certezas heredadas — devolverle al hombre un sentido que soporte el peso de la existencia? Platón dice sí, con la condición de que la razón governe; Schopenhauer dice no, y lo demuestra con dolor; Nietzsche dice que la pregunta está mal planteada, que lo que importa no es el sentido sino el poder; Dewey dice que la pregunta misma es demasiado europea y que hay que sustituirla por la acción.</p>
+
+<p>El libro no decide. Lo que hace, en cambio, es algo más difícil: hace que el lector desee estar en ese corredor de columnas rotas, caminando hacia la luz aunque no sepa qué hay del otro lado. La filosofía aparece aquí no como un conjunto de respuestas correctas sino como el acto mismo de hacerse la pregunta con suficiente rigor como para que no se cierre sola. Y en ese sentido, después de cerrar el libro, la pregunta sigue abierta — y eso es, probablemente, lo mejor que un libro de filosofía puede lograr.</p>
+
+<!-- BARRICAS -->
+<hr class="section-rule">
+<h3 id="barricas">Barricas</h3>
+
+<!-- INTRO -->
+<div class="barrica">
+  <div class="barrica-title">Introducción — Sobre los Usos de la Filosofía</div>
+  <div class="barrica-sub">La promesa que el corpus hace al lector antes de empezar a cumplirla</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Durant declara su apuesta desde el principio: la filosofía no es un lujo académico sino la forma más alta de vivir. Contra quienes la acusan de esterilidad, argumenta que toda gran ciencia nació de ella, y que sin ella el conocimiento se fragmenta en especialidades sin perspectiva. La Introducción traza el marco afectivo del libro entero — no un prólogo sino una invitación — y promete una travesía por los grandes sistemas capaz de devolver al lector algo que la educación moderna le ha quitado: el sentido de que pensar bien es, en sí mismo, una forma de vivir bien.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El precio de la especialidad</div>
+    <p>Durant describe al científico especialista como alguien que sabe todo de nada: un hombre que domina su campo con precisión quirúrgica pero que no puede responder ninguna de las preguntas que hacen que una vida valga la pena. La filosofía, argumenta, es lo que conecta los fragmentos — la arquitectura que convierte ladrillos en casa.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">La verdad no te hará rico, pero te hará libre</div>
+    <p>En pocas líneas, Durant condensa el programa moral del libro entero: la búsqueda del saber no promete recompensa material, pero promete algo más escaso — la libertad de ver las cosas tal como son, sin el filtro del miedo ni del interés. Es una promesa que el libro tardará cuatrocientas páginas en demostrar que puede o no puede cumplirse.</p>
+  </div>
+</div>
+
+<!-- CAP 1 PLATO -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo I — Platón</div>
+  <div class="barrica-sub">El origen: cuando la filosofía quiso gobernar el mundo</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Durant reconstruye a Platón como respuesta a la catástrofe de Atenas: la derrota contra Esparta, la ejecución de Sócrates, el desmoronamiento de la democracia. La pregunta que impulsa toda la obra platónica es política antes que metafísica: ¿por qué los mejores gobiernan tan mal y los peores con tanta facilidad? La República emerge como el más audaz experimento de ingeniería social de la antigüedad: una ciudad donde la virtud no es accidente sino arquitectura. Durant presta especial atención a la psicología platónica — incluyendo una anticipación asombrosa del psicoanálisis — y al colapso de los experimentos políticos en Siracusa. El capítulo termina con la muerte silenciosa de Platón en un banquete nupcial, imagen de una vida que encontró cómo envejecer con dignidad.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El filósofo-rey como profecía imposible</div>
+    <p>Durant expone el núcleo utópico de Platón con lucidez y sin crueldad: la idea de que quien mejor puede gobernar es precisamente quien menos desea hacerlo. El filósofo, absorto en la contemplación de las ideas eternas, gobierna como un deber — no como un placer. Lo que Durant no dice, pero deja ver, es la tragedia implícita: ese sistema sólo funciona si quien tiene el poder es exactamente la persona que no lo quiere. Y nadie puede garantizar eso.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Sócrates como método</div>
+    <p>La figura de Sócrates aparece aquí no como mártir sino como técnica: el hombre que no sabe nada pero sabe preguntar. Durant explica la ironía socrática — fingir ignorancia para llevar al interlocutor hasta la contradicción de sus propias certezas — y muestra cómo ese método sigue siendo, siglos después, el único antídoto conocido contra la arrogancia disfrazada de seguridad.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El psicoanálisis antes de Freud</div>
+    <p>En un pasaje notable, Durant señala que Platón describió los sueños como ventana al deseo reprimido, que el alma tiene estratos donde lo proscrito sobrevive dormido, y que el profeta y el genio rozan la misma zona oscura que el enfermo mental. Todo esto dos mil años antes de Viena. La observación no es anacronismo — es reconocimiento de que ciertas verdades sobre la mente humana esperaban ser nombradas, y Platón las tocó de pasada sin saber del todo lo que tocaba.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Morir bien como forma de vivir bien</div>
+    <p>La imagen final del capítulo — Platón de ochenta años, que se retira a dormir en un rincón del banquete y por la mañana ya no despierta — es la más silenciosa del libro. No hay agonía ni discurso. La muerte llega como consecuencia lógica de haber sabido envejecer. Durant no lo comenta. No necesita.</p>
+  </div>
+</div>
+
+<!-- CAP 2 ARISTOTLE -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo II — Aristóteles y la Ciencia Griega</div>
+  <div class="barrica-sub">La razón como método universal: el primer científico</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Si Platón soñó el mundo ideal, Aristóteles catalogó el real. Durant presenta a Aristóteles como el fundador de casi todas las ciencias — lógica, biología, física, política, ética, estética — no como acumulación de datos sino como arquitectura del conocimiento: la convicción de que todo puede ser clasificado, analizado y comprendido. El capítulo traza la tensión entre el Aristóteles biólogo, observador paciente de la naturaleza, y el Aristóteles metafísico, que necesita un primer motor inmóvil para que el sistema no se derrumbe. La relación con Alejandro — alumno formado para la grandeza, que resultó demasiado grande para su maestro — aparece como la ironía más brutal del capítulo: el filósofo enseñó a dominar el mundo al hombre que dominaría el mundo sin necesitar filosofía.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">La felicidad como actividad, no como estado</div>
+    <p>Durant explica la eudaimonia aristotélica con precisión que todavía duele: la felicidad no es un lugar al que se llega sino algo que se hace. No es tener sino funcionar bien — como los dientes que mastican o el ojo que ve. El hombre feliz es el que ejerce su función más alta con excelencia. Que esa función sea la razón no hace la idea más fácil de vivir, pero la hace imposible de refutar del todo.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El Primer Motor que no se mueve</div>
+    <p>En la metafísica aristotélica hay una figura que Durant toca con cuidado: Dios como pensamiento que se piensa a sí mismo, inmóvil, perfecto, que mueve todo lo que existe no empujando sino atrayendo — como el amado mueve al amante sin saber que existe. Es una de las ideas más extrañas de la historia de la filosofía. Y también, en cierta manera, una de las más honestas: un Dios que no interviene porque la perfección no necesita hacer nada.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Lo que la política le debe al clima</div>
+    <p>Durant cita la teoría geopolítica de Aristóteles — que los pueblos del norte son valientes pero sin inteligencia, los del sur inteligentes pero cobardes, y sólo los griegos tienen ambas cosas — y la presenta sin ironía explícita. Pero la ironía está en el aire: el primer científico de Occidente produce, al hablar de política, el primer ejemplo documentado de sesgo de confirmación cultural elevado a ley natural.</p>
+  </div>
+</div>
+
+<!-- CAP 3 BACON -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo III — Francis Bacon</div>
+  <div class="barrica-sub">El pivote: la ciencia como poder, el poder como ambición</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Bacon es el capítulo más incómodo del libro porque su protagonista es un hombre que no alcanza la altura moral de lo que piensa. Durant lo presenta con una honestidad que roza la incomodidad: el gran reformador del método científico era un cortesano calculador, un político que vendía su influencia, un juez que tomó sobornos y cayó en desgracia. Y sin embargo, la idea central de Bacon — que el conocimiento sólo vale si transforma la realidad, que el saber es poder sobre la naturaleza — resuena en cada laboratorio, en cada línea de código, en cada política pública basada en datos. El hombre fue menor que su proyecto. El proyecto sobrevivió al hombre sin necesitarlo.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Saber es poder, y el poder no tiene escrúpulos</div>
+    <p>Durant expone el Novum Organum como el manifiesto de la modernidad: en lugar de deducir verdades desde axiomas heredados, observar, experimentar, inducir. La ciencia no como contemplación sino como intervención. Lo que Durant no subraya, pero el lector puede ver, es que esta idea es perfectamente neutral respecto de su uso: sirve para curar enfermedades y para fabricar bombas con igual eficiencia.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Los ídolos de la tribu</div>
+    <p>La taxonomía baconiana de los errores del entendimiento humano — ídolos de la tribu, de la caverna, del foro, del teatro — sigue siendo el más preciso catálogo de las formas en que la mente se engaña a sí misma que se ha producido en la historia de la filosofía. Cada categoría reconoce un vicio específico: la tendencia a ver lo que se espera, el encierro en la perspectiva propia, la corrupción del lenguaje, la tiranía de los sistemas heredados. Cuatrocientos años después, la neurociencia y la psicología cognitiva no han hecho más que añadir datos a ese esquema.</p>
+  </div>
+</div>
+
+<!-- CAP 4 SPINOZA -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo IV — Spinoza</div>
+  <div class="barrica-sub">El hereje sereno: Dios como naturaleza, la libertad como comprensión</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Spinoza es el momento más alto del libro. Durant lo sabe y lo trabaja con más cuidado que a ningún otro: la épica del pueblo judío en el exilio, el joven Baruch expulsado de su propia comunidad por pensar con demasiada limpieza, el pulidor de lentes que construyó en silencio la Ética como un sistema geométrico. La tesis central — que Dios y la Naturaleza son la misma cosa, que todo cuanto existe es una modificación de una única sustancia infinita — escandaliza a su tiempo y resulta, cuatro siglos después, casi imprescindible para pensar el universo sin teología. Durant articula la libertad spinoziana como comprensión: el hombre es libre no cuando escapa a las causas sino cuando las entiende. No la libertad de la voluntad sino la libertad del conocimiento.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Excomulgado por pensar en voz alta</div>
+    <p>La escena del herem — la excomunión más severa que la comunidad judía de Ámsterdam había pronunciado jamás, contra un joven de veintitrés años del que nadie ha conservado el crimen exacto — es uno de los momentos más perturbadores del libro. No hay acusación específica. Hay el miedo de una comunidad frágil a ser contaminada por una mente que no puede detenerse. Spinoza recibió el golpe y siguió pensando. Eso es todo. Y quizá eso es suficiente.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">sub specie aeternitatis — bajo la mirada de la eternidad</div>
+    <p>La idea más extraña y más hermosa de Spinoza: que el entendimiento puede alcanzar una perspectiva desde la cual el tiempo, el sufrimiento y la muerte individual pierden su carácter absoluto — no porque desaparezcan sino porque se revelan como partes de un orden que los contiene. No es resignación ni estoicismo: es la propuesta de que comprender profundamente algo equivale a amar lo que uno comprende. <em>Amor intellectualis Dei.</em> El amor intelectual de Dios. Que podría también llamarse: el amor intelectual de todo.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El hombre que más se ha acercado a Dios</div>
+    <p>Durant cita el discurso de Renan en la inauguración de la estatua de Spinoza en La Haya: que quizá la visión más verdadera de Dios que haya tenido ningún ser humano ocurrió en esa habitación de pulidor de lentes. Es una frase que Durant deja caer sin comentario. Tiene la honestidad de reconocer que algunas ideas son demasiado grandes para ser glosadas.</p>
+  </div>
+</div>
+
+<!-- CAP 5 VOLTAIRE -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo V — Voltaire y la Ilustración Francesa</div>
+  <div class="barrica-sub">La ironía como arma: cuando el pensamiento se volvió político</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Voltaire es el filósofo más contradictorio del libro: feo, vanidoso, deshonesto, obsceno — y también el hombre que más hizo por la libertad de pensamiento en el siglo XVIII. Durant lo retrata con generosidad calculada: reconoce los defectos personales y los descarta como irrelevantes frente a la energía creativa. Noventa y nueve volúmenes escritos con una pluma que nunca descansó; batallas contra la tortura, la superstición y el fanatismo que otros no se atrevían a dar; la ironía perfecta de Candide — el optimismo leibniziano pulverizado por el terremoto de Lisboa. Lo que el capítulo revela es que Voltaire no fue un sistema sino un proyecto: destruir lo que bloqueaba el pensamiento libre, con la esperanza de que algo mejor crecería en el espacio vacío.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Écraser l'infâme — aplastemos lo infame</div>
+    <p>El lema de Voltaire — aplastemos la infamia — tenía un blanco concreto: la superstición religiosa organizada, el fanatismo que quemaba herejes y torturaba inocentes. Durant lo presenta como el equivalente filosófico de una guerra: no se trata de persuadir al adversario sino de destruirlo. Voltaire eligió el arma de la ironía porque es la más difícil de contrarrestar: no se puede quemar una carcajada.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Candide como vacuna</div>
+    <p>En pocas páginas, Durant explica por qué Candide sigue siendo el mejor antídoto contra el optimismo irresponsable: cada vez que el tutor Pangloss insiste en que todo sucede para bien en el mejor de los mundos posibles, la realidad introduce un terremoto, una masacre, una violación, un naufragio. La filosofía del bienestar necesario se rompe contra la casualidad del sufrimiento. No queda consuelo filosófico. Queda cultivar el jardín.</p>
+  </div>
+</div>
+
+<!-- CAP 6 KANT -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo VI — Immanuel Kant y el Idealismo Alemán</div>
+  <div class="barrica-sub">El arquitecto: la razón examinada por sí misma</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Kant es el capítulo más difícil del libro y Durant lo sabe: advierte al lector, rodea al filósofo de Königsberg por varios flancos antes de atacarlo directamente, y admite que ningún resumen hace justicia a la Crítica de la Razón Pura. Lo que logra, sin embargo, es extraordinario: hacer comprensible la revolución copernicana kantiana — que no son los objetos los que forman nuestra mente, sino que es nuestra mente la que forma la experiencia de los objetos — y mostrar sus consecuencias devastadoras para toda metafísica anterior. Kant cierra el paso a conocer la cosa-en-sí, pero abre una ética del deber que Durant trata con respeto notable: el imperativo categórico como la idea de que sólo es moral aquello que puede convertirse en ley universal.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Despertar del sueño dogmático</div>
+    <p>Kant, según su propia confesión, fue despertado de su "sueño dogmático" por Hume — quien demostró que la causalidad no es una ley del universo sino un hábito de la mente. Durant convierte esa frase en el momento de inflexión de la filosofía moderna: el momento en que el pensamiento se vuelve sobre sí mismo y descubre que no puede garantizar lo que había dado por garantizado. Después de Kant, toda metafísica necesita justificarse de otra manera.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Actúa como si tu acción pudiera ser ley universal</div>
+    <p>El imperativo categórico — la única formulación ética que Durant trata con reverencia casi incondicional — tiene la virtud y el defecto de su geometría: es perfecto en abstracto y casi imposible de aplicar en casos concretos. Durant lo presenta sin ironía. Pero el lector que ha llegado hasta Kant después de Spinoza, Voltaire y Bacon comprende la trampa: un sistema ético universal construido por un hombre que nunca salió de Königsberg.</p>
+  </div>
+</div>
+
+<!-- CAP 7 SCHOPENHAUER -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo VII — Schopenhauer</div>
+  <div class="barrica-sub">El pesimista lúcido: la voluntad como tirano invisible</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Schopenhauer es el capítulo más sombrío y, curiosamente, uno de los más vitales. Durant presenta al filósofo como el primero en poner en el centro del sistema no la razón sino la voluntad — ese impulso ciego de existir y reproducirse que subyace a todo cuanto hacemos y que la razón no puede dominar sino sólo observar. El mundo es voluntad que se devora a sí misma: los organismos compiten, se destruyen y se reproducen en un ciclo que no tiene propósito ni dirección. La única salida que Schopenhauer concibe es el arte — la contemplación desinteresada que suspende momentáneamente la voluntad — y la ascesis, el renunciamiento budista. Durant reconoce la grandeza del diagnóstico aunque rechaza la cura: el pesimismo de Schopenhauer abrió la puerta a la psicología del inconsciente y a la crítica de la razón pura como facultad soberana.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">La voluntad como el oscuro motor de todo</div>
+    <p>Schopenhauer describe la voluntad de vivir no como una fuerza noble sino como un tirano ciego: el animal que come al animal, el hombre que destruye al hombre, el organismo que se reproduce para que el ciclo continúe sin preguntarse por qué. Lo que Durant extrae de este pesimismo brutal es algo sorprendente: una descripción del deseo más honesta que cualquier teoría del progreso. Schopenhauer dice lo que nadie quiere oír, y por eso sus lectores más fieles suelen ser, paradójicamente, los más vivos.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El arte como único momento libre</div>
+    <p>En la estética schopenaueriana, el arte es el único instante en que la voluntad cede: el contemplador de una gran obra musical deja de desear, de competir, de tener miedo. Existe, por un momento, fuera del tiempo y fuera de la voluntad. Durant encuentra aquí una de las pocas ideas que le permiten matizar el pesimismo de Schopenhauer sin negarlo: el arte no redime la existencia, pero la hace, por intervalos, soportable con dignidad.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El profeta del inconsciente</div>
+    <p>Durant señala, con precisión que no escatima el crédito, que Schopenhauer describió el inconsciente como motor del comportamiento humano cincuenta años antes de Freud, y que la voluntad ciega de reproducirse prefigura el instinto sexual como energía primaria. No es influencia directa — es que Schopenhauer tenía razón sobre algo que tardó medio siglo en tener nombre.</p>
+  </div>
+</div>
+
+<!-- CAP 8 SPENCER -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo VIII — Herbert Spencer</div>
+  <div class="barrica-sub">El sistema total: cuando Darwin se convirtió en teodicea</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Spencer es el capítulo que Durant trata con más ambivalencia. El más admirado de su tiempo — el filósofo más leído del siglo XIX en el mundo anglosajón — aparece aquí como el gran sistematizador de Darwin, el hombre que intentó reducir toda la realidad a la ley de la evolución: lo inorgánico, lo orgánico, lo psicológico, lo social, lo moral. El proyecto es formidable en su escala y está, en el momento en que Durant escribe, ya parcialmente en ruinas. La "Filosofía Sintética" de Spencer olía demasiado a la industria victoriana que la financiaba: el progreso como ley natural equivalía, en la práctica, al darwinismo social — los pobres son pobres porque son menos aptos, y el Estado no debe interferir en la selección natural del mercado.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">La evolución como todo, inclusive la moral</div>
+    <p>Spencer extendió la idea de la evolución más allá de la biología hasta hacerla cosmovisión: no sólo los organismos evolucionan sino las sociedades, las mentes, los sistemas éticos. Lo admirable es la audacia; lo inquietante es la implicación: si todo evoluciona hacia mayor complejidad, entonces lo que existe hoy es más apto que lo que existía antes. La historia como progreso garantizado. La injusticia presente como peldaño necesario. Es la idea más peligrosa del libro.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Lo Incognoscible como última trinchera</div>
+    <p>Cuando Spencer no puede explicar el origen del universo ni la naturaleza última de la fuerza, invoca Lo Incognoscible — una zona que la ciencia no puede penetrar pero que la religión, en su mejor versión, venera. Durant trata esta idea con una amabilidad que tiene algo de lástima: es la solución de un hombre que necesita un Dios pero no puede creer en ninguno, y que nombra la ignorancia como si nombrarla fuera lo mismo que resolverla.</p>
+  </div>
+</div>
+
+<!-- CAP 9 NIETZSCHE -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo IX — Friedrich Nietzsche</div>
+  <div class="barrica-sub">El iconoclasta: cuando el poder se declaró el único valor</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Nietzsche es el más peligroso y el más brillante del libro, y Durant lo sabe. Lo presenta como hijo de Darwin y hermano de Bismarck — alguien que extrajo las consecuencias que los darwinistas ingleses no se atrevieron a extraer — y teje la biografía con un cuidado que roza lo compasivo: el joven genio, la amistad rota con Wagner, el aislamiento creciente, las enfermedades, los libros escritos en soledad para lectores que tardarían décadas en aparecer, la locura final en Turín. El Nietzsche filosófico — el anticristo, el genealogista de la moral, el profeta del superhombre — convive en el capítulo con el Nietzsche enfermo que le pregunta a su hermana si no son felices sin entender sus propias lágrimas.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">La moral como invención de los débiles</div>
+    <p>La tesis más escandalosa de Nietzsche — que la ética del amor al prójimo, la humildad y la compasión es una rebelión de esclavos que convirtió sus limitaciones en virtudes — Durant la expone con claridad y sin condenarla de antemano. Lo que hace es más inteligente: dejar que el lector llegue solo a la pregunta obvia: si la moral es una ficción útil para los débiles, ¿qué ocurre cuando los fuertes toman ese argumento como licencia? La historia del siglo XX responde la pregunta. Durant escribe en 1926. No puede saberlo aún.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">El superhombre como pregunta, no como respuesta</div>
+    <p>Durant evita la trampa de interpretar el Übermensch como el antepasado del nazismo — interpretación que su hermana Elisabeth haría todo lo posible por facilitar. Lo presenta como ideal filosófico: el hombre que se ha dado sus propios valores, que no necesita el aval de la tradición ni de Dios para vivir con plenitud. La idea es seductora y vacía al mismo tiempo. ¿Quién decide qué valores adoptar? Nietzsche no lo dice. El silencio es la falla más grande del sistema.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Lisbeth, ¿no somos felices?</div>
+    <p>La escena final — Nietzsche ya demente, sin entender por qué llora su hermana, preguntando con inocencia absoluta si no son felices — es la más dolorosa del libro. Durant la pone sin adorno. El hombre que proclamó la voluntad de poder como único valor auténtico murió sin voluntad, sin poder, sin memoria de haberlos proclamado. Es posible que eso sea una refutación. Es posible que no sea nada. El silencio de Durant ante esa imagen es la respuesta más honesta.</p>
+  </div>
+</div>
+
+<!-- CAP 10 CONTEMPORANEOS EUROPEOS -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo X — Filósofos Europeos Contemporáneos</div>
+  <div class="barrica-sub">Bergson, Croce, Russell: la filosofía fragmentada en modernidad</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Este capítulo es el más plural y el más tenso: tres figuras que no forman escuela entre sí pero que Durant lee como síntomas del momento en que la filosofía deja de pretender ser sistema total y acepta ser perspectiva parcial. Bergson lleva el élan vital contra el mecanicismo — la vida como impulso que no puede ser reducido a física. Croce construye una filosofía del espíritu donde la belleza y la historia son categorías fundamentales. Russell desmonta con lógica quirúrgica las pretensiones de los sistemas anteriores y empieza a construir una filosofía del lenguaje que Durant trata con respeto mezclado con reservas: el análisis lógico como fin en sí mismo le parece, en el fondo, demasiado estrecho para contener la vida.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">La vida como impulso que los mecanismos no capturan</div>
+    <p>Bergson argumenta que la inteligencia, por su naturaleza, sólo puede capturar lo que está detenido — como una cámara fotográfica que no muestra el movimiento sino instantes. La vida, en cambio, es duración, flujo, cambio continuo. La intuición — no la razón — es el único instrumento que puede acompañarla. Durant simpatiza con esta idea porque es coherente con su propia convicción de que la filosofía debe sentirse, no sólo entenderse.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Russell como cirujano del pensamiento</div>
+    <p>Durant admira a Russell pero desconfía de su frialdad: el análisis lógico resuelve problemas falsos pero crea el riesgo de que la filosofía se convierta en gramática. Russell, que vivió hasta los noventa y siete años cambiando de opinión sobre casi todo, es presentado aquí como reformador moral además de lógico — sus posiciones sobre la guerra, el sexo y la educación le costaron puestos académicos y le ganaron enemigos de cada lado. La imagen que Durant deja es la del hombre más inteligente de su generación que usó esa inteligencia para decir verdades que nadie quería oír.</p>
+  </div>
+</div>
+
+<!-- CAP 11 CONTEMPORANEOS AMERICANOS -->
+<div class="barrica">
+  <div class="barrica-title">Capítulo XI — Filósofos Americanos Contemporáneos</div>
+  <div class="barrica-sub">Santayana, James, Dewey: cuando la filosofía se hizo pragmática</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>El capítulo final tensa la dualidad que recorre todo el libro: la filosofía europea, heredera de la metafísica y el sistema, contra la filosofía americana, nacida de la experiencia, la acción y la utilidad. Santayana — español trasplantado, enamorado del mundo grecolatino y de la tradición inglesa — representa la elegancia melancólica de quien piensa en América pero no es de allí. James — el pragmatista que convirtió la verdad en aquello que funciona — es la voz más americana de todas, la que habla en lenguaje de mercado sin perder la profundidad. Dewey — el más sistemático y menos brillante de los tres — construye una filosofía de la educación y la democracia que Durant admira con más calor que con entusiasmo.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">La verdad como lo que funciona</div>
+    <p>James define la verdad con una audacia que escandaliza a los filósofos europeos: una idea es verdadera si produce consecuencias útiles en la experiencia. No hay verdades eternas — hay verdades que sirven y verdades que no sirven, y las primeras son las que sobreviven. Durant trata esta idea con respeto pero con límites: el pragmatismo explica bien cómo se viven las ideas pequeñas, pero flaquea ante las preguntas que importan de verdad y que no tienen utilidad práctica inmediata, como si Dios existe o si la vida tiene sentido.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-hook">Santayana, el extranjero que entendió América mejor que los americanos</div>
+    <p>Durant observa algo notable sobre Santayana: que su distancia de América — vivida desde dentro, sentida desde fuera — le dio la perspectiva que los nativos no pueden tener. Sus libros sobre la razón en la sociedad, la religión y la ciencia son, en el fondo, los de alguien que puede ver el experimento americano con los ojos del Viejo Mundo sin los prejuicios del Viejo Mundo. Es la ventaja del que pertenece a dos lugares y no es completamente de ninguno.</p>
+  </div>
+</div>
+
+<!-- CARTOGRAFÍA -->
+<hr class="section-rule">
+<h3 id="cartografia">Cartografía</h3>
+
+<h4>Densidad</h4>
+<p>Las barricas de mayor concentración son Spinoza, Nietzsche y Schopenhauer — en ese orden. Spinoza porque Durant lo trabaja con una profundidad que no alcanza en ningún otro capítulo, entendiendo que allí está el corazón filosófico más original del libro. Nietzsche porque la biografía y el pensamiento se alimentan mutuamente con una intensidad que el propio autor no puede resistir. Spencer y el capítulo de contemporáneos americanos son las barricas más diluidas: funcionan pero no brillan.</p>
+
+<h4>Materias Recurrentes</h4>
+<p>Tres imágenes reaparecen con constancia anómala: el hombre solo con su pensamiento contra el tiempo de su época; la tensión entre el sistema perfecto y la vida imperfecta de quien lo construye; y la pregunta sobre si la filosofía puede reemplazar a la religión como fuente de sentido. Cada filósofo del libro se enfrenta a esas tres imágenes, aunque ninguno lo reconozca explícitamente.</p>
+
+<h4>Tensiones Centrales</h4>
+<p>El corpus no resuelve si la grandeza del pensamiento depende o no del carácter del pensador. Bacon es el caso más agudo: sus ideas son revolucionarias, su vida es reprochable. ¿Importa la vida? Durant dice que no, pero su forma de narrar dice que sí. También queda sin resolver si la filosofía puede divulgarse sin traicionarse — si un libro como éste, que hace a Kant comprensible en veinte páginas, está sirviendo a la filosofía o sustituyéndola.</p>
+
+<h4>Voces y Presencias</h4>
+<p>Durant es la única voz real del libro. Los filósofos son sus personajes. Spinoza tiene la presencia más autónoma — Durant cede terreno y deja que la Ética hable con su propia geometría. Nietzsche tiene la presencia más dramática — la biografía se convierte en tragedia. Kant tiene la presencia más esquiva — Durant lo admira sin poder retratarlo con la misma calidez que a los demás.</p>
+
+<h4>Arco del Proceso</h4>
+<p>El argumento central — que la filosofía puede dar sentido a la vida secular — no se resuelve: se abre. El corpus comienza con la promesa de que la sabiduría ilumina la existencia y termina, con Dewey, en la propuesta de que lo que importa no es la sabiduría sino la acción transformadora. El arco va de la contemplación a la intervención sin decidir cuál es más valiosa. Esa indecisión es, probablemente, su mayor honestidad.</p>
+
+<!-- NOTA DE CATA -->
+<hr class="section-rule">
+<h3 id="cata">Nota de Cata</h3>
+
+<div class="cata-box">
+  <div class="cata-label">Nota de Cata · Destilería Osmancito</div>
+  <div class="cata-field"><span class="cata-key">Tipo —</span>Cognac de gran reserva. Añada imaginaria: 1926. Denominación de origen: Europa occidental, costa del Atlántico intelectual.</div>
+  <div class="cata-field"><span class="cata-key">Notas de entrada —</span>Roble viejo, cuero de biblioteca, vainilla de la ilustración. Un primer sorbo que promete más profundidad de la que el vaso parece contener. Calor que sube despacio.</div>
+  <div class="cata-field"><span class="cata-key">Cuerpo —</span>Redondo, generoso, con momentos de concentración excepcional — especialmente en las notas de espinoza y de nietzsche, donde el tanino se endurece y la complejidad se vuelve casi exigente. El capítulo Spencer introduce un corte ligeramente industrial, como si se hubiera mezclado algo demasiado joven en el blend.</div>
+  <div class="cata-field"><span class="cata-key">Final —</span>Largo, cálido, con resina de interrogante no resuelta. La pregunta sobre si la filosofía puede reemplazar a la religión queda en boca como el humo de un tabaco bueno: placentera, imprecisa, persistente. No hay amargura. Hay, en cambio, una nostalgia de algo que no se ha perdido sino que nunca estuvo del todo.</div>
+  <div class="cata-field"><span class="cata-key">Maridaje —</span>Con la duda de las tres de la madrugada. Con un lector que empieza a sospechar que las preguntas más importantes no tienen respuesta pero que vale la pena hacérselas con elegancia.</div>
+</div>
+
+<!-- PROMPT IMAGEN A -->
+<hr class="section-rule">
+<h3 id="img-alambique">Prompt de Imagen — Módulo Alambique</h3>
+
+<div class="prompt-box"><span class="p-label">PROMPT — IMAGEN A</span>Una copa de cognac sobre una mesa de mármol fisurado en una sala de conferencias
+filosófica abandonada — pizarras llenas de fórmulas y flechas a medio borrar,
+ventanas altas con luz de tarde oblicua, polvo en suspensión visible en el aire.
+La copa está casi vacía, con el sedimento dorado en el fondo, y en su superficie
+refleja, invertida, una estantería de libros que no existe en la escena visible.
+No hay nadie. La silla más cercana está girada como si alguien se hubiera levantado
+hace un momento — o hace cien años.
+La etiqueta del decantador, en primer plano parcial, lee:
+DESTILERÍA OSMANCITO / THE STORY OF PHILOSOPHY · DURANT /
+COGNAC DE GRAN RESERVA · 1926 / "la pregunta queda en boca — placentera, imprecisa."
+Paleta: ámbar profundo, marfil antiguo, sepia cálido, sombra azul pizarra.
+Estilo pictórico, sin fotorrealismo. Iluminación en claroscuro. Relación de aspecto 2:3.</div>
+
+<figure class="image-container">
+    <img role="img" src="img/002_Story_Philosophy_02_alambique.jpg" style="width: 100%; height: auto;">
+</figure>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- FASE 2 — INSPECCIÓN -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div class="module-header" id="inspeccion">
+  <div class="module-tag">Fase 2 · Módulo Control de Calidad</div>
+  <h2>Inspección</h2>
+  <div class="module-voice">Nave recibida. Iniciando inspección. Inspeccionando casco y quilla. Sondeando aguas profundas. Emitiendo veredicto de zarpe.</div>
+</div>
+
+<h3>Clasificación de Nave</h3>
+<p><strong>El Galeón (bueno) con elementos de El Velero.</strong> Grande, sólido, cargado de valor real. Durant construyó una embarcación que prometía llevar mucha gente a aguas profundas y cumplió la promesa. El Velero aparece porque la calidad de la travesía depende parcialmente del viento del lector: quien llega sin ninguna filosofía puede naufragar en el Kant; quien llega con algo de preparación recibe cada capítulo como una habitación que ya sospechaba que existía.</p>
+
+<h3 id="estratos">Los Seis Estratos de Inspección</h3>
+
+<h4>Estrato 1 — Casco y Quilla</h4>
+<p>El esqueleto argumental es sólido pero no simétrico. La tesis central — que la filosofía transforma vidas y que los grandes filósofos son los mayores benefactores de la humanidad — atraviesa todos los capítulos como una quilla constante. Los argumentos de soporte son biógrafo-filosóficos: cada capítulo une la vida del filósofo a su sistema para demostrar que el pensamiento emerge de la experiencia vivida. La arquitectura es seriada, no dialéctica: los capítulos no se refutan entre sí, se suman. Esto crea un casco resistente pero con un desequilibrio: el libro no tiene tesis final propia — termina sin decidir entre los sistemas que ha presentado. El órgano atrofiado es la crítica sistemática: Durant señala los errores de cada filósofo pero no construye desde esa crítica una posición filosófica propia. El casco aguanta la travesía. No está diseñado para la tormenta de la duda radical.</p>
+
+<h4>Estrato 2 — Corrientes y Vientos</h4>
+<p>El libro es hijo de 1926: el optimismo del período de entreguerras, la convicción de que el progreso intelectual y moral es posible, el proyecto ilustrado aún en pie antes del colapso de 1929 y del nazismo. Durant escribe desde la seguridad de que la razón puede más que la barbarie — una apuesta que la historia va a poner a prueba brutalmente en los quince años siguientes. Los vectores no reconocidos: el imperialismo cultural implícito — la filosofía que importa es la filosofía europea occidental, y de ella principalmente la de los grandes sistemas masculinos; y el clasismo epistémico — la búsqueda de sentido filosófico es presentada como aspiración universal pero los ejemplos de lectores son siempre de clase media ilustrada.</p>
+
+<h4>Estrato 3 — Arquitectura Naval</h4>
+<p>La asimetría más reveladora del libro es la distribución del afecto: Spinoza recibe una profundidad que ningún otro capítulo alcanza; Spencer recibe más páginas de las que su vigencia actual justificaría. Esta asimetría no es accidental — Spinoza es la proyección del ideal filosófico de Durant (el pensador que une rigor e integridad personal); Spencer es el filósofo más popular en el momento en que Durant escribe, y el libro necesita hablar de él para ser relevante en su época. La paradoja productiva: un libro que celebra la filosofía como camino a la sabiduría no puede explicar filosóficamente por qué elige a estos filósofos y no a otros. La selección es un argumento implícito que nunca se hace explícito.</p>
+
+<h4>Estrato 4 — Aguas Profundas</h4>
+<p>La ontología implícita de Durant es humanista y evolucionista: los seres humanos son capaces de mejorar, el pensamiento es su herramienta más alta, y la historia tiene una dirección, aunque no garantizada. La epistemología es empírico-histórica: Durant no construye teoría del conocimiento sino que asume que el acceso al pensamiento de otros es posible y enriquecedor. La ética implícita es aristocrática del espíritu — no de la sangre sino de la inteligencia: los grandes pensadores son superiores, y el libro es un acto de reverencia hacia esa superioridad. La sombra no reconocida: el libro asume que el placer estético e intelectual que Durant experimenta leyendo a los filósofos es transferible, que la mediación no distorsiona. Es posible que no lo sea.</p>
+
+<h4>Estrato 5 — El Capitán y su Sombra</h4>
+<p>Durant proyecta en cada filósofo una variación del mismo ideal: el hombre que piensa con rigor y vive con coherencia. Cuando un filósofo falla en la segunda condición — como Bacon — Durant lo nota con incomodidad. Cuando un filósofo la cumple de forma extraordinaria — como Spinoza — Durant lo trata con una devoción que roza lo religioso. El mecanismo de defensa dominante es la idealización selectiva: los errores de los filósofos amados se contextualizan; los de los filósofos que le generan distancia se presentan como límites del sistema. El arquetipo que emerge sin ser invocado es el del maestro: Durant escribe como alguien que quiere ser, para el lector, lo que Sócrates fue para sus discípulos — el que abre las puertas sin imponer la dirección.</p>
+
+<h4>Estrato 6 — Registro de Origen y Carga</h4>
+<p>Durant nació en 1885 en North Adams, Massachusetts, en una familia católica de trabajadores. Se formó en seminarios jesuitas antes de alejarse de la fe. Su trayectoria — de la devoción religiosa al humanismo secular — es el arco invisible que da forma al libro: la búsqueda de un sustituto del sentido religioso que sea intelectualmente honesto. La filosofía que Durant elige celebrar es precisamente la que puede hacer ese trabajo: Spinoza reemplaza a Dios con la Naturaleza; James reemplaza la fe con la utilidad; Dewey reemplaza la salvación con la educación. Las genealogías silenciadas: la filosofía no occidental no existe en este libro. El pensamiento budista, el confuciano, el islámico medieval — que produjeron figuras de igual o mayor envergadura — están ausentes porque el proyecto de Durant es fundamentalmente occidental y porque en 1926 esa ausencia no se sentía como tal.</p>
+
+<h3 id="dictamen">El Dictamen</h3>
+
+<h4>Sinopsis del Viaje</h4>
+<p>Este galeón zarpó con una promesa enorme — llevar la sabiduría de los siglos hasta el lector no especializado — y cumplió esa promesa con una generosidad que no tiene precedente en la historia de la divulgación filosófica. La carga es real, sustanciosa, y en sus mejores momentos (Spinoza, Nietzsche, Schopenhauer) alcanza una profundidad que los manuales académicos no siempre alcanzan. El capitán es visible en cada línea: apasionado, parcial, incapaz de fingir indiferencia ante lo que ama.</p>
+
+<p>Las grietas son también visibles. La carga declarada — una historia de la filosofía — no es del todo lo que el barco transporta: es, en realidad, una autobiografía intelectual del capitán disfrazada de historia universal. Durant no nos cuenta la filosofía occidental; nos cuenta su relación con ella, y esa relación tiene puntos ciegos que el libro no examina. La selección de filósofos, la profundidad relativa de cada capítulo, el tono de admiración o de reserva — todo eso es Durant, no la filosofía.</p>
+
+<p>Lo que el capitán no sabe que está navegando: la nostalgia de una síntesis que la modernidad ha hecho imposible. El libro fue un fenómeno de ventas porque el lector de 1926 — y el de hoy — siente la misma necesidad de que alguien le devuelva un mapa. Durant ofrece el mapa más bello disponible. El problema es que el territorio ya no corresponde exactamente a ningún mapa posible.</p>
+
+<div class="veredicto">
+  <span class="v-label">Veredicto de Zarpe</span>
+  ZARPE AUTORIZADO CON ADVERTENCIAS<br>
+  <span style="color:#c8bfb0;font-size:0.8em;">El galeón navega. La carga es real. El capitán es apasionado y honesto sobre su pasión. Advertencia: la filosofía no occidental no aborda; la selección refleja más al capitán que al océano completo; y el lector que busque análisis filosófico riguroso encontrará, en su lugar, algo más raro y más valioso: un amor a la sabiduría que se contagia.</span>
+</div>
+
+<h4>Nota Naval</h4>
+<div class="nota-poetica">
+Una embarcación de madera oscura, alta de casco, con velas de un lino que ha viajado mucho. El capitán está siempre en cubierta — no porque deba estar, sino porque no sabe no estar. Sus instrumentos de navegación son inusuales: lleva cartas hechas a mano, con márgenes llenos de notas en una letra que se apresura. El barco huele a biblioteca y a mar al mismo tiempo. Por las noches, cuando el viento cede, el capitán lee en voz alta para quien quiera escuchar. Nadie sabe exactamente hacia dónde va. Pero nadie baja del barco.
+</div>
+
+<!-- PROMPT IMAGEN B -->
+<hr class="section-rule">
+<h3 id="img-inspeccion">Prompt de Imagen — Módulo Control de Calidad</h3>
+
+<div class="prompt-box"><span class="p-label">PROMPT — IMAGEN B</span>Un galeón de madera oscura, alto y sólido, en un dique seco al atardecer —
+no desguazado sino en inspección activa, con andamios laterales y
+un inspector en el muelle sosteniendo un cuaderno de cartografía grueso.
+El inspector lleva levita del XIX; mira el casco con expresión de alguien que ve
+más de lo que el casco muestra. A sus pies, mapas extendidos en el suelo de piedra.
+Las velas están recogidas pero no amarradas — listas para zarpar antes de que acabe
+la revisión. En la proa, tallado en madera: una figura femenina sin rostro,
+vuelta hacia el horizonte.
+El documento en mano del inspector lee:
+DESTILERÍA OSMANCITO / THE STORY OF PHILOSOPHY · DURANT /
+EL GALEÓN · ZARPE AUTORIZADO CON ADVERTENCIAS.
+Atmósfera: luz de tarde anaranjada rasante, niebla baja en el agua, silencio de puerto.
+Paleta: madera oscura empapada, piedra húmeda gris azulada, luz ámbar intensa,
+pergamino de los mapas.
+Estilo pictórico, sin fotorrealismo. Luz de trabajo en claroscuro. Relación de aspecto 2:3.</div>
+
+<figure class="image-container">
+    <img role="img" src="img/002_Story_Philosophy_03_control.jpg" style="width: 100%; height: auto;">
+</figure>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- FASE 3 — LABORATORIO -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div class="module-header" id="laboratorio">
+  <div class="module-tag">Fase 3 · Módulo Laboratorio</div>
+  <h2>Análisis de Sedimento</h2>
+  <div class="module-voice">Analizando trazas del sedimento. Leyendo con los cuatro lentes. El compuesto base: identificado.</div>
+</div>
+
+<h3 id="ausencias">Ausencias</h3>
+
+<p>El corpus orbita permanentemente en torno a una pregunta que nunca nombra directamente: <em>¿puede una vida sin Dios ser plenamente humana?</em> Durant rodea esta pregunta desde todos los ángulos — la usa para explicar a Spinoza, a Voltaire, a Nietzsche, a James — pero nunca la formula en esos términos, quizás porque la respuesta que el libro necesita dar (sí, puede) requeriría un argumento que el libro no está en posición de hacer, dado que no es una obra de filosofía sino de historia de la filosofía.</p>
+
+<p>La segunda gran ausencia es la muerte. Durant escribe sobre filósofos que mueren — algunos en circunstancias devastadoras como Nietzsche — pero nunca pregunta qué tienen para decir estos sistemas sobre la propia finitud. La filosofía aparece como conquista intelectual, no como preparación para morir. Esto es especialmente visible en el capítulo de Spinoza, donde la serenidad ante la muerte es central en la Ética pero Durant la toca de pasada, como si la muerte fuera un detalle biográfico y no una categoría filosófica.</p>
+
+<p>La tercera ausencia: el silencio sobre la clase social como condición del filosofar. Todos los filósofos del libro tienen, en algún punto de su carrera, el tiempo y los recursos para pensar. Spinoza rechaza una cátedra para pensar libremente — pero alguien paga sus lentes. Durant no pregunta quién paga la filosofía.</p>
+
+<h3 id="sintomas">Síntomas</h3>
+
+<p>El corpus se apresura cuando llega al siglo XX. Los capítulos sobre Bergson, Croce y Russell son notablemente más breves y menos trabajados que los capítulos anteriores — como si Durant hubiera agotado su energía afectiva en los grandes sistemas del XIX y llegara al presente sin el mismo ardor. El síntoma es de ritmo: la prosa se vuelve más expositiva y menos narrativa. La barrica se siente más ligera. Esto podría explicarse por la dificultad de tomar perspectiva sobre contemporáneos, pero hay algo más: Durant no parece amar a los filósofos analíticos con la misma intensidad que a los metafísicos. Su simpatía tiene una dirección histórica.</p>
+
+<p>El segundo síntoma es el uso del pronombre universal <em>man</em>. Durant lo usa para referirse a la humanidad entera con una consistencia que no cede ni en el capítulo sobre Nietzsche — donde la carga de género del término es filosóficamente relevante. No hay inconsistencia de tono; hay inconsistencia de atención: el libro habla de todos los seres humanos y muestra sólo una fracción de ellos.</p>
+
+<p>El tercer síntoma: la tendencia a cerrar cada capítulo con una imagen de redención o reconciliación. Nietzsche termina en una escena de paz involuntaria. Bacon termina siendo superior a su vida. Voltaire termina como héroe moral. Este patrón no es accidental — Durant necesita que el lector salga de cada capítulo con más amor a la filosofía que con el que entró. El efecto es una ligera uniformización emocional que aplana las diferencias reales entre sistemas.</p>
+
+<h3 id="cifras">Cifras</h3>
+
+<p>La palabra <em>life</em> aparece con una frecuencia que supera cualquier término técnico filosófico — incluyendo <em>reason</em>, <em>truth</em> y <em>knowledge</em>. No es casualidad: Durant siempre ancla el argumento en la vida vivida, no en la abstracción. Cada sistema filosófico es presentado como una forma de vivir, no como una estructura lógica.</p>
+
+<p>La imagen de la soledad del pensador reaparece en ocho de los once capítulos: Spinoza solo en su habitación, Kant sin salir de Königsberg, Nietzsche escribiendo para nadie, Russell perdiendo empleos. La recurrencia construye un mito implícito: el pensamiento auténtico requiere aislamiento. Es una cifra que Durant no menciona pero que el lector absorbe como si fuera un axioma del libro.</p>
+
+<p>La palabra <em>great</em> aplicada a filósofos o a sus obras aparece con una densidad que, en los últimos capítulos, empieza a producir rendimiento decreciente. Es la marca de un libro que admira con demasiada frecuencia — lo que en la nota de cata sería un cognac con exceso de azúcar añadida.</p>
+
+<h3 id="lentes">Los Cuatro Lentes de Lectura</h3>
+
+<h4>Lo que dice</h4>
+<p>El corpus declara: la filosofía es el más alto uso de la inteligencia humana; los grandes filósofos son los mayores benefactores de la humanidad; el estudio de sus ideas puede dar sentido, dirección y alegría a una vida secular. Estos son los hechos declarados. Lo que el corpus muestra sin declarar es que la filosofía es también una forma de consolación — no religiosa sino intelectual — ante la inevitabilidad de la muerte, la arbitrariedad del sufrimiento y la ausencia de propósito garantizado. Los mismos hechos leídos con énfasis distinto sugieren que el libro es, antes que una historia de la filosofía, un manual de duelo secular.</p>
+
+<h4>Lo que muestra</h4>
+<p>La imagen recurrente del solitario que piensa es, alegóricamente, la imagen del alma que busca sin comunidad garantizada. Spinoza excomunicado, Nietzsche enloqueciendo, Bacon cayendo en desgracia — estas no son accidentes biográficos: son el símbolo de que la verdad tiene un coste que la comunidad no siempre puede absorber. Psicológicamente, el libro muestra la fantasía del pensador heroico que Durant projección sobre sus sujetos. Mitológicamente, el filósofo que el libro construye es una variante del héroe que desciende al inframundo del conocimiento y regresa — o no regresa, como Nietzsche — con algo que los demás no pueden ver todavía.</p>
+
+<h4>Lo que exige</h4>
+<p>El corpus le exige al lector que trate el pensamiento como actividad noble y necesaria — no como lujo o entretenimiento. Le exige cierta humildad: cada sistema que se domina revela la insuficiencia del siguiente. Le exige también una forma de valentía intelectual: estar dispuesto a que la lectura cambie lo que uno creía saber. Lo que exige implícitamente pero nunca explícitamente: que el lector asuma que esta selección de filósofos representa la filosofía. Eso es más de lo que el libro puede justificar. Le exige más a los lectores con educación previa — que deben olvidar lo que saben para apreciar las simplificaciones necesarias — que a los lectores sin formación, que reciben el regalo sin sospechar lo que ha sido editado.</p>
+
+<h4>Lo que guarda</h4>
+<p>El corpus guarda, en su profundidad más inaccesible, una pregunta que ninguno de los filósofos que presenta ha podido responder y que el propio Durant no formula: ¿por qué necesitamos que alguien haya pensado antes que nosotros? ¿Por qué la tradición filosófica — la cadena de nombres que van de Platón a Dewey — nos da algo que el pensamiento solitario no puede dar? La respuesta que el libro sugiere sin articular es que la filosofía es una forma de no estar solos ante la pregunta. No una respuesta sino una compañía. Y que esa compañía es, en sí misma, una forma de la sabiduría que prometía buscar.</p>
+
+<h3 id="base">El Compuesto Base</h3>
+
+<div class="compuesto">
+  <p>El pensamiento como forma de no estar solo ante lo que no tiene respuesta — desde la necesidad de que la búsqueda valga aunque no llegue.</p>
+</div>
+
+<!-- PROMPT IMAGEN C -->
+<hr class="section-rule">
+<h3 id="img-laboratorio">Prompt de Imagen — Módulo Laboratorio</h3>
+
+<div class="prompt-box"><span class="p-label">PROMPT — IMAGEN C</span>Mesa de laboratorio del siglo XIX, luz de vela y de gas, en una habitación pequeña
+con estanterías que no alcanzan a ordenar todos sus libros — algunos en el suelo,
+abiertos. En el centro de la mesa: una probeta de vidrio grueso con un líquido
+ámbar oscuro casi inmóvil, y junto a ella un cuaderno de campo abierto donde,
+en letra apretada y con muchas correcciones, se lee: "el pensamiento como compañía
+ante lo que no tiene respuesta."
+El instrumento central es un espectrómetro antiguo, de madera y latón, apuntando
+hacia la probeta — pero el científico que lo usa está de espaldas, mirando
+por la ventana oscura hacia un exterior que no se ve.
+Etiqueta en el cuaderno:
+DESTILERÍA OSMANCITO / THE STORY OF PHILOSOPHY · DURANT /
+EL PENSAMIENTO COMO COMPAÑÍA.
+Paleta: ocre de vela, verde oscuro de pantalla, latón envejecido, negro de tinta.
+Ilustración científica de precisión. Sin fotorrealismo. Luz en claroscuro. Relación de aspecto 2:3.</div>
+
+<figure class="image-container">
+    <img role="img" src="img/002_Story_Philosophy_04_laboratorio.jpg" style="width: 100%; height: auto;">
+</figure>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- FASE 4 — ETIQUETADO -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div class="module-header" id="etiquetado">
+  <div class="module-tag">Fase 4 · Módulo Etiquetado</div>
+  <h2>Topología y Firma</h2>
+  <div class="module-voice">Calculando fallas de cierre. Mapeando el núcleo de curvatura. Estimando la red conceptual. Etiqueta aplicada. Lote liberado.</div>
+</div>
+
+<h3 id="fallas">Fallas de Cierre</h3>
+
+<div class="falla">
+  <strong>¿Puede la filosofía reemplazar a la religión como fuente de sentido último para la vida humana?</strong>
+  <span class="falla-type">Abierta <span class="falla-root">· Raíz</span></span>
+</div>
+
+<div class="falla">
+  <strong>¿La grandeza de un sistema filosófico depende de la grandeza moral de quien lo construye?</strong>
+  <span class="falla-type">Abandonada</span>
+</div>
+
+<div class="falla">
+  <strong>¿La divulgación filosófica sirve a la filosofía o la sustituye?</strong>
+  <span class="falla-type">Abierta</span>
+</div>
+
+<div class="falla">
+  <strong>¿El progreso intelectual de la humanidad tiene una dirección, o es la ilusión del que mira hacia atrás desde un punto favorable?</strong>
+  <span class="falla-type">Abierta</span>
+</div>
+
+<div class="falla">
+  <strong>¿Por qué la sabiduría filosófica no ha conseguido hacer mejores a los filósofos en sus vidas privadas?</strong>
+  <span class="falla-type">Asimétrica</span>
+</div>
+
+<div class="falla">
+  <strong>¿La soledad es condición del pensamiento auténtico o accidente biográfico de algunos pensadores?</strong>
+  <span class="falla-type">Abandonada</span>
+</div>
+
+<div class="falla">
+  <strong>¿El libro ha logrado lo que prometía — dar al lector algo que cambie cómo vive?</strong>
+  <span class="falla-type">Performativa</span>
+</div>
+
+<div class="field-block" style="margin-top:1rem;">
+  <div class="field"><span class="label">Apertura Total</span>4/7</div>
+</div>
+
+<h3 id="curvatura">Núcleo de Curvatura</h3>
+
+<div class="topo-field">
+  <span class="topo-key">Núcleo principal</span>
+  <em>wisdom</em> — sabiduría. El concepto que da nombre al título y que deforma todo lo que orbita a su alrededor: los filósofos son grandes en la medida en que la alcanzan; la vida vale en la medida en que la busca; el libro es valioso en la medida en que la transmite. Todo en el corpus se mide contra esta palabra que Durant nunca define directamente.
+</div>
+
+<div class="topo-field">
+  <span class="topo-key">Tipo de curvatura</span>
+  Sobre concepto filosófico — pero con gravitación emocional, casi afectiva. No es la sabiduría como categoría epistemológica sino como ideal de vida.
+</div>
+
+<div class="topo-field">
+  <span class="topo-key">Sistema secundario</span>
+  <em>greatness</em> — grandeza — como segundo polo de alta gravitación. La asimetría entre ambos: la sabiduría puede existir sin grandeza (Spinoza en su habitación) pero la grandeza sin sabiduría, en el vocabulario del libro, es sólo poder desnudo. Nietzsche es la figura donde esa asimetría se vuelve trágica: grandeza filosófica, sabiduría de vida discutible.
+</div>
+
+<h3 id="red">Red Conceptual</h3>
+
+<div class="topo-field">
+  <span class="topo-key">Forma estimada</span>
+  Centralizada con aspiración a small-world. El nodo <em>wisdom</em> conecta todos los capítulos pero el grado de integración varía: Spinoza, Nietzsche y Schopenhauer están densamente conectados entre sí y con el núcleo; Spencer y los filósofos contemporáneos forman un subcluster más periférico.
+</div>
+
+<div class="topo-field">
+  <span class="topo-key">Nodo de mayor integración</span>
+  <em>philosophy itself</em> — la filosofía como práctica — es el concepto que más conexiones sostiene dentro de la red: aparece en todos los capítulos como sujeto, objeto y método simultáneamente.
+</div>
+
+<div class="topo-field">
+  <span class="topo-key">Coherencia</span>
+  El núcleo de curvatura (<em>wisdom</em>) y el nodo de mayor integración (<em>philosophy</em>) divergen ligeramente: la filosofía es el medio, la sabiduría es el fin. El libro asume que el medio y el fin coinciden más de lo que en realidad puede demostrar.
+</div>
+
+<h3 id="grandeza">Estrategia de Grandeza</h3>
+
+<div class="grandeza">
+  Ondulación majestuosa — once olas que llegan a la orilla con diferente altura pero con el mismo ritmo de fondo, acumulando en el lector la convicción de que el mar es más grande que cualquiera de ellas.
+</div>
+
+<!-- PROMPT IMAGEN D -->
+<hr class="section-rule">
+<h3 id="img-etiquetado">Prompt de Imagen — Módulo Etiquetado</h3>
+
+<div class="prompt-box"><span class="p-label">PROMPT — IMAGEN D</span>Una botella sellada de cognac antiguo, vista de frente sobre fondo negro profundo,
+con una etiqueta de papel verjurado envejecido adherida al centro. La botella
+es de vidrio ámbar oscuro con aire atrapado dentro que distorsiona levemente
+la luz que la atraviesa.
+
+La etiqueta, grabada con tipografía de imprenta del XIX, lleva:
+DESTILERÍA OSMANCITO
+THE STORY OF PHILOSOPHY · DURANT
+ONDULACIÓN MAJESTUOSA
+Añada: 1926 · Gran Reserva
+
+Alrededor de la etiqueta, cuatro marcas de color:
+— tres puntos dorados brillantes (fallas abiertas)
+— una banda de oro viejo más opaca (falla asimétrica)
+— tres puntos apagados en sepia (fallas abandonadas / performativa)
+
+El sello de cera sobre el corcho es oscuro, casi negro, con las iniciales DO en relieve.
+Detrás de la botella, apenas visible en el negro: el espectro de once bandas luminosas
+de diferente intensidad, como once olas de luz ámbar — la red ondulada del corpus.
+
+Paleta: negro profundo, ámbar ardiente, dorado envejecido, sepia oscuro.
+Ilustración científica del siglo XIX. Sin fotorrealismo. Fondo negro profundo. Relación de aspecto 2:3.</div>
+
+<figure class="image-container">
+    <img role="img" src="img/002_Story_Philosophy_05_etiquetado.jpg" style="width: 100%; height: auto;">
+</figure>
+
+</main>
+
+<!-- COLOFÓN -->
+<footer id="colophon">
+  <div class="masthead-rule" style="margin:0 auto 1.5rem;"></div>
+  <p>DESTILERÍA OSMANCITO · LOTE 2026-04-02</p>
+  <p>THE STORY OF PHILOSOPHY · WILL DURANT · 1926</p>
+  <p>Cuatro módulos · Cuatro imágenes · Rendimiento: 93°</p>
+  <div class="lema">Entra la materia prima. Sale el destilado puro.</div>
+</footer>
+
+</body>
+</html>

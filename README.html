@@ -1,555 +1,353 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Destilería Osmancito | Destilación de grandes textos</title>
-
-	<link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
-	<link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
-	<link rel="apple-touch-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
-
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&display=swap');
-
-  :root {
-    --ink: #1a1410;
-    --amber: #b8860b;
-    --amber-light: #d4a017;
-    --cream: #f5f0e8;
-    --parchment: #ede5d0;
-    --warm-gray: #8c7b6a;
-    --border: #c8b89a;
-    --rule: #d4c4a8;
-  }
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    background-color: var(--cream);
-    color: var(--ink);
-    font-family: 'Crimson Pro', Georgia, serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.75;
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 60px 40px 100px;
-  }
-
-  /* Header */
-  .masthead {
-    text-align: center;
-    padding: 60px 0 50px;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 60px;
-  }
-
-  .masthead-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    font-weight: 300;
-    letter-spacing: 0.35em;
-    text-transform: uppercase;
-    color: var(--warm-gray);
-    margin-bottom: 24px;
-  }
-
-  h1 {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: clamp(42px, 7vw, 72px);
-    font-weight: 700;
-    line-height: 1.05;
-    letter-spacing: -0.02em;
-    color: var(--ink);
-    margin-bottom: 16px;
-  }
-
-  .tagline {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 18px;
-    color: var(--warm-gray);
-    margin-bottom: 0;
-  }
-
-  /* TOC */
-  nav#toc {
-    background: var(--parchment);
-    border: 1px solid var(--border);
-    padding: 36px 40px;
-    margin-bottom: 72px;
-  }
-
-  nav#toc h2 {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--amber);
-    margin-bottom: 24px;
-    font-weight: 400;
-  }
-
-  nav#toc ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  nav#toc > ul > li {
-    margin-bottom: 8px;
-  }
-
-  nav#toc > ul > li > a {
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--ink);
-    text-decoration: none;
-    letter-spacing: 0.02em;
-  }
-
-  nav#toc > ul > li > a:hover { color: var(--amber); }
-
-  nav#toc ul ul {
-    list-style: none;
-    padding-left: 20px;
-    margin-top: 4px;
-  }
-
-  nav#toc ul ul li { margin-bottom: 3px; }
-
-  nav#toc ul ul a {
-    font-family: 'Crimson Pro', serif;
-    font-size: 15px;
-    color: var(--warm-gray);
-    text-decoration: none;
-  }
-
-  nav#toc ul ul a:hover { color: var(--amber); }
-
-  /* Sections */
-  .section {
-    margin-bottom: 72px;
-  }
-
-  h2.section-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--ink);
-    margin-bottom: 28px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-    color: var(--ink);
-    margin: 36px 0 16px;
-  }
-
-  p {
-    margin-bottom: 20px;
-  }
-
-  strong {
-    font-weight: 400;
-    color: var(--ink);
-  }
-
-  em {
-    font-style: italic;
-  }
-
-  /* Code / monospace blocks */
-  pre, code {
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-  }
-
-  pre {
-    background: #1a1410;
-    color: #d4c4a8;
-    padding: 28px 32px;
-    overflow-x: auto;
-    line-height: 1.8;
-    margin: 28px 0;
-    border-left: 3px solid var(--amber);
-  }
-
-  code {
-    background: rgba(184, 134, 11, 0.1);
-    color: var(--amber);
-    padding: 1px 6px;
-    font-size: 13px;
-  }
-
-  pre code {
-    background: none;
-    color: inherit;
-    padding: 0;
-    font-size: 12px;
-  }
-
-  /* Tables */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 28px 0;
-    font-size: 16px;
-  }
-
-  thead tr {
-    border-bottom: 2px solid var(--border);
-  }
-
-  th {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--warm-gray);
-    padding: 10px 16px;
-    text-align: left;
-    font-weight: 400;
-  }
-
-  td {
-    padding: 12px 16px;
-    border-bottom: 1px solid var(--rule);
-    vertical-align: top;
-  }
-
-  td:first-child {
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    color: var(--amber);
-    white-space: nowrap;
-  }
-
-  tr:last-child td { border-bottom: none; }
-
-  /* Staff table — different treatment */
-  .staff-table td:first-child {
-    font-family: 'Crimson Pro', serif;
-    font-size: 16px;
-    color: var(--ink);
-    font-weight: 400;
-    white-space: normal;
-  }
-
-  /* Callout / quote block */
-  blockquote {
-    border-left: 3px solid var(--amber);
-    padding: 20px 28px;
-    margin: 32px 0;
-    background: var(--parchment);
-    font-style: italic;
-    color: var(--warm-gray);
-  }
-
-  /* Divider */
-  hr {
-    border: none;
-    border-top: 1px solid var(--rule);
-    margin: 60px 0;
-  }
-
-  /* Footer */
-  footer {
-    text-align: center;
-    padding-top: 48px;
-    border-top: 1px solid var(--border);
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: var(--warm-gray);
-    line-height: 2;
-  }
-
-  /* Amber accent for key terms */
-  .amber { color: var(--amber); }
-
-  /* Personnel cards */
-  .personnel-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin: 28px 0;
-  }
-
-  .persona-card {
-    background: var(--parchment);
-    border: 1px solid var(--border);
-    padding: 20px 24px;
-  }
-
-  .persona-role {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--amber);
-    margin-bottom: 6px;
-  }
-
-  .persona-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 17px;
-    font-style: italic;
-    margin-bottom: 6px;
-  }
-
-  .persona-desc {
-    font-size: 14px;
-    color: var(--warm-gray);
-    line-height: 1.5;
-  }
-
-  @media (max-width: 600px) {
-    body { padding: 40px 24px 80px; }
-    .personnel-grid { grid-template-columns: 1fr; }
-    nav#toc { padding: 28px 24px; }
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destilería Osmancito — Documentación del proyecto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/maestro.css">
 </head>
 <body>
 
-<header class="masthead">
-  <p class="masthead-label">Sistema de Lectura Profunda · v3.8 · 2026-04-02</p>
-  <h1>Destilería<br>Osmancito</h1>
-  <p class="tagline">Entra la materia prima. Sale el destilado puro.</p>
-</header>
+  <header class="cabecera-documento">
+    <div class="sello">Destilería Osmancito · Documentación del proyecto</div>
+    <h1 class="titulo-obra">Destilería Osmancito</h1>
+    <div class="autor">Sistema de análisis literario profundo</div>
+    <div class="meta">v3.9 · 2026</div>
+  </header>
 
-<nav id="toc">
-  <h2>Índice</h2>
-  <ul>
-    <li><a href="#§que-es">Qué es</a></li>
-    <li><a href="#§arquitectura">Arquitectura</a>
-      <ul>
-        <li><a href="#§recepcion">Recepción de Materia Prima</a></li>
-        <li><a href="#§alambique">Módulo Alambique — Destilación</a></li>
-        <li><a href="#§control">Módulo Control de Calidad — Inspección</a></li>
-        <li><a href="#§laboratorio">Módulo Laboratorio — Análisis de Sedimento</a></li>
-        <li><a href="#§etiquetado">Módulo Etiquetado — Topología y Firma</a></li>
-      </ul>
-    </li>
-    <li><a href="#§el-personal">El personal</a></li>
-    <li><a href="#§como-funciona">Cómo funciona</a></li>
-    <li><a href="#§los-prompts-de-imagen">Los prompts de imagen</a></li>
-    <li><a href="#§archivos-del-sistema">Archivos del sistema</a></li>
-    <li><a href="#§como-instalar">Cómo instalar</a></li>
-    <li><a href="#§para-usar-el-sistema">Para usar el sistema</a></li>
-    <li><a href="#§vocabulario-central">Vocabulario central</a></li>
-    <li><a href="#§conocimiento-operativo-integrado">Conocimiento operativo integrado</a></li>
-  </ul>
-</nav>
+  <nav id="toc">
+    <div class="toc-titulo">Índice</div>
+    <ul></ul>
+  </nav>
 
-<div class="section">
-  <h2 class="section-title" id="§que-es">Qué es</h2>
-  <p>Destilería Osmancito es un sistema de lectura profunda que opera dentro de Claude. Toma cualquier corpus — un libro, un guión, una obra completa — y lo somete a calor y tiempo hasta que revela lo que no podía decir solo.</p>
-  <p>No es un resumidor ni un buscador. Es una planta de extracción que produce <strong>fracciones nobles</strong>.</p>
-  <p><strong>Misión principal:</strong> entrar a un corpus, extraer lo mejor, entender qué tipo de objeto es, y salir con seis imágenes que lo encapsulen. Todo en una sola sesión.</p>
-</div>
+  <main>
 
-<div class="section">
-  <h2 class="section-title" id="§arquitectura">Arquitectura</h2>
+    <!-- ═══════════════════════════════════════════ QUÉ ES -->
+    <section class="modulo recepcion" id="que-es">
+      <div class="modulo-cabecera">
+        <h2>Qué es</h2>
+      </div>
 
-<pre>CORPUS
-  ↓
-RECEPCIÓN DE MATERIA PRIMA
-  · Prompt de portada del producto (el paquete como objeto editorial)
-  · Registro de entrada (palabras, rendimiento en grados, obsesión central)
-  · Sinopsis y figuras clave
-  · Materias primas dominantes
-  · Prompt de portada (atmósfera del corpus)
-  ↓
-TALLER PRINCIPAL — cuatro módulos en secuencia
-  │
-  ├── MÓDULO ALAMBIQUE — DESTILACIÓN
-  │     Destilado maestro · Barricas (extractos + fracciones nobles)
-  │     Cartografía · Nota de cata · Prompt de imagen A
-  │
-  ├── MÓDULO CONTROL DE CALIDAD — INSPECCIÓN
-  │     Seis estratos · Clasificación de nave · Veredicto de zarpe
-  │     Nota naval · Prompt de imagen B
-  │
-  ├── MÓDULO LABORATORIO — ANÁLISIS DE SEDIMENTO
-  │     Ausencias · Síntomas · Cifras
-  │     Cuatro lentes de lectura · El compuesto base · Prompt de imagen C
-  │
-  └── MÓDULO ETIQUETADO — TOPOLOGÍA Y FIRMA
-        Fallas de cierre · Núcleo de curvatura
-        Red conceptual · Estrategia de grandeza · Prompt de imagen D</pre>
-</div>
+      <div class="destilado-maestro">
+        <p>Destilería Osmancito es un prompt maestro para modelos de lenguaje que transforma cualquier corpus literario en un análisis estructurado de cuatro módulos. No resume. No reseña. Destila: extrae la esencia funcional, inspecciona la arquitectura, analiza el sedimento y firma la topología conceptual del texto.</p>
+        <p>El sistema opera siempre en español, independientemente del idioma del corpus de entrada. El corpus entra. Un paquete de análisis completo sale. Sin pausas, sin confirmaciones intermedias, sin preguntas al usuario.</p>
+      </div>
+    </section>
 
-<div class="section">
-  <h2 class="section-title" id="§el-personal">El personal</h2>
+    <!-- ═══════════════════════════════════════════ LOS MÓDULOS -->
+    <section class="modulo alambique" id="modulos">
+      <div class="modulo-cabecera">
+        <h2>Los cuatro módulos</h2>
+      </div>
 
-  <div class="personnel-grid">
-    <div class="persona-card">
-      <div class="persona-role">Recepción de Materia Prima</div>
-      <div class="persona-name">El Recepcionista</div>
-      <div class="persona-desc">Seco, protocolar, pesa sin opinar</div>
-    </div>
-    <div class="persona-card">
-      <div class="persona-role">Alambique</div>
-      <div class="persona-name">El Maestro Destilador</div>
-      <div class="persona-desc">Paciente, sensorial, reposado</div>
-    </div>
-    <div class="persona-card">
-      <div class="persona-role">Control de Calidad</div>
-      <div class="persona-name">El Inspector</div>
-      <div class="persona-desc">Seco, profesional, directo</div>
-    </div>
-    <div class="persona-card">
-      <div class="persona-role">Laboratorio</div>
-      <div class="persona-name">El Químico</div>
-      <div class="persona-desc">Quieto, concentrado, no sorprendido</div>
-    </div>
-    <div class="persona-card" style="grid-column: span 2;">
-      <div class="persona-role">Etiquetado</div>
-      <div class="persona-name">El Maestro de Bodega</div>
-      <div class="persona-desc">Preciso, definitivo, sella y libera</div>
-    </div>
-  </div>
-</div>
+      <div class="barrica" id="modulo-alambique">
+        <h3 class="barrica-numero">Módulo Alambique — Destilación</h3>
+        <div class="extracto">
+          <p>El destilado maestro encarna el corpus en 300 a 500 palabras de prosa literaria autónoma: funciona sin haber leído el libro. Le siguen las barricas, una por capítulo, cada una con su extracto en tiempo presente y sus fracciones nobles — los fragmentos que sobreviven solos, que contienen tensión interna y que alguien repetiría años después. El módulo cierra con la cartografía del conjunto y la nota de cata: el corpus descrito como si fuera una bebida, con taxonomía precisa y sin piedad innecesaria.</p>
+        </div>
+      </div>
 
-<div class="section">
-  <h2 class="section-title" id="§como-funciona">Cómo funciona</h2>
+      <div class="barrica" id="modulo-inspeccion">
+        <h3 class="barrica-numero">Módulo Control de Calidad — Inspección</h3>
+        <div class="extracto">
+          <p>Todo corpus es clasificado como arquetipo de nave: galeón, carabela, submarino, barco fantasma, crucero turístico, nave hospital, iceberg. Cada arquetipo tiene tres registros: bueno, regular, malo. La inspección se realiza en seis estratos —casco y quilla, corrientes y vientos, arquitectura naval, aguas profundas, el capitán y su sombra, registro de origen— y culmina en un veredicto de zarpe con cinco categorías posibles y una nota naval en prosa poética.</p>
+        </div>
+      </div>
 
-  <h3 id="§recepcion">Recepción de Materia Prima</h3>
-  <p>Recibe el corpus. Produce el prompt de portada del producto, el registro de entrada con el rendimiento de destilación en grados de pureza, sinopsis, figuras clave, materias primas dominantes y el prompt de portada del corpus. Protocolo ZIP disponible para epubs descomprimidos.</p>
+      <div class="barrica" id="modulo-laboratorio">
+        <h3 class="barrica-numero">Módulo Laboratorio — Análisis de Sedimento</h3>
+        <div class="extracto">
+          <p>El laboratorio trabaja lo que el corpus no puede nombrar. Las ausencias son lo que el texto rodea sin decir. Los síntomas son las inconsistencias de tono, ritmo o argumento ancladas en capítulo o imagen específica. Las cifras son los patrones de recurrencia anómala. Los cuatro lentes de lectura —lo que dice, lo que muestra, lo que exige, lo que guarda— se aplican siempre. Al final: el compuesto base, el núcleo irreducible del corpus en una sola proposición.</p>
+        </div>
+      </div>
 
-  <h3 id="§alambique">Módulo Alambique — Destilación</h3>
-  <p>Destilado maestro, barricas (extractos y fracciones nobles por capítulo), cartografía, nota de cata. El corazón del sistema. Produce las fracciones nobles: fragmentos que sobreviven solos, que alguien repetiría años después.</p>
+      <div class="barrica" id="modulo-etiquetado">
+        <h3 class="barrica-numero">Módulo Etiquetado — Topología y Firma</h3>
+        <div class="extracto">
+          <p>Las fallas de cierre son las preguntas que el corpus activa y no resuelve. Se clasifican por tipo —abierta, cerrada, abandonada, performativa, asimétrica— y se identifica la falla raíz de la que emergen todas las demás. Las fallas abiertas son el predictor más robusto de inagotabilidad: confirmado en 13/13 corpus analizados. El módulo cierra con el núcleo de curvatura, la red conceptual estimada y la estrategia de grandeza: el mecanismo por el que este corpus produce —o no— inagotabilidad.</p>
+        </div>
+      </div>
+    </section>
 
-  <h3 id="§control">Módulo Control de Calidad — Inspección</h3>
-  <p>Seis estratos de análisis estructural, clasificación de nave, veredicto de zarpe, nota naval. Determina qué tipo de objeto es el corpus y si vale el viaje.</p>
+    <!-- ═══════════════════════════════════════════ MODOS DE ENTRADA -->
+    <section class="modulo laboratorio" id="modos-entrada">
+      <div class="modulo-cabecera">
+        <h2>Modos de entrada</h2>
+      </div>
 
-  <h3 id="§laboratorio">Módulo Laboratorio — Análisis de Sedimento</h3>
-  <p>Ausencias, síntomas, cifras, y cuatro lentes de lectura (lo que dice, muestra, exige y guarda). El compuesto base: el núcleo de sentido más irreducible del corpus.</p>
+      <div class="laboratorio-seccion">
+        <h3>Modo 1 — Archivo adjunto</h3>
+        <p>El corpus llega adjunto en formato epub, pdf o txt. El sistema registra y procede sin interrupciones.</p>
+      </div>
 
-  <h3 id="§etiquetado">Módulo Etiquetado — Topología y Firma</h3>
-  <p>Las fallas de cierre (predictores de inagotabilidad), el núcleo de curvatura semántica, y la estimación de la red conceptual. La estrategia de grandeza en una línea.</p>
-</div>
+      <div class="laboratorio-seccion">
+        <h3>Modo 2 — Título y autor</h3>
+        <p>Sin archivo. El sistema trabaja desde su conocimiento del corpus. Válido para obras ampliamente documentadas en el conocimiento del modelo.</p>
+      </div>
 
-<div class="section">
-  <h2 class="section-title" id="§los-prompts-de-imagen">Los prompts de imagen</h2>
-  <p>Cada módulo produce un prompt en español para generador de imágenes externo. Los seis prompts son la sorpresa que espera al final del proceso — cada uno construido desde las cualidades únicas de este corpus en esta etapa. No hay dos prompts iguales entre corpus distintos. Todos especifican relación de aspecto 2:3.</p>
+      <div class="laboratorio-seccion">
+        <h3>Modo 3 — ZIP plano</h3>
+        <p>Epub descomprimido entregado como carpeta. Activa el Protocolo ZIP: el sistema lee <code>toc.ncx</code>, clasifica los archivos, incluye lo narrativo y relevante, excluye lo legal y el aparato accesorio, resuelve las ambigüedades por criterio de densidad narrativa, sin consultar.</p>
+      </div>
+    </section>
 
-  <table>
-    <thead>
-      <tr><th>Prompt</th><th>Qué genera</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Portada del Producto</td>
-        <td>El producto de la Destilería imaginado como libro físico — objeto editorial con cubierta, sello y materialidad propios. Imagen de presentación para todo el paquete.</td>
-      </tr>
-      <tr>
-        <td>Portada</td>
-        <td>Atmósfera del corpus — imagen que puede preceder el análisis en publicación</td>
-      </tr>
-      <tr>
-        <td>Imagen A</td>
-        <td>El mundo donde vive la bebida elegida — escena construida desde la fusión de la bebida y el corpus</td>
-      </tr>
-      <tr>
-        <td>Imagen B</td>
-        <td>El arquetipo de nave específico en el estado que revela el veredicto</td>
-      </tr>
-      <tr>
-        <td>Imagen C</td>
-        <td>El hallazgo del Laboratorio hecho visible — derivado de las ausencias, síntomas y cifras concretas</td>
-      </tr>
-      <tr>
-        <td>Imagen D</td>
-        <td>La etiqueta química del corpus — su firma topológica como objeto único listo para despacho</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+    <!-- ═══════════════════════════════════════════ RENDIMIENTO -->
+    <section class="modulo etiquetado" id="rendimiento">
+      <div class="modulo-cabecera">
+        <h2>Rendimiento de destilación y topología</h2>
+      </div>
 
-<div class="section">
-  <h2 class="section-title" id="§archivos-del-sistema">Archivos del sistema</h2>
+      <div class="nucleo-curvatura">
+        <h3>Rendimiento de destilación</h3>
+        <div class="campo-nombre">Definición</div>
+        <div class="campo-valor">Relación entre el volumen del corpus y el volumen del producto generado, expresada en grados de pureza.</div>
+        <div class="campo-nombre">Cálculo</div>
+        <div class="campo-valor">Complemento del porcentaje de palabras usadas. Si el producto emplea el 8% de las palabras del corpus, el rendimiento es 92°.</div>
+        <div class="campo-nombre">Ejemplo</div>
+        <div class="campo-valor">Un corpus de 80.000 palabras destilado en 6.400 palabras produce un destilado de 92°. Cuanto más alto el grado, más severa la compresión, más noble el resultado.</div>
+      </div>
 
-<pre>destileria/
-├── system-prompt.md          — instrucciones de arranque (17 líneas)
-├── protocolo-destileria.md   — recepción + taller completo (5 fases)
-└── README.md                 — este archivo</pre>
-</div>
+      <div class="red-conceptual">
+        <h3>Fallas de cierre y predicción de inagotabilidad</h3>
+        <div class="campo-nombre">Tipos de falla</div>
+        <div class="campo-valor">Abierta · Cerrada · Abandonada · Performativa · Asimétrica</div>
+        <div class="campo-nombre">Falla raíz</div>
+        <div class="campo-valor">La falla de la que emergen todas las demás. Se señala en el análisis con la marca · Raíz.</div>
+        <div class="campo-nombre">Predictor de inagotabilidad</div>
+        <div class="campo-valor">Las fallas abiertas son el predictor más robusto. Confirmado en 13/13 corpus: todos los textos clasificados como inagotables tienen mayoría de fallas genuinamente abiertas.</div>
+        <div class="campo-nombre">Apertura total</div>
+        <div class="campo-valor">Proporción de fallas genuinamente abiertas sobre el total. Formato: n/total.</div>
+      </div>
+    </section>
 
-<div class="section">
-  <h2 class="section-title" id="§como-instalar">Cómo instalar</h2>
+    <!-- ═══════════════════════════════════════════ VOCABULARIO -->
+    <section class="modulo inspeccion" id="vocabulario">
+      <div class="modulo-cabecera">
+        <h2>Vocabulario del sistema</h2>
+      </div>
 
-  <p><strong>1.</strong> Crear proyecto nuevo en Claude. Nombre: <em>Destilería Osmancito</em>.</p>
-  <p><strong>2.</strong> Subir los tres archivos: <code><a href="https://github.com/osmancitov/Destileria/raw/main/system-prompt.md" download>system-prompt.md</a></code>, <code><a href="https://github.com/osmancitov/Destileria/raw/main/protocolo-destileria.md" download>protocolo-destileria.md</a></code>, <code><a href="https://github.com/osmancitov/Destileria/raw/main/README.md" download>README.md</a></code>.</p>
-  <p><strong>3.</strong> En el recuadro de instrucciones del proyecto, escribir exactamente:</p>
+      <div class="clasificacion-nave">
+        <p>Los términos del sistema tienen definiciones precisas. No son metáforas decorativas — son categorías operativas.</p>
+      </div>
 
-  <blockquote>Lee el archivo system-prompt.md</blockquote>
+      <div class="ficha-recepcion">
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Corpus</span>
+          <span class="ficha-campo-valor">La materia prima. Todo lo que entra.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Fracción noble</span>
+          <span class="ficha-campo-valor">El fragmento que sobrevive solo. Lo que alguien repetiría años después.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Extracto</span>
+          <span class="ficha-campo-valor">La esencia funcional de una barrica: qué ocurre aquí que importa para el todo.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Barrica</span>
+          <span class="ficha-campo-valor">Unidad por capítulo: extracto + fracciones nobles.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Destilado maestro</span>
+          <span class="ficha-campo-valor">El epítome del corpus. Texto autónomo que encarna el libro sin resumirlo.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Nota de cata</span>
+          <span class="ficha-campo-valor">El corpus descrito como si fuera una bebida.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Nave / Capitán</span>
+          <span class="ficha-campo-valor">El corpus como embarcación; el autor como presencia que emerge del texto.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Falla de cierre</span>
+          <span class="ficha-campo-valor">Pregunta que el corpus activa y no resuelve. Las abiertas predicen inagotabilidad.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Núcleo de curvatura</span>
+          <span class="ficha-campo-valor">El concepto que transforma el significado de todo lo que lo rodea.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Compuesto base</span>
+          <span class="ficha-campo-valor">El núcleo de sentido más irreducible del corpus.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Etiqueta química</span>
+          <span class="ficha-campo-valor">El conjunto de variables topológicas que identifican el corpus como objeto.</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Rendimiento de destilación</span>
+          <span class="ficha-campo-valor">Relación entre volumen del corpus y volumen del producto, expresada en grados.</span>
+        </div>
+      </div>
+    </section>
 
-  <p><strong>4.</strong> Verificar: abrir conversación nueva y escribir <strong>Hola</strong>. El sistema debe responder:</p>
+    <!-- ═══════════════════════════════════════════ ESTRUCTURA -->
+    <section class="modulo recepcion" id="estructura-html">
+      <div class="modulo-cabecera">
+        <h2>Estructura de los archivos HTML producidos</h2>
+      </div>
 
-  <blockquote>Soy la Destilería Osmancito. Entra la materia prima. Sale el destilado puro.</blockquote>
-</div>
+      <div class="ficha-recepcion">
+        <div class="ficha-seccion-titulo">CONVENCIÓN DE NOMBRE</div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Formato</span>
+          <span class="ficha-campo-valor destacado">Destilería Osmancito — [Título] — [Autor].html</span>
+        </div>
 
-<div class="section">
-  <h2 class="section-title" id="§para-usar-el-sistema">Para usar el sistema</h2>
-  <p>Entregar el corpus de cualquiera de estas formas:</p>
-  <ul style="list-style: none; padding: 0;">
-    <li style="padding: 6px 0; border-bottom: 1px solid var(--rule);">· Adjuntar el archivo (epub, pdf, txt)</li>
-    <li style="padding: 6px 0; border-bottom: 1px solid var(--rule);">· Escribir título y autor</li>
-    <li style="padding: 6px 0; border-bottom: 1px solid var(--rule);">· Adjuntar ZIP con epub descomprimido</li>
-    <li style="padding: 6px 0;">· Subir el epub descomprimido al proyecto previamente</li>
-  </ul>
-  <p style="margin-top: 20px;">El sistema ejecuta la Recepción de Materia Prima seguida de los cuatro módulos del taller en secuencia, sin pedir confirmaciones intermedias.</p>
-</div>
+        <div class="ficha-seccion-titulo">REGLA DE ESTILO</div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Enlace externo obligatorio</span>
+          <span class="ficha-campo-valor">Todos los HTML producidos enlazan únicamente a <code>maestro.css</code>. Sin estilos embebidos. Sin estilos inline. Modificar el CSS actualiza todos los documentos existentes.</span>
+        </div>
 
-<div class="section">
-  <h2 class="section-title" id="§vocabulario-central">Vocabulario central</h2>
+        <div class="ficha-seccion-titulo">SECCIONES FIJAS</div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">#recepcion</span>
+          <span class="ficha-campo-valor">Registro de entrada, sinopsis, materias primas dominantes, prompts de portada</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">#alambique</span>
+          <span class="ficha-campo-valor">Destilado maestro, barricas, cartografía, nota de cata</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">#inspeccion</span>
+          <span class="ficha-campo-valor">Clasificación de nave, seis estratos, sinopsis del viaje, veredicto, nota naval</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">#laboratorio</span>
+          <span class="ficha-campo-valor">Ausencias, síntomas, cifras, cuatro lentes, compuesto base</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">#etiquetado</span>
+          <span class="ficha-campo-valor">Fallas de cierre, núcleo de curvatura, red conceptual, estrategia de grandeza</span>
+        </div>
 
-  <table class="staff-table">
-    <thead>
-      <tr><th>Término</th><th>Definición</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Corpus</td><td>La materia prima. Todo lo que entra a la Destilería</td></tr>
-      <tr><td>Fracción noble</td><td>Lo que sobrevive la destilación. El fragmento que alguien repetiría años después</td></tr>
-      <tr><td>Extracto</td><td>La esencia funcional de una barrica</td></tr>
-      <tr><td>Barrica</td><td>Unidad por capítulo: extracto + fracciones nobles</td></tr>
-      <tr><td>Destilado maestro</td><td>El epítome del corpus. Texto autónomo que encarna el libro sin resumirlo</td></tr>
-      <tr><td>Nota de cata</td><td>Descripción sensorial del corpus como bebida</td></tr>
-      <tr><td>Rendimiento de destilación</td><td>Grados de pureza del producto: complemento del porcentaje de palabras usadas. Un destilado de 92° empleó el 8% del corpus original</td></tr>
-      <tr><td>Falla de cierre</td><td>Tensión que persiste sin resolverse. Las fallas abiertas predicen inagotabilidad</td></tr>
-      <tr><td>Núcleo de curvatura</td><td>El concepto de mayor gravitación semántica</td></tr>
-      <tr><td>Compuesto base</td><td>El núcleo de sentido más irreducible del corpus</td></tr>
-      <tr><td>Etiqueta química</td><td>El conjunto de variables topológicas que identifican el corpus como objeto</td></tr>
-    </tbody>
-  </table>
-</div>
+        <div class="ficha-seccion-titulo">TOC AUTOMÁTICO</div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Generación</span>
+          <span class="ficha-campo-valor">Script incluido al final del <code>&lt;body&gt;</code> genera el índice automáticamente desde los IDs de las secciones <code>.modulo</code>.</span>
+        </div>
+      </div>
+    </section>
 
-<div class="section">
-  <h2 class="section-title" id="§conocimiento-operativo-integrado">Conocimiento operativo integrado</h2>
-  <p>Los descubrimientos empíricos de versiones anteriores están integrados en los módulos como conocimiento operativo:</p>
-  <ul style="list-style: none; padding: 0;">
-    <li style="padding: 10px 0; border-bottom: 1px solid var(--rule);">· <strong>Las fallas abiertas predicen inagotabilidad</strong> (13/13 corpus confirmados) → integrado en la sección Fallas de Cierre</li>
-    <li style="padding: 10px 0;">· <strong>La grandeza es integración, no acumulación</strong> (redes small-world en corpus canónicos) → integrado en la sección Red Conceptual</li>
-  </ul>
-</div>
+    <!-- ═══════════════════════════════════════════ CLASES CSS -->
+    <section class="modulo laboratorio" id="clases-css">
+      <div class="modulo-cabecera">
+        <h2>Clases semánticas del CSS</h2>
+      </div>
 
-<hr>
+      <div class="laboratorio-seccion">
+        <h3>Estructura general</h3>
+        <div class="nota-naval">
+          <p><code>.cabecera-documento</code> · <code>.modulo</code> + <code>.recepcion</code> / <code>.alambique</code> / <code>.inspeccion</code> / <code>.laboratorio</code> / <code>.etiquetado</code> · <code>.modulo-cabecera</code> · <code>.bitacora</code> · <code>.pie-documento</code></p>
+        </div>
+      </div>
 
-<footer>
-  <p>Destilería Osmancito · v3.0 · 2026-03-28</p>
-  <p>Entra la materia prima. Sale el destilado puro.</p>
-  <p>Cuatro módulos. Seis imágenes. Cada corpus, una sorpresa.</p>
-</footer>
+      <div class="laboratorio-seccion">
+        <h3>Recepción</h3>
+        <div class="nota-naval">
+          <p><code>.ficha-recepcion</code> · <code>.ficha-seccion-titulo</code> · <code>.ficha-campo</code> · <code>.ficha-campo-nombre</code> · <code>.ficha-campo-valor</code> · <code>.ficha-campo-valor.destacado</code></p>
+        </div>
+      </div>
+
+      <div class="laboratorio-seccion">
+        <h3>Alambique</h3>
+        <div class="nota-naval">
+          <p><code>.destilado-maestro</code> · <code>.barrica</code> · <code>.barrica-numero</code> · <code>.barrica-subtitulo</code> · <code>.extracto</code> · <code>.fraccion-noble</code> · <code>.fraccion-anzuelo</code> · <code>.cartografia</code> · <code>.cartografia-seccion</code> · <code>.cartografia-seccion-titulo</code> · <code>.nota-de-cata</code> · <code>.campo-cata</code> · <code>.campo-cata-nombre</code> · <code>.campo-cata-valor</code></p>
+        </div>
+      </div>
+
+      <div class="laboratorio-seccion">
+        <h3>Inspección</h3>
+        <div class="nota-naval">
+          <p><code>.clasificacion-nave</code> · <code>.nave-arquetipo</code> · <code>.nave-registro</code> · <code>.estrato</code> · <code>.estrato-numero</code> · <code>.veredicto</code> + <code>.zarpe-autorizado</code> / <code>.zarpe-advertencias</code> / <code>.zarpe-parcial</code> / <code>.embargo</code> / <code>.hundimiento</code> · <code>.veredicto-categoria</code> · <code>.veredicto-justificacion</code> · <code>.nota-naval</code></p>
+        </div>
+      </div>
+
+      <div class="laboratorio-seccion">
+        <h3>Laboratorio</h3>
+        <div class="nota-naval">
+          <p><code>.laboratorio-seccion</code> · <code>.lente</code> · <code>.lente-numero</code> · <code>.compuesto-base</code> · <code>.compuesto-base-etiqueta</code> · <code>.compuesto-base-texto</code></p>
+        </div>
+      </div>
+
+      <div class="laboratorio-seccion">
+        <h3>Etiquetado</h3>
+        <div class="nota-naval">
+          <p><code>.fallas-cierre</code> · <code>.falla</code> + <code>.abierta</code> / <code>.cerrada</code> / <code>.abandonada</code> / <code>.raiz</code> · <code>.falla-pregunta</code> · <code>.falla-tipo</code> · <code>.apertura-total</code> · <code>.nucleo-curvatura</code> · <code>.red-conceptual</code> · <code>.campo-nombre</code> · <code>.campo-valor</code> · <code>.estrategia-grandeza-texto</code></p>
+        </div>
+      </div>
+
+      <div class="laboratorio-seccion">
+        <h3>Prompts de imagen</h3>
+        <div class="nota-naval">
+          <p><code>.prompt-imagen</code> + <code>.prompt-imagen-alambique</code> / <code>.prompt-imagen-inspeccion</code> / <code>.prompt-imagen-laboratorio</code> / <code>.prompt-imagen-etiquetado</code> · <code>.prompt-imagen-cabecera</code> · <code>.prompt-cuerpo</code></p>
+        </div>
+      </div>
+
+      <div class="compuesto-base">
+        <div class="compuesto-base-etiqueta">Principio de diseño</div>
+        <div class="compuesto-base-texto">Un solo CSS actualiza todos los documentos — la separación entre estructura y presentación es absoluta</div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ COMO INSTALAR -->
+    <section class="modulo laboratorio" id="como-instalar">
+      <div class="modulo-cabecera">
+        <h2>Cómo instalar</h2>
+      </div>
+
+      <div class="laboratorio-seccion">
+        <h3>Paso 1</h3>
+        <p>Crear proyecto nuevo en <a href="https://claude.ai"> Claude</a>. Nombre: <em>Destilería Osmancito</em>.</p>
+      </div>
+
+      <div class="laboratorio-seccion">
+        <h3>Paso 2</h3>
+        <p>En el recuadro de instrucciones del proyecto, pegar el contenido de <a href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/maestro.md">maestro.md</a></p>
+      </div>
+	  
+      <div class="laboratorio-seccion">
+        <h3>Paso 3</h3>
+        <p>Entregar la materia a destilar.</a></p>
+      </div>	  
+	  
+    </section>
+
+  </main>
+
+  <footer class="pie-documento">
+    <div class="pie-sello">Destilería Osmancito · Sistema de análisis literario profundo · v3.9<br>Entra la materia prima. Sale el destilado puro.</div>
+  </footer>
+
+  <script>
+    const toc = document.querySelector('#toc ul');
+    const secciones = document.querySelectorAll('section.modulo');
+    secciones.forEach(sec => {
+      const titulo = sec.querySelector('h2');
+      if (!titulo) return;
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = '#' + sec.id;
+      a.textContent = titulo.textContent;
+      li.appendChild(a);
+      const subsecciones = sec.querySelectorAll('h3[id], h4[id]');
+      if (subsecciones.length) {
+        const ul = document.createElement('ul');
+        subsecciones.forEach(sub => {
+          const sli = document.createElement('li');
+          const sa = document.createElement('a');
+          sa.href = '#' + sub.id;
+          sa.textContent = sub.textContent;
+          sli.appendChild(sa);
+          ul.appendChild(sli);
+        });
+        li.appendChild(ul);
+      }
+      toc.appendChild(li);
+    });
+  </script>
 
 </body>
 </html>

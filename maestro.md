@@ -487,7 +487,7 @@ Cuando el usuario solicite una copia en `.html`, generar con las siguientes regl
 El HTML generado **nunca lleva estilos embebidos** (`<style>`) ni estilos inline. Siempre usa enlace externo:
 
 ```html
-<link rel="stylesheet" href="destileria-osmancito.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/maestro.css">
 ```
 
 Esto garantiza que modificar el CSS actualiza todos los documentos existentes sin reescribir ninguno.
@@ -501,7 +501,7 @@ Esto garantiza que modificar el CSS actualiza todos los documentos existentes si
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>[Título] — Destilería Osmancito</title>
-  <link rel="stylesheet" href="destileria-osmancito.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/maestro.css">
 </head>
 <body>
 

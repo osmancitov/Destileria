@@ -41,16 +41,13 @@ Fallas de cierre clasificadas por tipo (abierta, cerrada, abandonada, performati
 ```
 destileria-osmancito/
 │
-├── prompt-maestro.md     # El prompt maestro completo
-│
-├── Destilaciones/
-│   ├── img /                            # Imágenes
-│   │
-│   ├── maestro.css                      # Hoja de estilos única para todos los productos
-│   └── 00n.html                         # Lotes procesados
-│
-├── README.md                            # Este archivo
-└── README.html                          # Versión HTML del README
+├── maestro.md            # El prompt maestro completo
+├── maestro.css           # Hoja de estilos única para todos los productos
+├── README.md             # Este archivo
+├── README.html           # Versión HTML del README
+└── Destilaciones/
+    ├── img /             # Imágenes
+    └── 00n.html          # Lotes procesados
 ```
 
 ---
@@ -59,7 +56,7 @@ destileria-osmancito/
 
 **1.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
 
-**2.** En el recuadro de instrucciones del proyecto, pegar el contenido del [`prompt-maestro.md`](https://github.com/osmancitov/osmancitov.github.io/raw/main/prompt-maestro.md).
+**2.** En el recuadro de instrucciones del proyecto, pegar el contenido de [`maestro.md`](https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/maestro.md)
 
 
 ---

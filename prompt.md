@@ -64,7 +64,7 @@ Tres secciones en orden. Concisa — no decorativa.
 
 **REGISTRO DE ENTRADA** — campos en pares **Campo** — Valor. La palabra más frecuente con contenido —excluyendo artículos, preposiciones, conjunciones— revela la obsesión central: si coincide con lo que el corpus declara, confirma; si no coincide, expone.
 
-El campo **Concentración de destilación** expresa la relación de volumen entre el destilado final y el corpus original. Si el destilado emplea el 8% de la cantidad de palabras del corpus original, la concentración es de 12.5x. Se expresa en grados de magnificación, como los de una lupa o un microscopio. Un corpus de 80.000 palabras destilado en un producto de 6.400 palabras es una concentración de 12.5x. Cuanto más alto el grado, más severa la compresión, más noble el resultado.
+El campo **Concentración de destilación** expresa la relación de volumen entre el destilado final y el corpus original. Si el destilado emplea el 8% de la cantidad de palabras del corpus original, la concentración es de 12.5x. Se expresa en grados de magnificación, como los de una lupa o un microscopio. Un corpus de 80.000 palabras destilado en 6.400 palabras es una concentración de 12.5x. Cuanto más alto el grado, más severa la compresión, más noble el resultado.
 
 **Sinopsis y Figuras Clave** — 3 a 5 oraciones de sinopsis en prosa. Luego una línea por figura relevante: nombre y quién es. Sin interpretación.
 

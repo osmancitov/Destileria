@@ -18,7 +18,7 @@
     <div class="sello">Destilería Osmancito · Documentación del proyecto</div>
     <h1 class="titulo-obra">Destilería Osmancito</h1>
     <div class="autor">Sistema de análisis literario profundo</div>
-    <div class="meta">v4.0 · 2026</div>
+    <div class="meta">v4.1 · 2026</div>
   </header>
 
   <nav id="toc">
@@ -100,17 +100,17 @@
     <!-- ═══════════════════════════════════════════ RENDIMIENTO -->
     <section class="modulo etiquetado" id="rendimiento">
       <div class="modulo-cabecera">
-        <h2>Rendimiento de destilación y topología</h2>
+        <h2>Concentración de destilación y topología</h2>
       </div>
 
       <div class="nucleo-curvatura">
-        <h3>Rendimiento de destilación</h3>
+        <h3>Concentración de destilación</h3>
         <div class="campo-nombre">Definición</div>
-        <div class="campo-valor">Relación entre el volumen del corpus y el volumen del producto generado, expresada en grados de pureza.</div>
+        <div class="campo-valor">Relación de volumen entre el destilado final y el corpus original, expresada en grados de magnificación.</div>
         <div class="campo-nombre">Cálculo</div>
-        <div class="campo-valor">Complemento del porcentaje de palabras usadas. Si el producto emplea el 8% de las palabras del corpus, el rendimiento es 92°.</div>
+        <div class="campo-valor">Relación entre el número de palabras destiladas y el número de palabras del corpus original. Si el destilado emplea el 8% de la cantidad de palabras del corpus original, la concentración es de 12.5x.</div>
         <div class="campo-nombre">Ejemplo</div>
-        <div class="campo-valor">Un corpus de 80.000 palabras destilado en 6.400 palabras produce un destilado de 92°. Cuanto más alto el grado, más severa la compresión, más noble el resultado.</div>
+        <div class="campo-valor">Un corpus de 80.000 palabras destilado en un producto de 6.400 palabras es una concentración de 12.5x. Cuanto más alto el grado, más severa la compresión, más noble el resultado.</div>
       </div>
 
       <div class="red-conceptual">
@@ -234,67 +234,6 @@
           <span class="ficha-campo-nombre">Generación</span>
           <span class="ficha-campo-valor">Script incluido al final del <code>&lt;body&gt;</code> genera el índice automáticamente desde los IDs de las secciones <code>.modulo</code>.</span>
         </div>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════════════════════ CLASES CSS -->
-    <section class="modulo laboratorio" id="clases-css">
-      <div class="modulo-cabecera">
-        <h2>Clases semánticas del CSS</h2>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3>Estructura general</h3>
-        <div class="nota-naval">
-          <p><code>.cabecera-documento</code> · <code>.modulo</code> + <code>.recepcion</code> / <code>.alambique</code> / <code>.inspeccion</code> / <code>.laboratorio</code> / <code>.etiquetado</code> · <code>.modulo-cabecera</code> · <code>.bitacora</code> · <code>.pie-documento</code></p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3>Recepción</h3>
-        <div class="nota-naval">
-          <p><code>.ficha-recepcion</code> · <code>.ficha-seccion-titulo</code> · <code>.ficha-campo</code> · <code>.ficha-campo-nombre</code> · <code>.ficha-campo-valor</code> · <code>.ficha-campo-valor.destacado</code></p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3>Alambique</h3>
-        <div class="nota-naval">
-          <p><code>.destilado-maestro</code> · <code>.barrica</code> · <code>.barrica-numero</code> · <code>.barrica-subtitulo</code> · <code>.extracto</code> · <code>.fraccion-noble</code> · <code>.fraccion-anzuelo</code> · <code>.cartografia</code> · <code>.cartografia-seccion</code> · <code>.cartografia-seccion-titulo</code> · <code>.nota-de-cata</code> · <code>.campo-cata</code> · <code>.campo-cata-nombre</code> · <code>.campo-cata-valor</code></p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3>Inspección</h3>
-        <div class="nota-naval">
-          <p><code>.clasificacion-nave</code> · <code>.nave-arquetipo</code> · <code>.nave-registro</code> · <code>.estrato</code> · <code>.estrato-numero</code> · <code>.veredicto</code> + <code>.zarpe-autorizado</code> / <code>.zarpe-advertencias</code> / <code>.zarpe-parcial</code> / <code>.embargo</code> / <code>.hundimiento</code> · <code>.veredicto-categoria</code> · <code>.veredicto-justificacion</code> · <code>.nota-naval</code></p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3>Laboratorio</h3>
-        <div class="nota-naval">
-          <p><code>.laboratorio-seccion</code> · <code>.lente</code> · <code>.lente-numero</code> · <code>.compuesto-base</code> · <code>.compuesto-base-etiqueta</code> · <code>.compuesto-base-texto</code></p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3>Etiquetado</h3>
-        <div class="nota-naval">
-          <p><code>.fallas-cierre</code> · <code>.falla</code> + <code>.abierta</code> / <code>.cerrada</code> / <code>.abandonada</code> / <code>.raiz</code> · <code>.falla-pregunta</code> · <code>.falla-tipo</code> · <code>.apertura-total</code> · <code>.nucleo-curvatura</code> · <code>.red-conceptual</code> · <code>.campo-nombre</code> · <code>.campo-valor</code> · <code>.estrategia-grandeza-texto</code></p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3>Prompts de imagen</h3>
-        <div class="nota-naval">
-          <p><code>.prompt-imagen</code> + <code>.prompt-imagen-alambique</code> / <code>.prompt-imagen-inspeccion</code> / <code>.prompt-imagen-laboratorio</code> / <code>.prompt-imagen-etiquetado</code> · <code>.prompt-imagen-cabecera</code> · <code>.prompt-cuerpo</code></p>
-        </div>
-      </div>
-
-      <div class="compuesto-base">
-        <div class="compuesto-base-etiqueta">Principio de diseño</div>
-        <div class="compuesto-base-texto">Un solo CSS actualiza todos los documentos — la separación entre estructura y presentación es absoluta</div>
       </div>
     </section>
 

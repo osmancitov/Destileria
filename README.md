@@ -1,6 +1,6 @@
 # Destilería Osmancito
 
-**v4.0 · 2026**
+**v4.1 · 2026**
 
 Un sistema de análisis literario profundo operado mediante prompt de lenguaje natural. El corpus entra. Un paquete de análisis completo sale.
 
@@ -154,9 +154,11 @@ El sistema acepta tres modos de entrega del corpus:
 
 ---
 
-## Rendimiento de destilación
+## Concentración de destilación
 
-El rendimiento expresa la relación entre el volumen del corpus y el volumen del producto generado. Se calcula como el complemento del porcentaje de palabras usadas y se expresa en grados de pureza.
+**La Concentración de la Destilación** expresa la relación de volumen entre el destilado final y el corpus original. Si el destilado emplea el 8% de la cantidad de palabras del corpus original, la concentración es de 12.5x. Se expresa en grados de magnificación, como los de una lupa o un microscopio. 
+
+Un corpus de 80.000 palabras destilado en un producto de 6.400 palabras es una concentración de 12.5x. Cuanto más alto el grado, más severa la compresión, más noble el resultado.
 
 Un corpus de 80.000 palabras destilado en un producto de 6.400 palabras (8% del original) produce un destilado de **92°**. Cuanto más alto el grado, más severa la compresión, más noble el resultado.
 

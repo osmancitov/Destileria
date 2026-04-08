@@ -512,9 +512,9 @@ El HTML generado lleva una pequeña información en bloques Meta para OGMT y las
   <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/destilaciones/stl/maestro.css">
   
 <!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
-<link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
-<link rel="apple-touch-icon" href="https://osmancitov.github.io/Destilaciones/img/icon_amanita.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
+<link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
+<link rel="apple-touch-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
 
 <!-- General -->
 <meta name="title" content="[Título]">
@@ -525,9 +525,9 @@ El HTML generado lleva una pequeña información en bloques Meta para OGMT y las
 <meta property="og:type" content="website" />
 <meta property="og:title" content="[Título]" />
 <meta property="og:description" content="[Descripción]" />
-<meta property="og:url" content="https://osmancitov.github.io/Destilaciones/###_[Título].html" />
+<meta property="og:url" content="https://osmancitov.github.io/destilaciones/###_[Título].html" />
 <meta property="og:site_name" content="Destilería Osmancito" />
-<meta property="og:image" content="https://osmancitov.github.io/Destilaciones/img/###_[Título]_1_Preview.jpg" />
+<meta property="og:image" content="https://osmancitov.github.io/destilaciones/img/###_[Título]_1_Preview.jpg" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1024" />
 <meta property="og:image:height" content="1536" />
@@ -536,7 +536,7 @@ El HTML generado lleva una pequeña información en bloques Meta para OGMT y las
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="[Título]">
 <meta name="twitter:description" content="[Descripción]">
-<meta name="twitter:image" content="https://osmancitov.github.io/Destilaciones/img/###_[Título]_1_Preview.jpg">
+<meta name="twitter:image" content="https://osmancitov.github.io/destilaciones/img/###_[Título]_1_Preview.jpg">
 
   
   

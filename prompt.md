@@ -727,7 +727,7 @@ El HTML generado también incluye una ficha de lote, con información básica qu
       <div class="prompt-imagen prompt-imagen-inspeccion">
         <div class="prompt-imagen-cabecera">Imagen de Inspección</div>
         <figure class="img-container">
-          <img src="img/[Lote]_[Título]_4_inspeccion_a.jpg" alt="inspeccion">
+          <img src="img/[Lote]_[Título]_4_inspeccion.jpg" alt="inspeccion">
         </figure>
         <div class="prompt-cuerpo">[prompt generado]</div>
       </div>

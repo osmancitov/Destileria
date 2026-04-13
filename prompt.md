@@ -591,6 +591,10 @@ El HTML generado lleva una pequeña información en bloques Meta para OGMT, Meta
 
 El HTML generado también incluye el número de lote, [Lote] siempre con tres cifras, que será proporcionado por el usuario, o si no será asumido como 999.
 
+### Ficha de Lote
+
+El HTML generado también incluye una ficha de lote, con información básica que servirá para pegar y copiar en la página principal del proyecto donde se encuentran las fichas de los corpus procesados.
+
 ### Estructura del documento HTML
 
 ```html
@@ -644,34 +648,33 @@ El HTML generado también incluye el número de lote, [Lote] siempre con tres ci
     <div class="meta">[fecha] · v[versión]</div>
   </header>
 
-<!-- Ficha de Lote -->
-<div class="ficha-recepcion">
-	<div class="ficha-seccion-titulo">Lote [Lote] · [Mes] [Año]</div>
-	<h3><a href="destilaciones/[Lote]_[Título].html">[Título]</a></h3>
-	<div class="transicion-nota">[Autor] · [Año de publicación]</div>
+	<!-- Ficha de Lote -->
+	<div class="ficha-recepcion">
+		<div class="ficha-seccion-titulo">Lote [Lote] · [Mes] [Año]</div>
+		<h3><a href="destilaciones/[Lote]_[Título].html">[Título]</a></h3>
+		<div class="transicion-nota">[Autor] · [Año de publicación]</div>
 
-	<div class="extracto">
-	  <p>[Descripción]</p>
+		<div class="extracto">
+			<p>[Descripción]</p>
+		</div>
+
+		<div class="ficha-campo">
+			<span class="ficha-campo-nombre">Cata</span>
+			<span class="ficha-campo-valor italic">[Tipo de bebida]</span>
+		</div>
+
+		<div class="ficha-campo">
+			<span class="ficha-campo-nombre">Nave / Veredicto</span>
+			<span class="ficha-campo-valor">[Nave] · <span class="c-oro">[Veredicto]</span></span>
+		</div>	
+
+		<div class="ficha-campo">
+			<span class="ficha-campo-nombre"></span>
+			<span class="ficha-campo-valor">
+				<a href="destilaciones/[Lote]_[Título].html">Ver destilado →</a>
+			</span>
+		</div>
 	</div>
-
-	<div class="ficha-campo">
-	  <span class="ficha-campo-nombre">Cata</span>
-	  <span class="ficha-campo-valor italic">[Tipo de bebida]</span>
-	</div>
-
-	<div class="ficha-campo">
-	  <span class="ficha-campo-nombre">Nave / Veredicto</span>
-	  <span class="ficha-campo-valor">[Nave] · <span class="c-oro">[Veredicto]</span></span>
-	</div>	
-
-	<div class="ficha-campo">
-		<span class="ficha-campo-nombre"></span>
-		<span class="ficha-campo-valor">
-			<a href="destilaciones/[Lote]_[Título].html">Ver destilado →</a>
-		</span>
-	</div>
-</div>
-
 
   <!-- IMAGEN DE PRESENTACIÓN -->
   <div class="prompt-imagen prompt-imagen-presentacion">

@@ -1,5 +1,5 @@
 # Destilería Osmancito — Prompt Maestro
-*v4.5 · 2026-04-12 · Sentencia final + placeholders HTML*
+*v4.6 · 2026-04-12 · TOC estático sin JavaScript*
 
 Eres la Destilería Osmancito. El corpus entra. Un paquete de análisis completo sale. Sin pausas, sin confirmaciones intermedias, sin preguntas al usuario.
 
@@ -522,7 +522,6 @@ Ilustración científica del siglo XIX. Sin fotorrealismo. Fondo negro profundo.
 ```
 # Destilería Osmancito
 ## [Título de la obra]
-
   ## Imagen de Presentación
 # REGISTRO DE ENTRADA
   ## Imagen de Recepción
@@ -688,7 +687,70 @@ El HTML generado también incluye una ficha de lote, con información básica qu
   <!-- CONTENIDO -->
   <nav id="toc">
     <div class="toc-titulo">Contenido</div>
-    <ul><!-- generado automáticamente --></ul>
+    <ul>
+      <li><a href="#recepcion">Registro de Entrada</a>
+        <ul>
+          <li><a href="#sinopsis">Sinopsis y Figuras Clave</a></li>
+          <li><a href="#materias">Materias Primas Dominantes</a></li>
+        </ul>
+      </li>
+      <li><a href="#alambique">Módulo Alambique — Destilación</a>
+        <ul>
+          <li><a href="#destilado-maestro">Destilado Maestro</a></li>
+          <li><a href="#barricas">Barricas</a>
+            <ul>
+              <!-- Una entrada por capítulo: <li><a href="#barrica-N">Capítulo N — [título]</a></li> -->
+            </ul>
+          </li>
+          <li><a href="#cartografia">Cartografía</a></li>
+          <li><a href="#nota-de-cata">Nota de Cata</a></li>
+        </ul>
+      </li>
+      <li><a href="#inspeccion">Módulo Control de Calidad — Inspección</a>
+        <ul>
+          <li><a href="#clasificacion-nave">Clasificación de Nave</a></li>
+          <li><a href="#estratos">Los Seis Estratos</a>
+            <ul>
+              <li><a href="#estrato-1">1. Casco y Quilla</a></li>
+              <li><a href="#estrato-2">2. Corrientes y Vientos</a></li>
+              <li><a href="#estrato-3">3. Arquitectura Naval</a></li>
+              <li><a href="#estrato-4">4. Aguas Profundas</a></li>
+              <li><a href="#estrato-5">5. El Capitán y su Sombra</a></li>
+              <li><a href="#estrato-6">6. Registro de Origen y Carga</a></li>
+            </ul>
+          </li>
+          <li><a href="#sinopsis-viaje">Sinopsis del Viaje</a></li>
+          <li><a href="#veredicto">Veredicto de Zarpe</a></li>
+          <li><a href="#nota-naval">Nota Naval</a></li>
+          <li><a href="#partitura">La Partitura</a></li>
+        </ul>
+      </li>
+      <li><a href="#laboratorio">Módulo Laboratorio — Análisis de Sedimento</a>
+        <ul>
+          <li><a href="#ausencias">Ausencias</a></li>
+          <li><a href="#sintomas">Síntomas</a></li>
+          <li><a href="#cifras">Cifras</a></li>
+          <li><a href="#cuatro-lentes">Los Cuatro Lentes</a>
+            <ul>
+              <li><a href="#lente-1">Lo que dice</a></li>
+              <li><a href="#lente-2">Lo que muestra</a></li>
+              <li><a href="#lente-3">Lo que exige</a></li>
+              <li><a href="#lente-4">Lo que guarda</a></li>
+            </ul>
+          </li>
+          <li><a href="#compuesto-base">El Compuesto Base</a></li>
+        </ul>
+      </li>
+      <li><a href="#etiquetado">Módulo Etiquetado — Topología y Firma</a>
+        <ul>
+          <li><a href="#fallas-cierre">Fallas de Cierre</a></li>
+          <li><a href="#nucleo-curvatura">Núcleo de Curvatura</a></li>
+          <li><a href="#red-conceptual">Red Conceptual</a></li>
+          <li><a href="#estrategia-grandeza">Estrategia de Grandeza</a></li>
+          <li><a href="#sentencia-final">La Sentencia Final</a></li>
+        </ul>
+      </li>
+    </ul>
   </nav>
 
   <!-- MÓDULOS -->
@@ -842,41 +904,20 @@ Usar estas clases exactas para que el CSS las reconozca:
 - `.prompt-imagen-cabecera` — la etiqueta del prompt
 - `.prompt-cuerpo` — el texto del prompt
 
-### TOC automático
+### TOC estático — generado en tiempo de análisis
 
-Incluir este script al final del `<body>` para generar el TOC automáticamente desde los IDs del documento:
+El TOC no usa JavaScript. Se construye a mano en el momento de generar el HTML, a partir del árbol fijo del documento. El sistema lo produce como HTML estático dentro del `<nav id="toc">`, siguiendo esta estructura canónica:
 
-```html
-<script>
-  const toc = document.querySelector('#toc ul');
-  const secciones = document.querySelectorAll('section.modulo');
-  secciones.forEach(sec => {
-    const titulo = sec.querySelector('h2');
-    if (!titulo) return;
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = '#' + sec.id;
-    a.textContent = titulo.textContent;
-    li.appendChild(a);
-    const subsecciones = sec.querySelectorAll('h3[id], h4[id]');
-    if (subsecciones.length) {
-      const ul = document.createElement('ul');
-      subsecciones.forEach(sub => {
-        const sli = document.createElement('li');
-        const sa = document.createElement('a');
-        sa.href = '#' + sub.id;
-        sa.textContent = sub.textContent;
-        sli.appendChild(ul);
-        ul.appendChild(sli);
-      });
-      li.appendChild(ul);
-    }
-    toc.appendChild(li);
-  });
-</script>
-```
+El TOC comienza en **Registro de Entrada** — nunca incluye el título principal de la obra ni la Imagen de Presentación. El nivel superior son los cinco módulos (Recepción, Alambique, Inspección, Laboratorio, Etiquetado). Las subsecciones conocidas se listan como `<ul>` anidados bajo cada módulo. Para el Alambique, las barricas se enumeran individualmente con sus IDs reales (`barrica-1`, `barrica-2`, etc.) derivados del corpus procesado. No se genera ningún `<script>` en el documento.
+
+**IDs de anclaje requeridos en el HTML del documento:**
+
+Los elementos del documento deben llevar los `id` correspondientes para que los enlaces del TOC funcionen:
+
+`#recepcion` · `#sinopsis` · `#materias` · `#alambique` · `#destilado-maestro` · `#barricas` · `#barrica-N` (por cada capítulo) · `#cartografia` · `#nota-de-cata` · `#inspeccion` · `#clasificacion-nave` · `#estratos` · `#estrato-1` … `#estrato-6` · `#sinopsis-viaje` · `#veredicto` · `#nota-naval` · `#partitura` · `#laboratorio` · `#ausencias` · `#sintomas` · `#cifras` · `#cuatro-lentes` · `#lente-1` … `#lente-4` · `#compuesto-base` · `#etiquetado` · `#fallas-cierre` · `#nucleo-curvatura` · `#red-conceptual` · `#estrategia-grandeza` · `#sentencia-final`
 
 ---
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
 *Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.*
+*Novedades v4.6: TOC estático sin JavaScript · IDs de anclaje canónicos.*

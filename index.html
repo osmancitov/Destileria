@@ -39,7 +39,7 @@
 
   <!-- CABECERA -->
   <header class="cabecera-documento">
-    <div class="sello">Destilería Osmancito · v4.5 · 2026</div>
+    <div class="sello">Destilería Osmancito · v4.6 · 2026</div>
     <h1 class="titulo-obra">Destilería <em>Osmancito</em></h1>
     <div class="autor">Entra la materia prima. Sale el destilado puro.</div>
   </header>
@@ -52,7 +52,10 @@
   <!-- TOC -->
   <nav id="toc">
     <div class="toc-titulo">Contenido</div>
-    <ul></ul>
+    <ul>
+      <li><a href="#lotes">Destilados</a></li>
+      <li><a href="#sistema">El sistema</a></li>
+    </ul>
   </nav>
 
   <!-- CONTENIDO -->
@@ -213,7 +216,7 @@
 
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Versión</span>
-          <span class="ficha-campo-valor">v4.5 · 2026-04-12</span>
+          <span class="ficha-campo-valor">v4.6 · 2026-04-12</span>
         </div>
 
         <div class="ficha-campo">
@@ -222,8 +225,8 @@
         </div>
 
         <div class="ficha-campo">
-          <span class="ficha-campo-nombre">Novedades v4.5</span>
-          <span class="ficha-campo-valor">La Sentencia Final · Placeholders de imagen HTML por sección</span>
+          <span class="ficha-campo-nombre">Novedades v4.6</span>
+          <span class="ficha-campo-valor">TOC estático sin JavaScript · IDs de anclaje canónicos</span>
         </div>
 
       </div>
@@ -236,20 +239,6 @@
     <div class="pie-sello">Destilería Osmancito<br>Entra la materia prima. Sale el destilado puro.</div>
   </footer>
 
-  <script>
-    const toc = document.querySelector('#toc ul');
-    const secciones = document.querySelectorAll('section.modulo');
-    secciones.forEach(sec => {
-      const titulo = sec.querySelector('h2');
-      if (!titulo) return;
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = '#' + sec.id;
-      a.textContent = titulo.textContent;
-      li.appendChild(a);
-      toc.appendChild(li);
-    });
-  </script>
 
 </body>
 </html>

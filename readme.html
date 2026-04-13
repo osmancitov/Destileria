@@ -39,10 +39,10 @@
 
   <!-- CABECERA -->
   <header class="cabecera-documento">
-    <div class="sello">Destilería Osmancito · v4.5 · 2026</div>
+    <div class="sello">Destilería Osmancito · v4.6 · 2026</div>
     <h1 class="titulo-obra">Sistema</h1>
     <div class="autor">Documentación · Lectura profunda operada dentro de Claude</div>
-    <div class="meta">2026-04-12 · v4.5</div>
+    <div class="meta">2026-04-12 · v4.6</div>
   </header>
 
   <figure class="img-container">
@@ -53,7 +53,33 @@
   <!-- TOC -->
   <nav id="toc">
     <div class="toc-titulo">Contenido</div>
-    <ul></ul>
+    <ul>
+      <li><a href="#modulos">Los cuatro módulos</a>
+        <ul>
+          <li><a href="#modulo-alambique">Módulo 1 — Alambique</a></li>
+          <li><a href="#modulo-inspeccion">Módulo 2 — Control de Calidad</a></li>
+          <li><a href="#modulo-laboratorio">Módulo 3 — Laboratorio</a></li>
+          <li><a href="#modulo-etiquetado">Módulo 4 — Etiquetado</a></li>
+        </ul>
+      </li>
+      <li><a href="#vocabulario">Vocabulario</a></li>
+      <li><a href="#modos">Modos de entrada</a></li>
+      <li><a href="#arquetipos">Arquetipos de nave</a>
+        <ul>
+          <li><a href="#naves-valor">Naves que valen el viaje</a></li>
+          <li><a href="#naves-peligrosas">Naves peligrosas</a></li>
+          <li><a href="#naves-inutiles">Naves inútiles</a></li>
+          <li><a href="#naves-daninas">Naves activamente dañinas</a></li>
+        </ul>
+      </li>
+      <li><a href="#veredictos">Veredictos de zarpe</a></li>
+      <li><a href="#fallas">Fallas de cierre</a></li>
+      <li><a href="#bebidas">Taxonomía de bebidas</a></li>
+      <li><a href="#partitura">La Partitura</a></li>
+      <li><a href="#sentencia">La Sentencia Final</a></li>
+      <li><a href="#estrategias">Estrategias de grandeza</a></li>
+      <li><a href="#lotes">Lotes producidos</a></li>
+    </ul>
   </nav>
 
   <!-- CONTENIDO -->
@@ -514,6 +540,25 @@
       </div>
 
       <div class="ficha-recepcion">
+        <div class="ficha-seccion-titulo">Lote 005 · Abr 2026</div>
+        <h3><a href="destilaciones/005_puente_kwai.html">El Puente Sobre el Río Kwai</a></h3>
+        <div class="transicion-nota">Pierre Boulle · 1952</div>
+        <div class="extracto"><p>El ingenio humano floreciendo en el horror más absoluto. Prisioneros que construyen su propia trampa de dignidad y derrota.</p></div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Cata</span>
+          <span class="ficha-campo-valor italic">Whisky de malta</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Nave / Veredicto</span>
+          <span class="ficha-campo-valor">Velero · <span class="c-oro">Zarpe autorizado</span></span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre"></span>
+          <span class="ficha-campo-valor"><a href="destilaciones/005_puente_kwai.html">Ver destilado →</a></span>
+        </div>
+      </div>
+
+      <div class="ficha-recepcion">
         <div class="ficha-seccion-titulo">Lote 004 · Abr 2026</div>
         <h3><a href="destilaciones/004_cosmere_sanderson.html">Cosmere</a></h3>
         <div class="transicion-nota">Brandon Sanderson · 2006–2020</div>
@@ -595,36 +640,8 @@
 
   <!-- PIE -->
   <footer class="pie-documento">
-    <div class="pie-sello">Destilería Osmancito · Sistema v4.5<br>Entra la materia prima. Sale el destilado puro.<br>Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.<br>Novedades v4.5: La Sentencia Final · Placeholders de imagen HTML por sección.</div>
+    <div class="pie-sello">Destilería Osmancito · Sistema v4.6<br>Entra la materia prima. Sale el destilado puro.<br>Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.<br>Novedades v4.6: TOC estático sin JavaScript · IDs de anclaje canónicos.</div>
   </footer>
-
-  <script>
-    const toc = document.querySelector('#toc ul');
-    const secciones = document.querySelectorAll('section.modulo');
-    secciones.forEach(sec => {
-      const titulo = sec.querySelector('h2');
-      if (!titulo) return;
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = '#' + sec.id;
-      a.textContent = titulo.textContent;
-      li.appendChild(a);
-      const subsecciones = sec.querySelectorAll('h3[id]');
-      if (subsecciones.length) {
-        const ul = document.createElement('ul');
-        subsecciones.forEach(sub => {
-          const sli = document.createElement('li');
-          const sa = document.createElement('a');
-          sa.href = '#' + sub.id;
-          sa.textContent = sub.textContent;
-          sli.appendChild(sa);
-          ul.appendChild(sli);
-        });
-        li.appendChild(ul);
-      }
-      toc.appendChild(li);
-    });
-  </script>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 # Destilería Osmancito — Sistema de Lectura Profunda
-*v4.5 · 2026-04-12*
+*v4.6 · 2026-04-12*
 
 ---
 
@@ -157,10 +157,10 @@ La falla raíz es aquella de la que emergen todas las demás.
 
 Cada análisis se entrega en Markdown estructurado. El nombre del archivo sigue el patrón: *Destilería Osmancito — Título — Autor.md*
 
-Cuando se solicita versión HTML, el documento usa el CSS externo del sistema — nunca estilos embebidos — y genera el TOC automáticamente desde los IDs del documento.
+Cuando se solicita versión HTML, el documento usa el CSS externo del sistema — nunca estilos embebidos — y el TOC se genera como HTML estático en tiempo de análisis, a partir del árbol canónico del documento. No se usa JavaScript.
 
 ---
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
 *Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.*
-*Novedades v4.5: La Sentencia Final · Placeholders de imagen en HTML por sección.*
+*Novedades v4.6: TOC estático sin JavaScript · IDs de anclaje canónicos en el HTML.*

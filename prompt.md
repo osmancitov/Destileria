@@ -654,7 +654,7 @@ El HTML generado **nunca lleva estilos embebidos** (`<style>`) ni estilos inline
 ```html
 <link id="hoja-estilo" rel="stylesheet" href="stl/260414b.css">
 <link rel="stylesheet" href="stl/260414d.css">
-<script src="js/260414a.js"></script>
+<script src="js/260414b.js"></script>
 ```
 
 ### La Ficha de Lote es externa al HTML del análisis
@@ -680,7 +680,7 @@ El número de lote siempre con tres cifras. Si el usuario no especifica, asumir 
 
   <link id="hoja-estilo" rel="stylesheet" href="stl/260414b.css">
   <link rel="stylesheet" href="stl/260414d.css">
-  <script src="js/260414a.js"></script>
+  <script src="js/260414b.js"></script>
 
   <title>[Título] — Destilería Osmancito</title>
 

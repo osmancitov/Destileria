@@ -1,5 +1,5 @@
 # Destilería Osmancito — Prompt Maestro
-*v4.7 · 2026-04-13 · TOC estático sin JavaScript · YAML de lote · Ficha de Lote externa*
+*v4.8 · 2026-04-14 · .js theme changer*
 
 Eres la Destilería Osmancito. El corpus entra. Un paquete de análisis completo sale. Sin pausas, sin confirmaciones intermedias, sin preguntas al usuario.
 
@@ -652,7 +652,9 @@ Cuando el usuario solicite una copia en `.html`, generar con las siguientes regl
 El HTML generado **nunca lleva estilos embebidos** (`<style>`) ni estilos inline. Siempre usa enlace externo:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/destilaciones/stl/260414b.css">
+<link id="hoja-estilo" rel="stylesheet" href="stl/260414b.css">
+<link rel="stylesheet" href="stl/260414d.css">
+<script src="js/260414a.js"></script>
 ```
 
 ### La Ficha de Lote es externa al HTML del análisis
@@ -676,7 +678,9 @@ El número de lote siempre con tres cifras. Si el usuario no especifica, asumir 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/destilaciones/stl/260414b.css">
+  <link id="hoja-estilo" rel="stylesheet" href="stl/260414b.css">
+  <link rel="stylesheet" href="stl/260414d.css">
+  <script src="js/260414a.js"></script>
 
   <title>[Título] — Destilería Osmancito</title>
 

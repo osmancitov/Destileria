@@ -1,5 +1,5 @@
 # Destilería Osmancito — Sistema de Lectura Profunda
-*v4.8 · 2026-04-14*
+*v4.9 · 2026-04-15*
 
 ---
 
@@ -171,4 +171,4 @@ El TOC se genera como HTML estático en tiempo de análisis, a partir del árbol
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
 *Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.*
-*Novedades v4.8: Botón de cambio de tema oscuro / claro · Segundo CSS externo (260414d.css) · JS externo (260414a.js).*
+*Novedades v4.9: Mejora del botón oscuro / claro · CSS · JS nuevo (260415b.js)*

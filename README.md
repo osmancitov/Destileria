@@ -1,5 +1,5 @@
 # Destilería Osmancito — Sistema de Lectura Profunda
-*v4.9 · 2026-04-15*
+*v5.0 · 2026-04-17*
 
 ---
 
@@ -160,10 +160,12 @@ Cada análisis se entrega en Markdown estructurado. El nombre del archivo sigue 
 Cuando se solicita versión HTML, el documento usa dos CSS externos y un JS externo — nunca estilos embebidos. Los tres recursos se declaran en este orden:
 
 ```html
-<link id="hoja-estilo" rel="stylesheet" href="stl/260414b.css">
-<link rel="stylesheet" href="stl/260414d.css">
-<script src="js/260414a.js"></script>
+<link id="hoja-estilo" rel="stylesheet" href="stl/260415a.css">
+<link rel="stylesheet" href="stl/260415d.css">
+<script src="js/260415b.js"></script>
 ```
+
+La Ficha de Lote se genera integrada en el HTML del análisis, entre la cabecera y el bloque de Imagen de Presentación. No existe generador externo ni bloque YAML.
 
 El TOC se genera como HTML estático en tiempo de análisis, a partir del árbol canónico del documento. No se usa JavaScript para navegación.
 
@@ -171,4 +173,4 @@ El TOC se genera como HTML estático en tiempo de análisis, a partir del árbol
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
 *Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.*
-*Novedades v4.9: Mejora del botón oscuro / claro · CSS · JS nuevo (260415b.js)*
+*Novedades v5.0: Ficha de lote integrada en el HTML del análisis · Eliminación del bloque YAML · Eliminación del generador externo de lotes.*

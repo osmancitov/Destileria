@@ -624,11 +624,13 @@ La Ficha de Lote **se incluye directamente en el HTML del análisis**, inmediata
 <!-- FICHA DE LOTE -->
 <div class="ficha-recepcion" id="lote-[NNN]">
   <div class="ficha-seccion-titulo">Lote [NNN] · [Mes] [AAAA]</div>
-  <h3><a href="[NNN]_[slug].html">[Título de la obra]</a></h3>
+  <h3><a href="destilaciones/[NNN]_[slug].html">[Título de la obra]</a></h3>
   <div class="transicion-nota">[Autor] · [Año de publicación]</div>
+	<a href="destilaciones/[NNN]_[slug].html">
   <figure class="img-container img-ficha">
     <img src="destilaciones/img/[NNN]_[slug]_1_presentacion_half.jpg" alt="[Título]" loading="lazy">
   </figure>
+	</a>
   <div class="extracto"><p>[Descripción ~20 palabras]</p></div>
   <div class="ficha-campo">
     <span class="ficha-campo-nombre">Idioma original</span>
@@ -656,7 +658,7 @@ La Ficha de Lote **se incluye directamente en el HTML del análisis**, inmediata
   </div>
   <div class="ficha-campo">
     <span class="ficha-campo-nombre"></span>
-    <span class="ficha-campo-valor"><a href="[NNN]_[slug].html">Ver destilado →</a></span>
+    <span class="ficha-campo-valor"><a href="destilaciones/[NNN]_[slug].html">Ver destilado →</a></span>
   </div>
 </div>
 ```

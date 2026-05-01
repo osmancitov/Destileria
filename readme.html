@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260417a.css">
-  <link rel="stylesheet" href="destilaciones/stl/260415d.css">
-  <script src="destilaciones/js/260415b.js"></script>
+  <link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260501a.css">
+  <link rel="stylesheet" href="destilaciones/stl/260501b.css">
+  <script src="destilaciones/js/260501.js"></script>
 
   <title>Sistema — Destilería Osmancito</title>
 
@@ -17,13 +17,13 @@
 
   <!-- Meta General -->
   <meta name="title" content="Sistema — Destilería Osmancito">
-  <meta name="description" content="Documentación del sistema de lectura profunda. Cuatro módulos, seis imágenes, una partitura.">
+  <meta name="description" content="Documentación del sistema de lectura profunda. Cuatro módulos, doce prompts de imagen, una partitura.">
   <meta name="author" content="Osmancito">
 
   <!-- OGMT -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Sistema — Destilería Osmancito" />
-  <meta property="og:description" content="Documentación del sistema de lectura profunda. Cuatro módulos, seis imágenes, una partitura." />
+  <meta property="og:description" content="Documentación del sistema de lectura profunda. Cuatro módulos, doce prompts de imagen, una partitura." />
   <meta property="og:url" content="https://osmancitov.github.io/destilaciones/readme.html" />
   <meta property="og:site_name" content="Destilería Osmancito" />
   <meta property="og:image" content="https://osmancitov.github.io/destilaciones/img/000_destileria_260417a.jpg" />
@@ -34,17 +34,17 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Sistema — Destilería Osmancito">
-  <meta name="twitter:description" content="Documentación del sistema de lectura profunda. Cuatro módulos, seis imágenes, una partitura.">
+  <meta name="twitter:description" content="Documentación del sistema de lectura profunda. Cuatro módulos, doce prompts de imagen, una partitura.">
   <meta name="twitter:image" content="https://osmancitov.github.io/destilaciones/img/000_destileria_260417a.jpg">
 </head>
 <body>
 
   <!-- CABECERA -->
   <header class="cabecera-documento">
-    <div class="sello">Destilería Osmancito · v6.0 · 2026</div>
+    <div class="sello">Destilería Osmancito · v7.2 · 2026</div>
     <h1 class="titulo-obra">Sistema</h1>
     <div class="autor">Documentación · Lectura profunda operada dentro de Claude</div>
-    <div class="meta">2026-04-20 · v6.0</div>
+    <div class="meta">2026-05-01 · v7.2</div>
   </header>
 
   <figure class="img-container">
@@ -67,19 +67,22 @@
       <li><a href="#vocabulario">Vocabulario</a></li>
       <li><a href="#modos">Modos de entrada</a></li>
       <li><a href="#mapa-hechos">El Mapa de Hechos</a></li>
-      <li><a href="#arquetipos">Arquetipos de nave</a>
+      <li><a href="#arquetipos">Arquetipos de vehículo</a>
         <ul>
-          <li><a href="#naves-valor">Naves que valen el viaje</a></li>
-          <li><a href="#naves-peligrosas">Naves peligrosas</a></li>
-          <li><a href="#naves-inutiles">Naves inútiles</a></li>
-          <li><a href="#naves-daninas">Naves activamente dañinas</a></li>
+          <li><a href="#vehiculos-navales">Vehículos navales</a></li>
+          <li><a href="#vehiculos-aereos">Vehículos aéreos</a></li>
+          <li><a href="#vehiculos-terrestres">Vehículos terrestres</a></li>
+          <li><a href="#vehiculos-inutiles">Vehículos inútiles o dañinos</a></li>
         </ul>
       </li>
+      <li><a href="#miradas">Las seis miradas</a></li>
       <li><a href="#veredictos">Veredictos de zarpe</a></li>
       <li><a href="#fallas">Fallas de cierre</a></li>
+      <li><a href="#registro-lotes">El Registro de Lotes</a></li>
       <li><a href="#bebidas">Taxonomía de bebidas</a></li>
       <li><a href="#partitura">La Partitura</a></li>
       <li><a href="#sentencia">La Sentencia Final</a></li>
+      <li><a href="#imagenes">Los prompts de imagen</a></li>
       <li><a href="#estrategias">Estrategias de grandeza</a></li>
       <li><a href="#lotes">Lotes producidos</a></li>
     </ul>
@@ -101,40 +104,40 @@
     </section>
 
     <!-- QUÉ PRODUCE -->
-    <section class="modulo alambique" id="que-produce">
+    <section class="modulo alambique" id="modulos">
       <div class="modulo-cabecera">
-        <h2>Qué produce</h2>
+        <h2>Los cuatro módulos</h2>
       </div>
       <div class="bitacora">
-        <p>Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.</p>
+        <p>Cuatro módulos. Doce prompts de imagen. Una partitura. Una flota, cuando el autor lo merece.</p>
       </div>
 
       <div class="estrato" id="modulo-alambique">
         <div class="estrato-numero">Módulo 1 — Alambique</div>
         <h3>Destilación</h3>
-        <p>El corpus se transforma. Primero el destilado maestro: 300 a 500 palabras de prosa literaria que encarna el libro sin resumirlo, autónomo, sin mencionar capítulos ni estructura interna. Luego barrica por barrica: el extracto de cada capítulo —qué ocurre aquí que importa para el corpus entero— y las fracciones nobles: los fragmentos que sobreviven solos, que alguien repetiría años después sin haber leído el libro.</p>
-        <p>Al final del módulo, la cartografía del conjunto en cinco secciones —densidad, materias recurrentes, tensiones centrales, voces y arco— y la nota de cata: el corpus descrito con precisión de catador profesional como si fuera una bebida.</p>
+        <p>El corpus se transforma. Primero el destilado maestro: 300 a 500 palabras de prosa literaria que encarna el libro sin resumirlo, autónomo, sin mencionar capítulos ni estructura interna. Luego barrica por barrica: el extracto de cada capítulo y las joyas — los hallazgos que sobreviven solos en tres escalas: microscópica (el mecanismo dentro de la frase), mesoscópica (el fragmento citable verbatim) y macroscópica (el gesto que solo existe como totalidad).</p>
+        <p>Al final del módulo, la cartografía del conjunto en cinco secciones y la nota de cata: el corpus descrito con precisión de catador profesional como si fuera una bebida.</p>
       </div>
 
       <div class="estrato" id="modulo-inspeccion">
         <div class="estrato-numero">Módulo 2 — Control de Calidad</div>
         <h3>Inspección</h3>
-        <p>El corpus se examina como una embarcación. Se le asigna un arquetipo de nave y se somete a seis estratos de inspección exhaustiva: la estructura argumental y si aguanta el peso, las fuerzas externas que empujan la nave aunque el capitán no las vea, la arquitectura interna y sus desequilibrios, la ontología y las verdades que el texto no puede nombrar sin hundirse, las proyecciones del autor que navega sin saberlo, y el origen y la carga real versus la declarada.</p>
-        <p>La Nota Naval describe la nave en prosa poética. La Partitura la escucha: primero el corpus descrito como música —su pulso, su instrumentación, si resuelve o se interrumpe—, luego una pieza real y escuchable con justificación de una línea. El Veredicto de Zarpe decide si sale y bajo qué condiciones.</p>
+        <p>El corpus se examina como un vehículo — naval, aéreo o terrestre. El arquetipo se elige según la naturaleza del corpus: su velocidad, su carga, su medio, su propósito. La elección misma es un diagnóstico. El corpus se somete luego a seis miradas exhaustivas cuya nomenclatura se adapta al dominio del vehículo asignado: no es lo mismo inspeccionar un submarino que un caza en pista o una locomotora sin frenos.</p>
+        <p>La Nota de Ruta describe el vehículo y su operador en prosa poética. La Partitura lo escucha: primero el corpus descrito como música, luego una pieza real y escuchable con justificación de una línea. El Veredicto de Zarpe decide si vale el viaje.</p>
       </div>
 
       <div class="estrato" id="modulo-laboratorio">
         <div class="estrato-numero">Módulo 3 — Laboratorio</div>
         <h3>Análisis de Sedimento</h3>
-        <p>Lo que queda en el fondo del alambique después de destilar. Las ausencias que el corpus rodea sin nombrar. Los síntomas de sus inconsistencias de tono, ritmo o argumento, cada uno anclado en imagen o capítulo específico. Los patrones con recurrencia anómala: imágenes, números, nombres o estructuras que reaparecen más de lo que el azar explica.</p>
-        <p>Cuatro lentes leen el mismo texto desde ángulos distintos: lo que dice, lo que muestra, lo que exige, lo que guarda. Al final, el compuesto base: una sola proposición. El núcleo irreducible del corpus.</p>
+        <p>Lo que queda en el fondo del alambique después de destilar. Las ausencias que el corpus rodea sin nombrar. Los síntomas de sus inconsistencias de tono, ritmo o argumento, cada uno anclado en imagen o capítulo específico. Los patrones con recurrencia anómala.</p>
+        <p>Cuatro lentes leen el mismo texto desde ángulos distintos: lo que dice, lo que muestra, lo que exige, lo que guarda. Al final, la semilla: una sola proposición. El núcleo irreducible del corpus.</p>
       </div>
 
       <div class="estrato" id="modulo-etiquetado">
         <div class="estrato-numero">Módulo 4 — Etiquetado</div>
         <h3>Topología y Firma</h3>
-        <p>La etiqueta química del corpus. Las fallas de cierre: las preguntas que el texto activa y no resuelve, clasificadas y medidas en proporción de apertura total. El núcleo de curvatura: el concepto con mayor gravitación, el que transforma el significado de todo lo que lo rodea. La forma de la red conceptual: si es small-world, fragmentada, centralizada o distribuida. Y la estrategia de grandeza: el mecanismo por el que este corpus produce —o no— inagotabilidad, en una línea.</p>
-        <p>Al final, la Sentencia Final: dos o tres líneas de prosa densa donde el Alambique habla en primera persona y emite su juicio definitivo. No moraleja ni resumen — sentencia. Lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía, dicho sin atenuantes y sin crueldad innecesaria.</p>
+        <p>La etiqueta química del corpus. Las fallas de cierre: las preguntas que el texto activa y no resuelve, clasificadas y medidas en proporción de apertura total. La Coordenada Histórica, si se ha entregado el Registro de Lotes: una línea que ubica este análisis en el historial acumulado de la Destilería. El Imán: el concepto con mayor gravitación. La forma de la red conceptual. La estrategia de grandeza: el mecanismo por el que este corpus produce — o no — inagotabilidad.</p>
+        <p>Al final, la Sentencia Final — dos o tres líneas donde el Alambique emite su juicio definitivo — y El Palimpsesto: el texto debajo del texto que ningún módulo buscaba, revelado por la suma de todos los módulos.</p>
       </div>
     </section>
 
@@ -155,7 +158,7 @@
         </div>
 
         <div class="falla abierta">
-          <div class="falla-pregunta"><strong>Las Joyas</strong> — Los fragmentos que sobreviven solos. Lo que alguien repetiría años después. <em>(Nombre interno: fracciones nobles.)</em></div>
+          <div class="falla-pregunta"><strong>Las Joyas</strong> — Los hallazgos que sobreviven solos. Operan en tres escalas: microscópica (mecanismo dentro de la frase), mesoscópica (fragmento citable verbatim) y macroscópica (gesto que solo existe como totalidad). <em>(Nombre interno: fracciones nobles.)</em></div>
           <div class="falla-tipo">Alambique</div>
         </div>
 
@@ -165,7 +168,7 @@
         </div>
 
         <div class="falla abierta">
-          <div class="falla-pregunta"><strong>Barrica</strong> — Unidad por capítulo: extracto más joyas.</div>
+          <div class="falla-pregunta"><strong>Barrica</strong> — Unidad por capítulo: extracto + joyas + umbral del silencio (cuando existe).</div>
           <div class="falla-tipo">Alambique</div>
         </div>
 
@@ -180,12 +183,17 @@
         </div>
 
         <div class="falla abierta">
-          <div class="falla-pregunta"><strong>Nave / Capitán</strong> — El corpus como embarcación; el autor como presencia que emerge del texto.</div>
+          <div class="falla-pregunta"><strong>Vehículo / Operador</strong> — El corpus como vehículo; el autor como presencia que emerge del texto. Naval (Nave / Capitán), aéreo (Aeronave / Piloto) o terrestre (Vehículo / Conductor). La elección del dominio es ya un diagnóstico.</div>
           <div class="falla-tipo">Inspección</div>
         </div>
 
         <div class="falla abierta">
-          <div class="falla-pregunta"><strong>Flota</strong> — El conjunto de obras de un autor analizado en modo obra completa. Cada obra es una nave; la flota las muestra en relación.</div>
+          <div class="falla-pregunta"><strong>Nota de Ruta</strong> — La prosa poética que describe el vehículo y su operador al final de la inspección. Se denomina Nota Naval (naves), Nota de Vuelo (aeronaves) o Nota de Travesía (terrestres) según el dominio asignado.</div>
+          <div class="falla-tipo">Inspección</div>
+        </div>
+
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Flota</strong> — El conjunto de obras de un autor analizado en modo obra completa. Cada obra es un vehículo; la flota los muestra en relación.</div>
           <div class="falla-tipo">Inspección · Modo 4</div>
         </div>
 
@@ -210,188 +218,135 @@
         </div>
 
         <div class="falla abierta">
-          <div class="falla-pregunta"><strong>Etiqueta química</strong> — El conjunto de variables topológicas que identifican el corpus como objeto.</div>
+          <div class="falla-pregunta"><strong>El truco que hace que no se olvide</strong> — El mecanismo por el que este corpus produce —o no— inagotabilidad. <em>(Nombre interno: estrategia de grandeza.)</em></div>
           <div class="falla-tipo">Etiquetado</div>
         </div>
 
         <div class="falla abierta">
-          <div class="falla-pregunta"><strong>Umbral</strong> — La prosa narrativa que abre cada módulo. Pieza escrita desde el carácter específico de este corpus; sitúa al lector y lo envuelve en la metáfora del módulo antes de que empiece el análisis.</div>
-          <div class="falla-tipo">Estructura</div>
+          <div class="falla-pregunta"><strong>El Palimpsesto</strong> — El texto debajo del texto que ningún módulo buscaba específicamente. Solo aparece cuando se han agotado todas las miradas. Su ausencia declarada tiene el mismo valor que el hallazgo. <em>(Nombre interno: hallazgo intersticial.)</em></div>
+          <div class="falla-tipo">Etiquetado</div>
+        </div>
+
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Umbral del Silencio</strong> — Campo opcional al final de cada barrica. Una sola frase que nombra lo más interesante que no entró. Aparece solo cuando hay algo genuinamente interesante que no pasó el umbral de selección. Nunca por obligación.</div>
+          <div class="falla-tipo">Alambique</div>
+        </div>
+
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Registro de Lotes</strong> — El historial acumulado de la Destilería. Se entrega al inicio de cada sesión para activar la Coordenada Histórica. Se actualiza con el bloque del lote nuevo al final de cada análisis.</div>
+          <div class="falla-tipo">Sistema</div>
         </div>
 
       </div>
     </section>
 
     <!-- MODOS DE ENTRADA -->
-    <section class="modulo inspeccion" id="modos">
+    <section class="modulo recepcion" id="modos">
       <div class="modulo-cabecera">
         <h2>Modos de entrada</h2>
       </div>
       <div class="bitacora">
-        <p>El corpus llega de cinco formas posibles. El sistema detecta el modo y procede.</p>
+        <p>Cinco formas de entregar materia prima.</p>
       </div>
 
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Modo 1</div>
-        <div class="nave-registro">Archivo adjunto — epub, pdf, txt. El sistema registra y procede sin más instrucciones.</div>
-      </div>
-
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Modo 2</div>
-        <div class="nave-registro">Título y autor. Sin archivo. El sistema trabaja desde su conocimiento del corpus.</div>
-      </div>
-
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Modo 3</div>
-        <div class="nave-registro">ZIP plano — epub descomprimido. Se activa el Protocolo ZIP: el sistema lee la estructura, clasifica los archivos, ejecuta el manifiesto y delimita el corpus antes de proceder.</div>
-      </div>
-
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Modo 4</div>
-        <div class="nave-registro">Obra completa — solo el nombre del autor. Se activa el Protocolo Flota: delimitación de obra, asignación de arquetipos, identificación de la nave insignia, análisis comprimido por título. La Imagen de Flota muestra todas las naves del autor en una sola imagen panorámica.</div>
-      </div>
-
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Modo 5</div>
-        <div class="nave-registro">Corpus fragmentado — el corpus supera las 100.000 palabras. Se activa el Protocolo de Fragmentación: el corpus se divide en sesiones. Cada sesión de fragmento produce sus barricas y un Bloque de Estado. La sesión de síntesis — siempre la última — integra todo el material y construye el documento final.</div>
+      <div class="fallas-cierre">
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Modo 1 — Archivo adjunto</strong> — epub, pdf, txt, html adjunto a la sesión. El sistema registra y procede.</div>
+          <div class="falla-tipo">Entrada</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Modo 2 — Título y autor</strong> — Sin archivo. El sistema trabaja desde su conocimiento del corpus.</div>
+          <div class="falla-tipo">Entrada</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Modo 3 — ZIP plano</strong> — epub descomprimido. Se activa el Protocolo ZIP: estructura, manifiesto, corpus delimitado.</div>
+          <div class="falla-tipo">Entrada</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Modo 4 — Obra completa</strong> — Solo el nombre del autor. Se activa el Protocolo Flota: cada obra recibe análisis comprimido individual; la Imagen de Flota muestra todas en relación.</div>
+          <div class="falla-tipo">Entrada</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Modo 5 — Corpus fragmentado</strong> — Corpus superior a 100.000 palabras, procesado en sesiones independientes. Regla: palabras ÷ 100.000, redondeado hacia arriba. El Palimpsesto solo se declara en la sesión de síntesis.</div>
+          <div class="falla-tipo">Entrada</div>
+        </div>
       </div>
     </section>
 
-
     <!-- MAPA DE HECHOS -->
-    <section class="modulo recepcion" id="mapa-hechos">
+    <section class="modulo alambique" id="mapa-hechos">
       <div class="modulo-cabecera">
         <h2>El Mapa de Hechos</h2>
       </div>
       <div class="bitacora">
-        <p>Nuevo en v6.0. Lo que el lector necesita saber antes de entrar al análisis. No interpreta — orienta.</p>
+        <p>Lo que el lector necesita saber antes de entrar al análisis. No interpreta — orienta.</p>
       </div>
-      <p>Tercera sección de la Ficha de Recepción. Su contenido varía según el tipo de corpus:</p>
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Narrativa</div>
-        <div class="nave-registro">El arco completo de eventos con nombres propios, causas y consecuencias. Quién hace qué, cuándo, por qué y con qué resultado. Muertes relevantes, giros decisivos, desenlace. El lector que nunca leyó el libro sale de aquí sabiendo lo que pasó. Máximo 10 oraciones.</div>
+      <p>Tercera sección de la Ficha de Recepción. Su contenido varía según el tipo de corpus: en narrativa, el arco completo de eventos (máximo 10 oraciones); en ensayo, el mapa de argumentos y fisuras (máximo 8); en poesía, el territorio emocional del conjunto (máximo 6); en biografía o historia, la línea de vida o de época (máximo 10).</p>
+    </section>
+
+    <!-- ARQUETIPOS DE VEHÍCULO -->
+    <section class="modulo inspeccion" id="arquetipos">
+      <div class="modulo-cabecera">
+        <h2>Arquetipos de vehículo</h2>
       </div>
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Ensayo o no ficción</div>
-        <div class="nave-registro">El mapa de argumentos centrales, sus articulaciones y sus fisuras principales. Qué tesis defiende el corpus, qué concede, dónde se contradice. Máximo 8 oraciones.</div>
+      <div class="bitacora">
+        <p>Tierra, mar y aire. El sistema elige el dominio que mejor encarna la naturaleza del corpus.</p>
       </div>
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Poesía</div>
-        <div class="nave-registro">El territorio emocional e imaginario del conjunto. Las voces que hablan, las obsesiones que regresan, el arco emocional del libro como totalidad. Máximo 6 oraciones.</div>
+
+      <div class="estrato" id="vehiculos-navales">
+        <div class="estrato-numero">Vehículos navales</div>
+        <p>El Galeón — grande, sólido, cargado de valor real. La Carabela — modesta pero perfectamente construida para lo que hace. El Velero — ligero, depende del viento del lector. El Bote Salvavidas — pequeño, urgente, decisivo en el momento exacto. El Barco de Investigación — no transporta pasajeros. La Nave Hospital — no avanza pero cura. El Submarino — agenda oculta, invisible por diseño. El Barco Fantasma — prosa bella sin argumento real.</p>
       </div>
-      <div class="clasificacion-nave">
-        <div class="nave-arquetipo">Biografía o historia</div>
-        <div class="nave-registro">La línea de vida o de época con sus momentos decisivos, sus actores principales y sus consecuencias más duraderas. Máximo 10 oraciones.</div>
+
+      <div class="estrato" id="vehiculos-aereos">
+        <div class="estrato-numero">Vehículos aéreos</div>
+        <p>El Caza — rápido, preciso, diseñado para impacto único. El Bombardero Estratégico — lento, pesado, consecuencias amplias. El Avión de Carga — no hay glamour, hay entrega. La Avioneta — pequeña, personal, vulnerable al clima. El Globo — sin motor propio, va donde el viento lo lleva. El Dron — preciso, sin piloto visible, propósito opaco.</p>
+      </div>
+
+      <div class="estrato" id="vehiculos-terrestres">
+        <div class="estrato-numero">Vehículos terrestres</div>
+        <p>La Locomotora — arrastra formaciones enteras, no cambia de vía. El Tren de Mercancías — largo, sistemático, carga pesada, pocas paradas. El Tanque — blindado, lento, avasallador. El Camión de Carga — práctico, sin pretensiones, hace el trabajo. El Jeep de Reconocimiento — entra donde los demás no pueden. El Automóvil de Lujo — diseño impecable, uso cuestionable. La Motocicleta — ágil, expuesta, solo funciona si el piloto es bueno.</p>
+      </div>
+
+      <div class="estrato" id="vehiculos-inutiles">
+        <div class="estrato-numero">Vehículos inútiles o dañinos <em>(aplican a cualquier dominio)</em></div>
+        <p>El Vehículo Encallado — buenas ideas mal ejecutadas. El Vehículo Museo — existe para ser contemplado, no para operar. El Vehículo Cargado de Pólvora — ideología explosiva disfrazada de argumento. El Naufragio / Desastre Flotante — ideas refutadas que siguen circulando. El Iceberg — lo visible es mínimo, lo oculto puede hundir.</p>
       </div>
     </section>
 
-    <!-- ARQUETIPOS -->
-    <section class="modulo etiquetado" id="arquetipos">
+    <!-- LAS SEIS MIRADAS -->
+    <section class="modulo inspeccion" id="miradas">
       <div class="modulo-cabecera">
-        <h2>Arquetipos de nave</h2>
+        <h2>Las seis miradas</h2>
       </div>
       <div class="bitacora">
-        <p>Todo corpus recibe una clasificación. Las categorías pueden combinarse.</p>
+        <p>La nomenclatura se adapta al dominio. La exhaustividad no.</p>
       </div>
 
-      <div class="laboratorio-seccion">
-        <h3 id="naves-valor">Naves que valen el viaje</h3>
-
-        <div class="lente">
-          <div class="lente-numero">El Galeón</div>
-          <p>Grande, sólido, cargado de valor real. Bueno: imponente y generoso. Regular: la carga es menor de lo que sugiere el tamaño. Malo: enorme y vacío al llegar.</p>
+      <div class="fallas-cierre">
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Mirada 1 — La estructura que aguanta el peso</strong> — Casco y Quilla / Fuselaje / Chasis. El argumento central y la tesis: ¿soportan el viaje completo?</div>
+          <div class="falla-tipo">Estrato 1</div>
         </div>
-
-        <div class="lente">
-          <div class="lente-numero">La Carabela</div>
-          <p>Modesta pero perfectamente construida para lo que hace. Buena: honesta, llega con carácter. Regular: llega, sí, pero sin carácter propio. Mala: la humildad como excusa para no revisar el trabajo.</p>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Mirada 2 — Corrientes, Vientos y Terreno</strong> — Las fuerzas externas que empujan el vehículo aunque el operador no las vea.</div>
+          <div class="falla-tipo">Estrato 2</div>
         </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Velero</div>
-          <p>Ligero, depende del viento del lector. Bueno: recompensa al que sabe leer el viento. Regular: sin viento favorable no llega. Malo: la dificultad como disfraz del vacío.</p>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Mirada 3 — Cómo está construido por dentro</strong> — Arquitectura interna, simetrías y desequilibrios reveladores.</div>
+          <div class="falla-tipo">Estrato 3</div>
         </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Bote Salvavidas</div>
-          <p>Pequeño, urgente, decisivo en el momento exacto. Bueno: en el momento exacto puede ser lo más importante del océano. Regular: fuera de emergencia se nota lo básico. Malo: tiene fugas.</p>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Mirada 4 — Profundidad de Ruta</strong> — La ética, la ontología y las verdades que el texto no puede nombrar sin hundirse, estrellarse o descarrilarse.</div>
+          <div class="falla-tipo">Estrato 4</div>
         </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Barco de Investigación</div>
-          <p>No transporta datos: los busca. Bueno: lo que trae vale el viaje. Regular: árido sin necesidad. Malo: rigor como decorado.</p>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Mirada 5 — El Operador y su Sombra</strong> — Las proyecciones, obsesiones y arquetipos que el autor opera sin saberlo. Capitán / Piloto / Conductor, según el dominio.</div>
+          <div class="falla-tipo">Estrato 5</div>
         </div>
-
-        <div class="lente">
-          <div class="lente-numero">La Nave Hospital</div>
-          <p>No avanza pero cura. Buena: alivia con eficacia genuina. Regular: consuelo superficial. Mala: administra dependencia.</p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3 id="naves-peligrosas">Naves peligrosas</h3>
-
-        <div class="lente">
-          <div class="lente-numero">El Barco Pirata</div>
-          <p>Navega bajo bandera falsa. Bueno: coherente en su engaño. Regular: el engaño se nota a media travesía. Malo: ni siquiera engaña bien.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Barco Fantasma</div>
-          <p>Prosa bella sin argumento real. Bueno: la atmósfera es genuinamente extraordinaria. Regular: la niebla es densa. Malo: imita el vacío profundo sin lograrlo.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Submarino</div>
-          <p>Agenda oculta, invisible por diseño. Bueno: solo detectable con instrumentos finos. Regular: deja estela. Malo: aguas poco profundas.</p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3 id="naves-inutiles">Naves inútiles</h3>
-
-        <div class="lente">
-          <div class="lente-numero">La Balsa</div>
-          <p>Flota, apenas. Buena: al menos no miente. Regular: requiere más de lo que justifica. Mala: se desarma al primer escrutinio.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Barco Encallado</div>
-          <p>Buenas ideas mal ejecutadas. Bueno: el naufragio es una pérdida real. Regular: las señales estaban desde el principio. Malo: nunca tuvo posibilidades.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Crucero Turístico</div>
-          <p>Entretenido, destino irrelevante. Bueno: honesto sobre lo que es. Regular: incomodidad entre crucero y galeón. Malo: aburrido además de vacío.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">La Nave Museo</div>
-          <p>Existe para ser contemplada, no para navegar. Buena: erudición como fin ejecutada con virtuosismo. Regular: el museo está mal curado. Mala: vitrinas vacías detrás del cristal.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Galeón Hundido</div>
-          <p>Fue grande, ya no navega. Bueno: en el fondo hay ideas que adelantaron su tiempo. Regular: material de época. Malo: su reputación fue mayor que su contenido.</p>
-        </div>
-      </div>
-
-      <div class="laboratorio-seccion">
-        <h3 id="naves-daninas">Naves activamente dañinas</h3>
-
-        <div class="lente">
-          <div class="lente-numero">El Barco Cargado de Pólvora</div>
-          <p>Ideología explosiva disfrazada de argumento. Bueno: honesto sobre su naturaleza. Regular: pólvora mal empacada. Malo: cree que es pólvora pero es ruido.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Naufragio Flotante</div>
-          <p>Ideas refutadas que siguen circulando. Bueno: fragmentos genuinos entre el naufragio. Regular: principalmente espuma. Malo: se cita por inercia, no por valor.</p>
-        </div>
-
-        <div class="lente">
-          <div class="lente-numero">El Iceberg</div>
-          <p>Lo visible es mínimo, lo oculto puede hundir. Bueno: lo visible es sólido, el peligro está abajo. Regular: iceberg sin masa real. Malo: hielo superficial disfrazado de profundidad.</p>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Mirada 6 — De dónde viene y qué trae</strong> — Puerto, aeropuerto o estación de origen. Época. Carga declarada versus real.</div>
+          <div class="falla-tipo">Estrato 6</div>
         </div>
       </div>
     </section>
@@ -402,70 +357,107 @@
         <h2>Veredictos de zarpe</h2>
       </div>
       <div class="bitacora">
-        <p>Uno de cinco. Con justificación de una línea.</p>
+        <p>Cinco categorías. Una línea de justificación. Sin eufemismos.</p>
       </div>
 
-      <div class="veredicto zarpe-autorizado">
-        <div class="veredicto-categoria">Zarpe autorizado</div>
-        <div class="veredicto-justificacion">Sólido, honesto, vale el viaje.</div>
-      </div>
-
-      <div class="veredicto zarpe-advertencias">
-        <div class="veredicto-categoria">Zarpe autorizado con advertencias</div>
-        <div class="veredicto-justificacion">Zarpa pero con riesgos específicos declarados.</div>
-      </div>
-
-      <div class="veredicto zarpe-parcial">
-        <div class="veredicto-categoria">Zarpe parcial recomendado</div>
-        <div class="veredicto-justificacion">Hay valor, pero no en su totalidad. Se especifica qué secciones merecen el viaje.</div>
-      </div>
-
-      <div class="veredicto embargo">
-        <div class="veredicto-categoria">Embargo preventivo</div>
-        <div class="veredicto-justificacion">Carga sospechosa o peligrosa. No zarpa.</div>
-      </div>
-
-      <div class="veredicto hundimiento">
-        <div class="veredicto-categoria">Hundimiento recomendado</div>
-        <div class="veredicto-justificacion">No hay nada que salvar. Se explica con precisión.</div>
+      <div class="fallas-cierre">
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Zarpe autorizado</strong> — Sólido, honesto, vale el viaje.</div>
+          <div class="falla-tipo">Veredicto</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Zarpe autorizado con advertencias</strong> — Zarpa pero con riesgos específicos declarados.</div>
+          <div class="falla-tipo">Veredicto</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Zarpe parcial recomendado</strong> — Hay valor, pero no en su totalidad. Se especifica qué secciones.</div>
+          <div class="falla-tipo">Veredicto</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Embargo preventivo</strong> — Carga sospechosa o peligrosa. No zarpa.</div>
+          <div class="falla-tipo">Veredicto</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Hundimiento recomendado</strong> — No hay nada que salvar. Se explica con precisión.</div>
+          <div class="falla-tipo">Veredicto</div>
+        </div>
       </div>
     </section>
 
     <!-- FALLAS DE CIERRE -->
     <section class="modulo etiquetado" id="fallas">
       <div class="modulo-cabecera">
-        <h2>Lo que queda picando</h2>
+        <h2>Fallas de cierre</h2>
       </div>
       <div class="bitacora">
-        <p>Las preguntas abiertas son el predictor más robusto de inagotabilidad — 13/13 corpus confirmados.</p>
+        <p>Las preguntas que el corpus activa y no resuelve. Las abiertas predicen inagotabilidad.</p>
       </div>
 
       <div class="fallas-cierre">
         <div class="falla abierta">
-          <div class="falla-pregunta">Abierta — El corpus activa la pregunta y no la resuelve. El lector la sigue cargando.</div>
-          <div class="falla-tipo">Abierta · Predictor de inagotabilidad</div>
+          <div class="falla-pregunta"><strong>Abierta</strong> — El corpus la plantea y no puede responderla. El predictor más robusto de inagotabilidad.</div>
+          <div class="falla-tipo">Tipo</div>
         </div>
-        <div class="falla">
-          <div class="falla-pregunta">Abandonada — El corpus empieza a trabajar la pregunta y la deja caer sin señalarlo.</div>
-          <div class="falla-tipo">Abandonada</div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Abandonada</strong> — El corpus la plantea, la deja a medias sin deliberación aparente.</div>
+          <div class="falla-tipo">Tipo</div>
         </div>
         <div class="falla cerrada">
-          <div class="falla-pregunta">Cerrada — El corpus resuelve la pregunta. La resolución puede ser honesta o forzada.</div>
-          <div class="falla-tipo">Cerrada</div>
+          <div class="falla-pregunta"><strong>Cerrada</strong> — El corpus la resuelve satisfactoriamente.</div>
+          <div class="falla-tipo">Tipo</div>
         </div>
-        <div class="falla">
-          <div class="falla-pregunta">Performativa — El corpus finge no resolver la pregunta pero la cierra por otros medios.</div>
-          <div class="falla-tipo">Performativa</div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Performativa</strong> — La forma de la pregunta es parte de la respuesta; no puede cerrarse sin destruirse.</div>
+          <div class="falla-tipo">Tipo</div>
         </div>
-        <div class="falla">
-          <div class="falla-pregunta">Asimétrica — El corpus resuelve una versión de la pregunta pero deja intacta la versión más profunda.</div>
-          <div class="falla-tipo">Asimétrica</div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Asimétrica</strong> — Se responde de forma distinta para personajes o grupos distintos; la asimetría es el hallazgo.</div>
+          <div class="falla-tipo">Tipo</div>
+        </div>
+        <div class="falla raiz">
+          <div class="falla-pregunta"><strong>Falla raíz</strong> — Aquella de la que emergen todas las demás. Se señala añadiendo "· Raíz".</div>
+          <div class="falla-tipo">Raíz</div>
         </div>
       </div>
 
-      <div class="apertura-total">
-        Apertura total
-        <span>n / total</span>
+      <p>La <strong>Coordenada Histórica</strong> ubica el ratio de apertura de este lote en relación al historial acumulado del Registro de Lotes. Requiere que el Registro sea entregado al inicio de la sesión. Si no se entrega, el campo se omite sin disculpa.</p>
+    </section>
+
+    <!-- REGISTRO DE LOTES -->
+    <section class="modulo recepcion" id="registro-lotes">
+      <div class="modulo-cabecera">
+        <h2>El Registro de Lotes</h2>
+      </div>
+      <div class="bitacora">
+        <p>El historial acumulado de la Destilería. La memoria del taller.</p>
+      </div>
+
+      <p>El Registro de Lotes es un archivo Markdown con un bloque de siete campos por lote, en orden ascendente de número. Permite al sistema calcular la Coordenada Histórica — una línea que ubica el lote actual en relación al taller completo.</p>
+
+      <div class="fallas-cierre">
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Cuándo entregarlo</strong> — Al inicio de cada sesión, junto con el corpus. Pegado en el primer mensaje. El sistema lo detecta y lo usa.</div>
+          <div class="falla-tipo">Protocolo</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Cuándo actualizarlo</strong> — Al final de cada análisis, el sistema entrega el bloque del lote nuevo. El usuario lo copia al Registro antes de la próxima sesión.</div>
+          <div class="falla-tipo">Protocolo</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Qué hace el sistema con él</strong> — Lee apertura promedio, rango histórico, estrategias de grandeza e Imanes. Genera la Coordenada Histórica. No interpreta los patrones — los reporta con precisión.</div>
+          <div class="falla-tipo">Protocolo</div>
+        </div>
+      </div>
+
+      <div class="nota-naval">
+        <p><strong>Formato del bloque de lote:</strong></p>
+        <p><strong>Lote [NNN]</strong> — <em>[Título]</em> · [Autor] · [Mes AAAA]<br>
+        <strong>Apertura</strong> — [n/total]<br>
+        <strong>Tipo de cierre dominante</strong> — [dominante, con tipos secundarios]<br>
+        <strong>Falla raíz</strong> — [la pregunta raíz]<br>
+        <strong>El Imán</strong> — [concepto] · [tipo de curvatura] · [par asimétrico si existe]<br>
+        <strong>Estrategia de grandeza</strong> — [nombre de la estrategia]<br>
+        <strong>El Palimpsesto</strong> — [declarado con descripción breve / No declarado]</p>
       </div>
     </section>
 
@@ -475,58 +467,29 @@
         <h2>Taxonomía de bebidas</h2>
       </div>
       <div class="bitacora">
-        <p>La elección de bebida debe generar sorpresa y reconocimiento simultáneos. Nunca lo obvio.</p>
+        <p>La nota de cata caracteriza con precisión. No elogia ni condena.</p>
       </div>
 
-      <div class="nota-de-cata">
-        <div class="cata-titulo">Destilados nobles — alta densidad intelectual, largo aliento</div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Tipos</div>
-          <div class="campo-cata-valor">Whisky de malta · Cognac · Armagnac · Mezcal artesanal · Ron añejo</div>
+      <div class="fallas-cierre">
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Destilados nobles</strong> (alta densidad intelectual, largo aliento) — Whisky de malta · Cognac · Armagnac · Mezcal artesanal · Ron añejo</div>
+          <div class="falla-tipo">Categoría</div>
         </div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Bueno</div>
-          <div class="campo-cata-valor">Promesa cumplida con carácter genuino</div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Fermentados</strong> (complejidad media, terroir cultural fuerte) — Vino de terroir · Vino natural · Cerveza artesanal · Cerveza industrial · Sidra</div>
+          <div class="falla-tipo">Categoría</div>
         </div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Regular</div>
-          <div class="campo-cata-valor">Funciona sin sorpresa</div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Infusiones y rituales</strong> (ritmo lento, contemplación) — Café de especialidad · Mate · Té de origen · Agua mineral de manantial</div>
+          <div class="falla-tipo">Categoría</div>
         </div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Malo</div>
-          <div class="campo-cata-valor">Tipo correcto, mal ejecutado o falsificado</div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Populares y culturales</strong> (gran alcance, audiencias amplias) — Refresco de cola · Jugo de fruta natural · Limonada</div>
+          <div class="falla-tipo">Categoría</div>
         </div>
-      </div>
-
-      <div class="nota-de-cata">
-        <div class="cata-titulo">Fermentados — complejidad media, terroir cultural fuerte</div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Tipos</div>
-          <div class="campo-cata-valor">Vino de terroir · Vino natural · Cerveza artesanal · Cerveza industrial · Sidra</div>
-        </div>
-      </div>
-
-      <div class="nota-de-cata">
-        <div class="cata-titulo">Infusiones y rituales — ritmo lento, contemplación</div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Tipos</div>
-          <div class="campo-cata-valor">Café de especialidad · Mate · Té de origen · Agua mineral de manantial</div>
-        </div>
-      </div>
-
-      <div class="nota-de-cata">
-        <div class="cata-titulo">Populares y culturales — gran alcance, audiencias amplias</div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Tipos</div>
-          <div class="campo-cata-valor">Refresco de cola · Jugo de fruta natural · Limonada</div>
-        </div>
-      </div>
-
-      <div class="nota-de-cata">
-        <div class="cata-titulo">Sagrados y psicoactivos — alteran la percepción, transforman</div>
-        <div class="campo-cata">
-          <div class="campo-cata-nombre">Tipos</div>
-          <div class="campo-cata-valor">Ayahuasca · Pulque de maguey · Absenta · Kombucha madre</div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Sagrados y psicoactivos</strong> (alteran la percepción, transforman) — Ayahuasca · Pulque de maguey · Absenta · Kombucha madre</div>
+          <div class="falla-tipo">Categoría</div>
         </div>
       </div>
     </section>
@@ -537,11 +500,10 @@
         <h2>La Partitura</h2>
       </div>
       <div class="bitacora">
-        <p>La nave dice cómo está construido. La música dice cómo respira.</p>
+        <p>El vehículo dice cómo está construido. La música dice cómo respira.</p>
       </div>
-      <p>Dentro del Módulo de Inspección, después del Veredicto y la Nota Naval, el sistema escucha el corpus. La partitura tiene dos partes en orden.</p>
-      <p>El movimiento: 80 a 120 palabras de prosa poética que describen el corpus como si fuera música. Su pulso, su instrumentación, si es solista o coral, si hay contrapunto o una sola voz que no cede, si tiene silencio estructural o ruido continuo, si resuelve o se interrumpe. No describe ninguna pieza real: describe la partitura imaginaria del corpus.</p>
-      <p>La pieza: una sola obra real y escuchable. Título, compositor o intérprete, y una línea de justificación. Puede ser de cualquier género — música de cámara, jazz, electrónica, folk, ópera, ambient. La pieza debe ser localizable en Spotify, YouTube u otra plataforma de acceso común. Debe cumplir al menos una de estas funciones: crear la atmósfera justa para leer el corpus, o revelar algo sobre su naturaleza que el análisis no alcanzó a decir con palabras. La misma exigencia de sorpresa y reconocimiento simultáneos que la nota de cata.</p>
+      <p>Dentro del Módulo de Inspección, el sistema escucha el corpus. La partitura tiene dos partes: primero, el corpus descrito como música — su pulso, su instrumentación, si es solista o coral, si resuelve o se interrumpe. Luego, una pieza real y escuchable: título, autor o intérprete, y una línea de justificación. Puede ser de cualquier género. Lo que el corpus exija, no lo que suene culto.</p>
+      <p>La pieza debe existir y ser localizable en Spotify, YouTube u otra plataforma de acceso común. Nunca una obra inventada. Nunca la elección obvia o decorativa.</p>
     </section>
 
     <!-- LA SENTENCIA FINAL -->
@@ -550,10 +512,51 @@
         <h2>La Sentencia Final</h2>
       </div>
       <div class="bitacora">
-        <p>La moraleja explica. La sentencia corta.</p>
+        <p>Dos o tres líneas. El juicio definitivo. La moraleja explica; la sentencia corta.</p>
       </div>
-      <p>Al cierre del Módulo Etiquetado, después de la Estrategia de Grandeza y antes de la imagen final, el Alambique emite su juicio en forma de sentencia. Dos o tres líneas de prosa densa. El Alambique habla en primera persona y dice lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía.</p>
-      <p>No es moraleja —la moraleja explica. No es resumen —el análisis ya resumió. No es recomendación de lectura —el Veredicto de Zarpe ya decidió. Es sentencia: la forma más comprimida del juicio, sin atenuantes ni eufemismos. Si el corpus es extraordinario, la sentencia lo dice sin celebración. Si es un fraude, lo dice sin crueldad innecesaria. Si es una promesa no cumplida, nombra exactamente qué faltó.</p>
+      <p>Al cierre del Módulo Etiquetado, el Alambique habla en primera persona y emite su veredicto definitivo sobre lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía. No es moraleja, no es resumen, no es recomendación de lectura. Es sentencia: la forma más comprimida del juicio, sin atenuantes ni eufemismos. Si el corpus es extraordinario, la sentencia lo dice sin celebración. Si es un fraude, lo dice sin crueldad innecesaria.</p>
+    </section>
+
+    <!-- LOS PROMPTS DE IMAGEN -->
+    <section class="modulo alambique" id="imagenes">
+      <div class="modulo-cabecera">
+        <h2>Los prompts de imagen</h2>
+      </div>
+      <div class="bitacora">
+        <p>Doce prompts por análisis. Dos por módulo. El usuario elige de cada par.</p>
+      </div>
+      <p>Cada análisis produce doce prompts de imagen — dos por módulo. Dentro de cada par, los dos prompts difieren en estrategia, no solo en detalle: el usuario elige cuál encarga al generador de imágenes. Nunca desde plantilla genérica: cada corpus genera imágenes radicalmente distintas a cualquier corpus anterior.</p>
+
+      <div class="fallas-cierre">
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Imagen de Presentación (A+B)</strong> — El producto de la Destilería como objeto editorial físico. A: libro cerrado sobre superficie. B: libro en uso, abierto o junto a instrumentos de análisis.</div>
+          <div class="falla-tipo">Imagen 1</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Imagen de Recepción (A+B)</strong> — La atmósfera del corpus encarnada. Dos estrategias distintas en naturaleza, no solo en detalle.</div>
+          <div class="falla-tipo">Imagen 2</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Imagen de Destilación (A+B)</strong> — La nota de cata encarnada. A: íntima, el recipiente o el momento. B: expansiva, el efecto o la atmósfera.</div>
+          <div class="falla-tipo">Imagen 3</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Imagen de Inspección (A+B)</strong> — El vehículo en el escenario que su veredicto exige. A: escenario exterior, el vehículo visto desde fuera. B: sección transversal, el interior expuesto.</div>
+          <div class="falla-tipo">Imagen 4</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Imagen de Laboratorio (A+B)</strong> — El momento del hallazgo. A: el objeto encontrado en el fondo. B: el instrumento que lo reveló.</div>
+          <div class="falla-tipo">Imagen 5</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Imagen de Topología y Firma (A+B)</strong> — La inagotabilidad del corpus hecha visible. A: como fenómeno exterior. B: como experiencia del lector después de la última página.</div>
+          <div class="falla-tipo">Imagen 6</div>
+        </div>
+        <div class="falla abierta">
+          <div class="falla-pregunta"><strong>Imagen de Flota</strong> — Solo en Modo 4. Todas las obras del autor en una imagen panorámica. La posición, el tamaño y el estado de cada vehículo dicen lo que ningún listado puede decir.</div>
+          <div class="falla-tipo">Imagen 7 · Modo 4</div>
+        </div>
+      </div>
     </section>
 
     <!-- ESTRATEGIAS DE GRANDEZA -->
@@ -567,7 +570,7 @@
 
       <div class="estrategia-grandeza">
         <div class="campo-nombre">Documentadas</div>
-        <div class="campo-valor">Concentración estática · Complejidad máxima · Ondulación majestuosa · Simplicidad dinámica · Espiral reveladora · Sustracción sistemática · Concentración con anti-estrella · Sustracción asimétrica · Complejidad máxima distribuida · Complejidad máxima por testimonio en primera persona · Variante del testigo que cede la voz</div>
+        <div class="campo-valor">Concentración estática · Complejidad máxima · Ondulación majestuosa · Simplicidad dinámica · Espiral reveladora · Sustracción sistemática · Concentración con anti-estrella · Sustracción asimétrica · Complejidad máxima distribuida · Complejidad máxima por testimonio en primera persona · Variante del testigo que cede la voz · Esconde sus preguntas más urgentes dentro de sus chistes más livianos</div>
       </div>
     </section>
 
@@ -577,7 +580,64 @@
         <h2>Lotes producidos</h2>
       </div>
       <div class="bitacora">
-        <p>Inventario de corpus destilados.</p>
+        <p>Inventario de corpus destilados · 8 lotes · Abr 2024 – Abr 2026</p>
+      </div>
+
+      <div class="ficha-recepcion">
+        <div class="ficha-seccion-titulo">Lote 008 · Abr 2026</div>
+        <h3><a href="destilaciones/008_asimov_obra_completa.html">Isaac Asimov — Obra completa</a></h3>
+        <div class="transicion-nota">Isaac Asimov · 1950–1992</div>
+        <div class="extracto"><p>El sistema más grande de la ciencia ficción del siglo XX y la pregunta que no se atrevió a formular.</p></div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Cata</span>
+          <span class="ficha-campo-valor italic">Whisky de malta de isla, edad declarada, lote de síntesis 1992</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
+          <span class="ficha-campo-valor">Flota completa (21 naves) · <span class="c-oro">Zarpe autorizado con advertencias de ruta</span></span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre"></span>
+          <span class="ficha-campo-valor"><a href="destilaciones/008_asimov_obra_completa.html">Ver destilado →</a></span>
+        </div>
+      </div>
+
+      <div class="ficha-recepcion">
+        <div class="ficha-seccion-titulo">Lote 007 · Abr 2026</div>
+        <h3><a href="destilaciones/007_alicia_espejo_snark.html">Alicia en el País de las Maravillas · A través del Espejo · La Caza del Snark</a></h3>
+        <div class="transicion-nota">Lewis Carroll · 1865–1876</div>
+        <div class="extracto"><p>El corpus que descubrió que el lenguaje nunca es neutral y lo dijo con la voz de una niña de siete años.</p></div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Cata</span>
+          <span class="ficha-campo-valor italic">Absenta artesanal, buena</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
+          <span class="ficha-campo-valor">Velero (bueno) · <span class="c-oro">Zarpe autorizado</span></span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre"></span>
+          <span class="ficha-campo-valor"><a href="destilaciones/007_alicia_espejo_snark.html">Ver destilado →</a></span>
+        </div>
+      </div>
+
+      <div class="ficha-recepcion">
+        <div class="ficha-seccion-titulo">Lote 006 · Abr 2026</div>
+        <h3><a href="destilaciones/006_anna_karenina.html">Anna Karénina</a></h3>
+        <div class="transicion-nota">Lev Tolstói · 1877</div>
+        <div class="extracto"><p>Dos vidas paralelas: una que se destruye por amor y otra que aprende a vivir sin teoría.</p></div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Cata</span>
+          <span class="ficha-campo-valor italic">Cognac de gran reserva, doble barrica, asimétrico</span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
+          <span class="ficha-campo-valor">Galeón doble · <span class="c-oro">Zarpe autorizado</span></span>
+        </div>
+        <div class="ficha-campo">
+          <span class="ficha-campo-nombre"></span>
+          <span class="ficha-campo-valor"><a href="destilaciones/006_anna_karenina.html">Ver destilado →</a></span>
+        </div>
       </div>
 
       <div class="ficha-recepcion">
@@ -590,7 +650,7 @@
           <span class="ficha-campo-valor italic">Mezcal de tepextate añejo</span>
         </div>
         <div class="ficha-campo">
-          <span class="ficha-campo-nombre">Nave / Veredicto</span>
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
           <span class="ficha-campo-valor">El Galeón · <span class="c-oro">Zarpe autorizado</span></span>
         </div>
         <div class="ficha-campo">
@@ -601,15 +661,15 @@
 
       <div class="ficha-recepcion">
         <div class="ficha-seccion-titulo">Lote 004 · Abr 2026</div>
-        <h3><a href="destilaciones/004_cosmere_sanderson.html">Cosmere</a></h3>
-        <div class="transicion-nota">Brandon Sanderson · 2005-2024</div>
+        <h3><a href="destilaciones/004_cosmere_sanderson.html">El Cosmere</a></h3>
+        <div class="transicion-nota">Brandon Sanderson · 2005–2024</div>
         <div class="extracto"><p>Sistemas de magia lógica y mundos vastos entrelazados en una arquitectura épica, donde el honor y la redención forjan leyendas.</p></div>
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Cata</span>
           <span class="ficha-campo-valor italic">Mezcal de agave tepextate, destilado en arcilla</span>
         </div>
         <div class="ficha-campo">
-          <span class="ficha-campo-nombre">Nave / Veredicto</span>
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
           <span class="ficha-campo-valor">El Galeón · <span class="c-oro">Zarpe autorizado con advertencias</span></span>
         </div>
         <div class="ficha-campo">
@@ -628,7 +688,7 @@
           <span class="ficha-campo-valor italic">Mezcal artesanal</span>
         </div>
         <div class="ficha-campo">
-          <span class="ficha-campo-nombre">Nave / Veredicto</span>
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
           <span class="ficha-campo-valor">El Submarino · <span class="c-oro">Zarpe autorizado con advertencias</span></span>
         </div>
         <div class="ficha-campo">
@@ -644,10 +704,10 @@
         <div class="extracto"><p>Un recorrido por diez filósofos capitales de Occidente para hacer la filosofía accesible al profano.</p></div>
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Cata</span>
-          <span class="ficha-campo-valor">Cognac de gran reserva</span>
+          <span class="ficha-campo-valor italic">Cognac de gran reserva</span>
         </div>
         <div class="ficha-campo">
-          <span class="ficha-campo-nombre">Nave / Veredicto</span>
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
           <span class="ficha-campo-valor">El Galeón · <span class="c-oro">Zarpe autorizado con advertencias</span></span>
         </div>
         <div class="ficha-campo">
@@ -657,16 +717,16 @@
       </div>
 
       <div class="ficha-recepcion">
-        <div class="ficha-seccion-titulo">Lote 001 · Mar 2026</div>
+        <div class="ficha-seccion-titulo">Lote 001 · Abr 2024</div>
         <h3><a href="destilaciones/001_oriental_heritage.html">Nuestra Herencia Oriental</a></h3>
         <div class="transicion-nota">Will Durant · 1935</div>
-        <div class="extracto"><p>Enfrentamiento de Occidente con sus raíces orientales. Una arqueología del progreso humano.</p></div>
+        <div class="extracto"><p>Monumental crónica del inicio de la civilización: desde el Cercano Oriente hasta Extremo Oriente, entrelazando política, fe, arte y vida cotidiana.</p></div>
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Cata</span>
-          <span class="ficha-campo-valor">Cognac Grand Millésime</span>
+          <span class="ficha-campo-valor italic">Cognac Grand Millésime</span>
         </div>
         <div class="ficha-campo">
-          <span class="ficha-campo-nombre">Nave / Veredicto</span>
+          <span class="ficha-campo-nombre">Vehículo / Veredicto</span>
           <span class="ficha-campo-valor">El Galeón · <span class="c-oro">Zarpe autorizado con advertencias</span></span>
         </div>
         <div class="ficha-campo">
@@ -681,7 +741,7 @@
 
   <!-- PIE -->
   <footer class="pie-documento">
-    <div class="pie-sello">Destilería Osmancito · Sistema v6.0<br>Entra la materia prima. Sale el destilado puro.<br>Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.<br>Novedades v6.0: Mapa de Hechos · Umbrales narrativos por módulo · Nombres de calle para el lector · Modo 5 Corpus Fragmentado · Escala de sesiones a 400 palabras por página.</div>
+    <div class="pie-sello">Destilería Osmancito · Sistema v7.2<br>Entra la materia prima. Sale el destilado puro.<br>Cuatro módulos. Doce prompts de imagen. Una partitura. Una flota, cuando el autor lo merece.<br>Novedades v7.2: Inspección expandida a tierra-mar-aire · Doce prompts de imagen · Registro de Lotes formalizado.</div>
   </footer>
 
 </body>

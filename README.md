@@ -1,5 +1,5 @@
 # Destilería Osmancito — Sistema de Lectura Profunda
-*v6.0 · 2026-04-20*
+*v7.2 · 2026-05-01*
 
 ---
 
@@ -13,19 +13,19 @@ El sistema opera siempre en español, sin importar el idioma del corpus. Sin pau
 
 ## Qué produce
 
-Cuatro módulos en secuencia. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.
+Cuatro módulos en secuencia. Doce prompts de imagen (dos por módulo). Una partitura. Una flota, cuando el autor lo merece.
 
 **Módulo Alambique — Destilación**
-El corpus se transforma. Primero el destilado maestro: 300 a 500 palabras de prosa literaria que encarna el libro sin resumirlo. Luego barrica por barrica: el extracto de cada capítulo y las joyas — los fragmentos que sobreviven solos, que alguien repetiría años después. Al final, la cartografía del conjunto y la nota de cata: el corpus descrito como si fuera una bebida.
+El corpus se transforma. Primero el destilado maestro: 300 a 500 palabras de prosa literaria que encarna el libro sin resumirlo. Luego barrica por barrica: el extracto de cada capítulo y las joyas — los fragmentos que sobreviven solos, en tres escalas (microscópica, mesoscópica, macroscópica). Al final, la cartografía del conjunto y la nota de cata: el corpus descrito como si fuera una bebida.
 
 **Módulo Control de Calidad — Inspección**
-El corpus se examina como una embarcación. Se le asigna un arquetipo de nave — desde el Galeón hasta el Naufragio Flotante — y se somete a seis estratos de inspección: estructura argumental, fuerzas externas, arquitectura interna, profundidad ontológica, proyecciones del autor, origen y carga real. La Nota Naval describe la nave en prosa poética. La Partitura la escucha. El Veredicto de Zarpe decide si sale.
+El corpus se examina como un vehículo: naval, aéreo o terrestre. Se le asigna un arquetipo y se somete a seis miradas de inspección exhaustiva: estructura argumental, fuerzas externas, arquitectura interna, profundidad ética, proyecciones del operador, origen y carga real. La Nota de Ruta describe el vehículo en prosa poética. La Partitura lo escucha. El Veredicto de Zarpe decide si vale el viaje.
 
 **Módulo Laboratorio — Análisis de Sedimento**
 Lo que queda en el fondo del alambique. Las ausencias que el corpus rodea sin nombrar. Los síntomas de sus inconsistencias. Los patrones con recurrencia anómala. Cuatro lentes que leen el mismo texto desde ángulos distintos: lo que dice, lo que muestra, lo que exige, lo que guarda. Al final, la semilla: la proposición más irreducible del corpus.
 
 **Módulo Etiquetado — Topología y Firma**
-La etiqueta química del corpus. Las preguntas que dejó abiertas — lo que queda picando — y su proporción de apertura total. El imán: el concepto con mayor gravitación. La forma de la red conceptual. El truco que hace que no se olvide: el mecanismo por el que este corpus produce — o no — inagotabilidad. Al final, la Sentencia Final: dos o tres líneas donde el Alambique habla en primera persona y emite su juicio definitivo sobre lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía.
+La etiqueta química del corpus. Las preguntas que dejó abiertas y su proporción de apertura total. El imán: el concepto con mayor gravitación. La forma de la red conceptual. El truco que hace que no se olvide. La Sentencia Final. Y El Palimpsesto: el texto debajo del texto que solo aparece cuando se han agotado todas las miradas.
 
 ---
 
@@ -33,19 +33,19 @@ La etiqueta química del corpus. Las preguntas que dejó abiertas — lo que que
 
 **Corpus** — La materia prima. Todo lo que entra.
 
-**Las Joyas** — Los fragmentos que sobreviven solos. Lo que alguien repetiría años después. *(Nombre interno: fracciones nobles.)*
+**Las Joyas** — Los fragmentos y hallazgos que sobreviven solos. Operan en tres escalas: microscópica (el mecanismo dentro de la frase), mesoscópica (el fragmento citable verbatim) y macroscópica (el gesto que solo existe como totalidad). *(Nombre interno: fracciones nobles.)*
 
 **Extracto** — La esencia funcional de una barrica: qué ocurre aquí que importa para el todo.
 
-**Barrica** — Unidad por capítulo: extracto más joyas.
+**Barrica** — Unidad por capítulo: extracto + joyas + umbral del silencio (cuando existe).
 
 **Destilado maestro** — El epítome del corpus. Texto autónomo que encarna el libro sin resumirlo.
 
 **Nota de cata** — El corpus descrito como si fuera una bebida.
 
-**Nave / Capitán** — El corpus como embarcación; el autor como presencia que emerge del texto.
+**Vehículo / Operador** — El corpus como vehículo; el autor como presencia que emerge del texto. El vehículo puede ser naval (Nave / Capitán), aéreo (Aeronave / Piloto) o terrestre (Vehículo / Conductor). La elección del dominio es ya un diagnóstico.
 
-**Flota** — El conjunto de obras de un autor analizado en modo obra completa. Cada obra es una nave; la flota las muestra en relación.
+**Flota** — El conjunto de obras de un autor analizado en modo obra completa. Cada obra es un vehículo; la flota los muestra en relación.
 
 **Nave insignia** — La obra de mayor densidad y carácter dentro de una flota. No necesariamente la más conocida.
 
@@ -57,31 +57,37 @@ La etiqueta química del corpus. Las preguntas que dejó abiertas — lo que que
 
 **El truco que hace que no se olvide** — El mecanismo por el que este corpus produce —o no— inagotabilidad. *(Nombre interno: estrategia de grandeza.)*
 
-**Umbral** — La prosa narrativa que abre cada módulo. Pieza escrita desde el carácter específico de este corpus; sitúa al lector y lo envuelve en la metáfora del módulo antes de que empiece el análisis.
+**Umbral** — La prosa narrativa que abre cada módulo. Pieza escrita desde el carácter específico de este corpus.
+
+**El Palimpsesto** — El texto debajo del texto que ningún módulo buscaba específicamente. Aparece cuando se han agotado todas las miradas. Si no hay palimpsesto, el sistema lo declara sin disculparse. *(Nombre interno: hallazgo intersticial.)*
+
+**Nota de Ruta** — La prosa poética que describe el vehículo y su operador al final del módulo de inspección. Se denomina Nota Naval (naves), Nota de Vuelo (aeronaves) o Nota de Travesía (vehículos terrestres) según el dominio asignado.
+
+**Registro de Lotes** — El historial acumulado de la Destilería. Se entrega al inicio de cada sesión para activar la Coordenada Histórica. Se actualiza al final de cada análisis con el bloque del lote nuevo.
 
 ---
 
 ## Modos de entrada
 
-**Modo 1 — Archivo adjunto** — epub, pdf, txt, html adjunto a la sesión. El sistema registra y procede.
+**Modo 1 — Archivo adjunto** — epub, pdf, txt, html adjunto a la sesión.
 
 **Modo 2 — Título y autor** — Sin archivo. El sistema trabaja desde su conocimiento del corpus.
 
-**Modo 3 — ZIP plano** — epub descomprimido. Se activa el Protocolo ZIP: el sistema lee la estructura, clasifica los archivos, ejecuta el manifiesto y delimita el corpus antes de proceder.
+**Modo 3 — ZIP plano** — epub descomprimido. Se activa el Protocolo ZIP.
 
-**Modo 4 — Obra completa** — Solo el nombre del autor, sin corpus específico. Se activa el Protocolo Flota: el sistema delimita la obra conocida, asigna arquetipos, identifica la nave insignia, y ejecuta el análisis de cada obra en formato comprimido. La Imagen de Flota reemplaza las imágenes de inspección individuales y muestra todas las naves del autor en relación.
+**Modo 4 — Obra completa** — Solo el nombre del autor. Se activa el Protocolo Flota.
 
-**Modo 5 — Corpus fragmentado** — El corpus supera las 100.000 palabras y se procesa en sesiones independientes. Se activa el Protocolo de Fragmentación. La regla: dividir el número de palabras entre 100.000 y redondear hacia arriba. Ese número es la cantidad de sesiones necesarias. Cada sesión de fragmento produce sus barricas completas más un Bloque de Estado de 200 a 300 palabras. La sesión de síntesis — siempre la última — recibe todos los Bloques de Estado y todas las barricas, y construye el documento final.
+**Modo 5 — Corpus fragmentado** — Corpus superior a 100.000 palabras, procesado en sesiones. Se activa el Protocolo de Fragmentación.
 
 ---
 
 ## El Mapa de Hechos
 
-Nuevo en v6.0. Tercera sección de la Ficha de Recepción. Lo que el lector necesita saber antes de entrar al análisis. No interpreta — orienta. Su contenido varía según el tipo de corpus:
+Tercera sección de la Ficha de Recepción. Lo que el lector necesita saber antes de entrar al análisis. No interpreta — orienta.
 
 En narrativa: el arco completo de eventos con nombres propios, causas y consecuencias. Máximo 10 oraciones.
 
-En ensayo o no ficción: el mapa de argumentos centrales, sus articulaciones y sus fisuras principales. Máximo 8 oraciones.
+En ensayo o no ficción: el mapa de argumentos centrales, sus articulaciones y sus fisuras. Máximo 8 oraciones.
 
 En poesía: el territorio emocional e imaginario del conjunto. Máximo 6 oraciones.
 
@@ -89,47 +95,17 @@ En biografía o historia: la línea de vida o de época con sus momentos decisiv
 
 ---
 
-## La Partitura
+## Los arquetipos de vehículo
 
-Dentro del Módulo de Inspección, después del Veredicto y la Nota Naval, el sistema escucha el corpus. La partitura tiene dos partes: primero, el corpus descrito como música — su pulso, su instrumentación, si es solista o coral, si resuelve o se interrumpe. Luego, una pieza real y escuchable: título, autor o intérprete, y una línea de justificación. La pieza debe ser localizable en Spotify, YouTube u otra plataforma de acceso común. Puede ser de cualquier género. Lo que el corpus exija, no lo que suene culto.
+El corpus recibe el arquetipo que mejor encarna su naturaleza — su velocidad, su carga, su medio, su propósito. La elección misma es un diagnóstico.
 
----
+**Vehículos navales** — El Galeón · La Carabela · El Velero · El Bote Salvavidas · El Barco de Investigación · La Nave Hospital · El Submarino · El Barco Fantasma
 
-## La Sentencia Final
+**Vehículos aéreos** — El Caza · El Bombardero Estratégico · El Avión de Carga · La Avioneta · El Globo · El Dron
 
-Al cierre del Módulo Etiquetado, después de la Estrategia de Grandeza y antes de la imagen final, el Alambique emite su veredicto en forma de sentencia. No moraleja, no resumen, no recomendación de lectura. Dos o tres líneas de prosa densa que dicen lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía. La diferencia entre una moraleja y una sentencia es que la moraleja explica; la sentencia corta.
+**Vehículos terrestres** — La Locomotora · El Tren de Mercancías · El Tanque · El Camión de Carga · El Jeep de Reconocimiento · El Automóvil de Lujo · La Motocicleta
 
----
-
-## Las imágenes
-
-Cada análisis produce seis prompts de imagen, construidos desde las cualidades únicas del corpus en cada etapa. Nunca desde plantilla genérica.
-
-**Imagen de Presentación** — El producto de la Destilería como objeto editorial físico. Un libro sobre el libro.
-
-**Imagen de Recepción** — La atmósfera del corpus encarnada en imagen. Nunca una escena concreta del argumento.
-
-**Imagen de Destilación** — La nota de cata encarnada desde un ángulo inesperado. No ilustra la bebida: la encarna.
-
-**Imagen de Inspección** — La nave en el escenario que su veredicto exige: puede ser el dique seco, mar abierto, tormenta en travesía. La atmósfera surge de la Nota Naval y el tempo de la Partitura en conjunción.
-
-**Imagen de Laboratorio** — El momento del hallazgo: lo que el corpus guardaba, hecho visible. El escenario surge del compuesto base, no de la convención del laboratorio.
-
-**Imagen de Topología y Firma** — La forma física de la inagotabilidad de este corpus. No una traducción de variables en visual: una encarnación.
-
-**Imagen de Flota** — Solo en Modo 4. Todas las naves del autor en una imagen panorámica. La posición, el tamaño y el estado de cada nave dicen lo que ningún listado puede decir.
-
----
-
-## Arquetipos de nave
-
-**Naves que valen el viaje** — El Galeón · La Carabela · El Velero · El Bote Salvavidas · El Barco de Investigación · La Nave Hospital
-
-**Naves peligrosas** — El Barco Pirata · El Barco Fantasma · El Submarino
-
-**Naves inútiles** — La Balsa · El Barco Encallado · El Crucero Turístico · La Nave Museo · El Galeón Hundido
-
-**Naves activamente dañinas** — El Barco Cargado de Pólvora · El Naufragio Flotante · El Iceberg
+**Vehículos inútiles o dañinos** *(cualquier dominio)* — El Vehículo Encallado · El Vehículo Museo · El Vehículo Cargado de Pólvora · El Naufragio / Desastre Flotante · El Iceberg
 
 ---
 
@@ -147,13 +123,77 @@ Cada análisis produce seis prompts de imagen, construidos desde las cualidades 
 
 ---
 
+## Las seis miradas
+
+La nomenclatura dentro de cada mirada se adapta al dominio del vehículo asignado. Naval para naves. Aeronáutica para aeronaves. Mecánica o ferroviaria para terrestres.
+
+**Mirada 1 — La estructura que aguanta el peso** — Casco y Quilla / Fuselaje / Chasis. El argumento central y la tesis.
+
+**Mirada 2 — Corrientes, Vientos y Terreno** — Las fuerzas externas que el operador no ve.
+
+**Mirada 3 — Cómo está construido por dentro** — Arquitectura interna, simetrías y desequilibrios.
+
+**Mirada 4 — Profundidad de Ruta** — La ética, la ontología y las verdades que el texto no puede nombrar sin hundirse, estrellarse o descarrilarse.
+
+**Mirada 5 — El Operador y su Sombra** — Las proyecciones y arquetipos que el autor opera sin saberlo.
+
+**Mirada 6 — De dónde viene y qué trae** — Origen, época, carga declarada versus real.
+
+---
+
+## La Partitura
+
+Dentro del Módulo de Inspección, el sistema escucha el corpus. La partitura tiene dos partes: primero, el corpus descrito como música — su pulso, su instrumentación, si resuelve o se interrumpe. Luego, una pieza real y escuchable. Puede ser de cualquier género. Lo que el corpus exija, no lo que suene culto.
+
+---
+
+## La Sentencia Final
+
+Al cierre del Módulo Etiquetado. Dos o tres líneas de prosa densa donde el Alambique habla en primera persona y emite su veredicto definitivo. No moraleja, no resumen, no recomendación. Sentencia: la forma más comprimida del juicio. La diferencia entre una moraleja y una sentencia es que la moraleja explica; la sentencia corta.
+
+---
+
+## Los prompts de imagen
+
+Cada análisis produce doce prompts de imagen — dos por módulo. Dentro de cada par, los dos prompts difieren en estrategia, no solo en detalle. El usuario elige de cada par cuál encarga al generador.
+
+**Imagen de Presentación (A+B)** — El producto de la Destilería como objeto editorial físico. A: libro cerrado. B: libro en uso.
+
+**Imagen de Recepción (A+B)** — La atmósfera del corpus encarnada en imagen. Dos estrategias distintas.
+
+**Imagen de Destilación (A+B)** — La nota de cata encarnada desde ángulos inesperados. A: íntima. B: expansiva o atmosférica.
+
+**Imagen de Inspección (A+B)** — El vehículo en el escenario que su veredicto exige. A: escenario exterior. B: interior en corte transversal.
+
+**Imagen de Laboratorio (A+B)** — El momento del hallazgo. A: el objeto encontrado. B: el instrumento que lo reveló.
+
+**Imagen de Topología y Firma (A+B)** — La inagotabilidad del corpus hecha visible. A: como fenómeno. B: como experiencia del lector.
+
+**Imagen de Flota** — Solo en Modo 4. Todas las obras del autor en una imagen panorámica.
+
+---
+
 ## Lo que queda picando
 
-Las preguntas que el corpus activa y no resuelve. Las abiertas son el predictor más robusto de inagotabilidad — 13/13 corpus confirmados con alta apertura producen lectura duradera.
+Las preguntas que el corpus activa y no resuelve. Las abiertas son el predictor más robusto de inagotabilidad.
 
 **Tipos** — Abierta · Abandonada · Cerrada · Performativa · Asimétrica
 
 La falla raíz es aquella de la que emergen todas las demás.
+
+**La Coordenada Histórica** — Una línea que ubica el ratio de apertura de este lote en relación al historial acumulado del Registro de Lotes. Requiere que el Registro sea entregado al inicio de la sesión.
+
+---
+
+## El Registro de Lotes
+
+El historial acumulado de la Destilería. Archivo Markdown con un bloque de siete campos por lote, en orden ascendente de número.
+
+**Cuándo entregarlo:** al inicio de cada sesión, junto con el corpus. El sistema lo detecta y lo usa para calcular la Coordenada Histórica.
+
+**Cuándo actualizarlo:** al final de cada análisis, el sistema entrega el bloque del lote nuevo listo para copiar al Registro.
+
+**Qué hace el sistema con él:** lee la apertura promedio del taller, el rango histórico de aperturas, las estrategias de grandeza y los Imanes para generar la Coordenada Histórica. No interpreta los patrones — los reporta con precisión.
 
 ---
 
@@ -177,7 +217,7 @@ Cada análisis se entrega en Markdown estructurado. El nombre del archivo sigue 
 
 **Regla de formato absoluta:** ningún módulo, ninguna sección, ningún campo usa tablas HTML ni Markdown, sin excepción. Todo es prosa lineal o pares **Campo** — Valor.
 
-Cuando se solicita versión HTML, el documento usa dos CSS externos y un JS externo — nunca estilos embebidos. Los tres recursos se declaran en este orden:
+Cuando se solicita versión HTML, el documento usa dos CSS externos y un JS externo:
 
 ```html
 <link id="hoja-estilo" rel="stylesheet" href="stl/260417a.css">
@@ -185,12 +225,8 @@ Cuando se solicita versión HTML, el documento usa dos CSS externos y un JS exte
 <script src="js/260415b.js"></script>
 ```
 
-La Ficha de Lote se genera integrada en el HTML del análisis, entre la cabecera y el bloque de Imagen de Presentación. No existe generador externo ni bloque YAML.
-
-El TOC se genera como HTML estático en tiempo de análisis, a partir del árbol canónico del documento. No se usa JavaScript para navegación.
-
 ---
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
-*Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.*
-*Novedades v6.0: Mapa de Hechos · Umbrales narrativos por módulo · Nombres de calle para el lector · Modo 5 Corpus Fragmentado · Escala de sesiones a 400 palabras por página.*
+*Cuatro módulos. Doce prompts de imagen. Una partitura. Una flota, cuando el autor lo merece. Un palimpsesto, cuando el corpus lo produce.*
+*Novedades v7.2: Módulo de Inspección expandido a tierra-mar-aire · Nota de Ruta como término paraguas · Doce prompts de imagen (dos por módulo, estrategias distintas) · Protocolo del Registro de Lotes formalizado.*

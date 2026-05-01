@@ -1,5 +1,5 @@
 # Destilería Osmancito — Sistema de Lectura Profunda
-*v7.2 · 2026-05-01*
+*v7.3 · 2026-05-01*
 
 ---
 
@@ -155,19 +155,19 @@ Al cierre del Módulo Etiquetado. Dos o tres líneas de prosa densa donde el Ala
 
 ## Los prompts de imagen
 
-Cada análisis produce doce prompts de imagen — dos por módulo. Dentro de cada par, los dos prompts difieren en estrategia, no solo en detalle. El usuario elige de cada par cuál encarga al generador.
+Cada análisis produce doce prompts de imagen — dos por módulo. Dentro de cada par, los dos prompts difieren en estrategia, no solo en detalle. Las imágenes de cada módulo son independientes entre sí: el usuario conserva las dos, una, o ninguna según lo que produzca el generador. Cada prompt lleva un título artístico de dos a cuatro palabras extraído del corpus — no de la descripción visual — que aparece como `figcaption` en el HTML. Las etiquetas "Prompt A / Prompt B" han sido eliminadas: la identidad de cada imagen es su título, no su posición. Los prompts de un mismo par se apilan verticalmente.
 
-**Imagen de Presentación (A+B)** — El producto de la Destilería como objeto editorial físico. A: libro cerrado. B: libro en uso.
+**Imagen de Presentación** — El producto de la Destilería como objeto editorial físico. Primera opción: libro cerrado sobre superficie. Segunda opción: libro en uso, abierto o junto a instrumentos de análisis.
 
-**Imagen de Recepción (A+B)** — La atmósfera del corpus encarnada en imagen. Dos estrategias distintas.
+**Imagen de Recepción** — La atmósfera del corpus encarnada en imagen. Dos estrategias distintas en naturaleza, no solo en detalle.
 
-**Imagen de Destilación (A+B)** — La nota de cata encarnada desde ángulos inesperados. A: íntima. B: expansiva o atmosférica.
+**Imagen de Destilación** — La nota de cata encarnada desde ángulos inesperados. Primera opción: íntima, el recipiente o el momento. Segunda opción: expansiva, el efecto o la atmósfera.
 
-**Imagen de Inspección (A+B)** — El vehículo en el escenario que su veredicto exige. A: escenario exterior. B: interior en corte transversal.
+**Imagen de Inspección** — El vehículo en el escenario que su veredicto exige. Primera opción: escenario exterior, el vehículo visto desde fuera. Segunda opción: sección transversal, el interior expuesto.
 
-**Imagen de Laboratorio (A+B)** — El momento del hallazgo. A: el objeto encontrado. B: el instrumento que lo reveló.
+**Imagen de Laboratorio** — El momento del hallazgo. Primera opción: el objeto encontrado en el fondo. Segunda opción: el instrumento que lo reveló.
 
-**Imagen de Topología y Firma (A+B)** — La inagotabilidad del corpus hecha visible. A: como fenómeno. B: como experiencia del lector.
+**Imagen de Topología y Firma** — La inagotabilidad del corpus hecha visible. Primera opción: como fenómeno exterior. Segunda opción: como experiencia del lector después de la última página.
 
 **Imagen de Flota** — Solo en Modo 4. Todas las obras del autor en una imagen panorámica.
 
@@ -229,4 +229,7 @@ Cuando se solicita versión HTML, el documento usa dos CSS externos y un JS exte
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
 *Cuatro módulos. Doce prompts de imagen. Una partitura. Una flota, cuando el autor lo merece. Un palimpsesto, cuando el corpus lo produce.*
-*Novedades v7.2: Módulo de Inspección expandido a tierra-mar-aire · Nota de Ruta como término paraguas · Doce prompts de imagen (dos por módulo, estrategias distintas) · Protocolo del Registro de Lotes formalizado.*
+*Novedades v7.0: Joyas en tres escalas (microscópica · mesoscópica · macroscópica) · Registro variable según corpus · Voz libre del andamiaje institucional · Arquetipo vehicular expandido (naval · aéreo · terrestre) · El Elefante — hallazgo no anticipado.*
+*Novedades v7.1: El Elefante renombrado El Palimpsesto · El Umbral del Silencio en barricas · Coordenada histórica · Campos del Registro de Lotes.*
+*Novedades v7.2: Módulo de Inspección expandido a tierra-mar-aire · Doce prompts de imagen · Protocolo del Registro de Lotes formalizado.*
+*Novedades v7.3: Título artístico por imagen (dos a cuatro palabras del corpus · figcaption en HTML) · Imágenes independientes entre sí (el usuario conserva las dos, una o ninguna) · Eliminadas etiquetas Prompt A / Prompt B (la identidad es el título, no la posición) · Eliminado el grid de dos columnas del .prompt-par (apilado vertical).*

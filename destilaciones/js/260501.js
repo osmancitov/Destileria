@@ -1,4 +1,4 @@
-/* Destilería Osmancito — 260415b.js */
+/* Destilería Osmancito — 260501.js */
 /* Controles: tema claro/oscuro, progreso de lectura, TOC activo */
 
 (function () {

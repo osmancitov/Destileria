@@ -801,7 +801,7 @@ El HTML generado **nunca lleva estilos embebidos** (`<style>`) ni estilos inline
 
 ```html
 <link id="hoja-estilo" rel="stylesheet" href="stl/260501a.css">
-<link rel="stylesheet" href="stl/260501b.css">
+<link id="complemento" rel="stylesheet" href="stl/260501b.css">
 <script src="js/260501.js"></script>
 ```
 
@@ -881,7 +881,7 @@ El número de lote siempre con tres cifras. Si el usuario no especifica, asumir 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link id="hoja-estilo" rel="stylesheet" href="stl/260501a.css">
-  <link rel="stylesheet" href="stl/260501b.css">
+  <link id="complemento" rel="stylesheet" href="stl/260501b.css">
   <script src="js/260501.js"></script>
 
   <title>[Título] — Destilería Osmancito</title>

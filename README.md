@@ -220,9 +220,9 @@ Cada análisis se entrega en Markdown estructurado. El nombre del archivo sigue 
 Cuando se solicita versión HTML, el documento usa dos CSS externos y un JS externo:
 
 ```html
-<link id="hoja-estilo" rel="stylesheet" href="stl/260417a.css">
-<link rel="stylesheet" href="stl/260415d.css">
-<script src="js/260415b.js"></script>
+<link id="hoja-estilo" rel="stylesheet" href="stl/260501d.css">
+<link id="complemento" rel="stylesheet" href="stl/260501b.css">
+<script src="js/260501.js"></script>
 ```
 
 ---

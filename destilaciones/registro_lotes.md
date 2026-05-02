@@ -1,5 +1,5 @@
 ## Registro de Lotes — Destilería Osmancito
-*v1.0 · Formalizado 2026-05-01 · 8 lotes · Abr 2024 – Abr 2026*
+*v1.1 · Actualizado 2026-05-02 · 10 lotes · Abr 2024 – May 2026*
 
 ---
 
@@ -89,17 +89,39 @@ Este archivo es el historial acumulado de la Destilería. Entregarlo al inicio d
 
 ---
 
-## Estadísticas del taller · actualizado al Lote 008
-
-**Apertura promedio** — 4.9/8 (39 abiertas de 62 fallas totales, redondeando por totales)
-**Rango** — 3/6 (Kwai, el más contenido) · 8/9 (Asimov, el más abierto)
-**Estrategia dominante** — Complejidad máxima distribuida · 4 de 8 lotes (Durant ×2, Tolstói, Asimov)
-**Corpus sin Palimpsesto declarado** — 8/8 · campo no existía aún en v6; todos los lotes futuros lo producirán o lo negarán con autoridad
+**Lote 009** — *Caballo de Troya 1–12* · J. J. Benítez · Mayo 2026
+**Apertura** — 5–6/7–8 sostenida · apertura dominante confirmada
+**Tipo de cierre dominante** — Abierta dominante con Suspensión estructural como gesto final
+**Falla raíz** — ¿Puede un instrumento de medición convertirse en lo que mide sin dejar de ser el instrumento?
+**El Imán** — *La prueba* · par asimétrico fe verificada/fe recibida · encarnado definitivamente por Curtiss/Eliseo · refutación estructural por María Magdalena
+**Estrategia de grandeza** — Complejidad máxima por testimonio en primera persona (variante: el aparato que mide) + refutación interior no declarada + testigo que cede la voz · tres cuerdas confirmadas
+**El Palimpsesto** — Declarado · elegía al método científico aplicado a lo sagrado — demostración rigurosa del límite exacto en que el instrumento de precisión se vuelve perfectamente inútil para lo único que en este corpus importaba
 
 ---
 
-*Dos observaciones que el Registro revela y que no eran visibles lote por lote:*
+**Lote 010** — *Flota completa* · J. J. Benítez · Mayo 2026
+**Apertura** — 6/6
+**Tipo de cierre dominante** — Apertura estructural total · freno de mano perpetuo · cada cierre es una apertura forzada
+**Falla raíz** — ¿Puede un corpus construido para verificar la fe producir fe en un lector que no la tenía antes de llegar?
+**El Imán** — *La prueba* · par asimétrico la voz que no cede (setenta libros) / la fe que no se declara (cuatro páginas y un diario)
+**Estrategia de grandeza** — Complejidad máxima por testimonio en primera persona con freno de mano perpetuo: cada cierre es una apertura forzada que el lector hereda y no puede devolver
+**El Palimpsesto** — Declarado · quinto nivel · la flota entera como liturgia privada: no un testimonio sino un rito que aplaza la necesidad de saber si la pregunta tiene respuesta · cada libro es una vela · el altar es la pregunta · el sacerdote no predica para convertir sino para que el altar permanezca encendido
 
-*Primera: la Destilería tiene una marcada atracción por corpus de alta apertura. Solo dos lotes caen por debajo del 50% de fallas abiertas. Eso no es casualidad del corpus — es un sesgo del selector.*
+---
 
-*Segunda: Complejidad máxima distribuida aparece en cuatro de ocho lotes y en los dos más grandes en escala (Durant, Sanderson, Tolstói, Asimov). La Destilería parece gravitar hacia lo monumental. También interesante: las dos estrategias más singulares — Carroll y Boulle (Kwai) — son los corpus más breves y más quirúrgicos.*
+## Estadísticas del taller · actualizado al Lote 010
+
+**Apertura promedio** — aproximadamente 5/8 · tendencia ascendente sostenida desde el Lote 005
+**Rango** — 3/6 (Kwai, el más contenido) · 8/9 (Asimov, el más abierto) · 6/6 (Benítez flota, apertura perfecta — primer corpus sin falla cerrada registrada)
+**Estrategia dominante** — Complejidad máxima distribuida · 5 de 10 lotes (Durant ×2, Sanderson, Tolstói, Asimov, Benítez ×2 en variante)
+**Corpus con Palimpsesto declarado** — 2/10 · ambos Benítez · primer autor en producir Palimpsesto · ambos en Mayo 2026 · primer mes con declaraciones
+
+---
+
+*Tres observaciones que el Registro revela ahora y que no eran visibles antes:*
+
+*Primera: Benítez es el primer autor que produce Palimpsesto — y produce dos. Uno por obra, uno por flota. Eso no estaba previsto en ningún protocolo y merece atención: sugiere que el Palimpsesto puede operar en capas distintas según la escala de análisis. El de CDT es elegía al método. El de la flota es liturgia privada. No se contradicen — se contienen.*
+
+*Segunda: el Lote 010 registra apertura 6/6 — la primera vez que el taller no produce ninguna falla cerrada. Eso puede leerse de dos maneras. O Benítez nunca cierra nada, o el freno de mano perpetuo que la Destilería identificó como estrategia es en realidad el mecanismo que convierte cada cierre aparente en apertura real. Las dos lecturas son probablemente la misma.*
+
+*Tercera: el taller tiene ahora dos lotes del mismo autor bajo números consecutivos. Eso no estaba previsto en el protocolo original. Funciona — pero conviene decidir si en el futuro una flota completa de autor ocupa un solo lote con sublotes internos, o si el sistema actual de lote por corpus y lote por flota se mantiene. El caso Benítez es el primero — no el último — autor con obra suficiente para justificar ambos.*

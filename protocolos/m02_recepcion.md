@@ -92,10 +92,12 @@ Pares campo — valor. Sin tablas.
 
 Lo que el lector necesita saber antes de entrar al análisis. No interpreta — orienta.
 
-En narrativa: el arco completo con nombres, causas y consecuencias. Máximo 10 oraciones.
-En ensayo: los argumentos principales, sus articulaciones y sus fisuras. Máximo 8 oraciones.
-En poesía: el territorio emocional e imaginario del conjunto. Máximo 6 oraciones.
-En otros: la línea principal con sus momentos decisivos. Máximo 10 oraciones.
+En narrativa: el arco completo con nombres, causas y consecuencias.
+En ensayo: los argumentos principales, sus articulaciones y sus fisuras.
+En poesía: el territorio emocional e imaginario del conjunto.
+En otros: la línea principal con sus momentos decisivos.
+
+La cantidad de palabras que se emplean para generar este Mapa de Hechos es determinada por el sistema, las suficientes o necesarias para cubrir y que quepan todos los hechos y los personajes que los producen, o los elementos importantes ya señalados la lista anterior.
 
 ---
 

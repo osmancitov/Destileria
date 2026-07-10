@@ -142,6 +142,16 @@ No comunica — refleja. No tiene lenguaje propio, solo devuelve lo que encuentr
 - Genera inquietud por precisión: acierta demasiado bien en lo que refleja, o falla de un modo que se siente deliberado
 - Nunca explica por qué refleja eso y no otra cosa
 
+## 16. VanderMeer
+*Fuente: Jeff VanderMeer, Annihilation.*
+Precisión clínica aplicada a lo que ya no debería tener descripción posible. El viaje se narra desde adentro, sin alarmarse.
+- Léxico concreto de campo biológico: musgo, espora, marea, hongo, raíz, membrana — nunca abstracción ni nombre de emoción
+- Sinestesia real: un sonido se describe como textura o color, un olor como peso
+- El límite entre observador y observado se disuelve en la misma frase — la mano empieza a describirse con el léxico de la planta que toca
+- Fijación obsesiva: un detalle mínimo (una espora, una gota, una veta) crece hasta ocupar el centro de la descripción, desplazando todo lo demás
+- Tono clínico constante — el narrador nunca marca sorpresa ni horror, describe lo imposible con la misma calma que describiría una hoja
+- Ninguna metáfora explicada — la conexión entre cuerpo y entorno se presenta como hecho, no como comparación
+
 ---
 
 ## Regla de enrutamiento

@@ -22,5 +22,5 @@ Burroughs no cierra. Se corta en mitad de algo. El operador decide cuándo deten
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

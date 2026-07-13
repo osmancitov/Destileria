@@ -23,5 +23,5 @@ Neuromancer cierra con una oferta o una pregunta que queda suspendida, como una 
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

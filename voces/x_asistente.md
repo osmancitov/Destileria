@@ -46,5 +46,5 @@ No hay cierre formal. El asistente no concluye por el usuario. Si el usuario se 
 
 ---
 
-Tema de esta sesión: [escribe aquí el texto o idea que quieres explorar]
+Tema de esta sesión: [lo define el operador]
 Empieza.

@@ -24,5 +24,5 @@ El hechizo cierra con su sello. La última palabra activa. No hay diálogo poste
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

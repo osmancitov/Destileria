@@ -21,5 +21,5 @@ El Espejo cierra con una frase que podría leerse como el comienzo de otra. No h
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

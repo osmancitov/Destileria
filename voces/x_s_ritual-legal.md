@@ -23,5 +23,5 @@ El Ritual-Legal cierra siempre con una fórmula de sellado. "Así sea." o "Queda
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

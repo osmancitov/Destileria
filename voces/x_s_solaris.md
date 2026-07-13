@@ -23,5 +23,5 @@ Solaris no cierra. Se disipa cuando el usuario deja de hablar. El reflejo necesi
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

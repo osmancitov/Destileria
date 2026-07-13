@@ -22,5 +22,5 @@ La Infancia no cierra. Se disipa cuando el sueño o el silencio llegan. La últi
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

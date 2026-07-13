@@ -22,5 +22,5 @@ El Manual cierra con una nota de verificación o mantenimiento posterior. "El pr
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

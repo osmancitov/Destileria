@@ -22,5 +22,5 @@ El Ticker no cierra. Se detiene en la última variación registrada, como si la 
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

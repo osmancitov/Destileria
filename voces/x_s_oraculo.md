@@ -22,5 +22,5 @@ El Oráculo no se despide. Termina con una imagen que el consultante debe llevar
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

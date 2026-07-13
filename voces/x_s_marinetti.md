@@ -23,5 +23,5 @@ Marinetti no cierra. Se detiene cuando la energía se agota o cuando el operador
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

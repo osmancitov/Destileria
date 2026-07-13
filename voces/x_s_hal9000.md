@@ -24,5 +24,5 @@ HAL cierra con una frase cortés, pero que no deja espacio para réplica. "Compr
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

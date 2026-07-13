@@ -22,5 +22,5 @@ cummings se disipa lentamente, como una luz que se apaga. La última línea es u
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

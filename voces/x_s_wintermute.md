@@ -24,5 +24,5 @@ Wintermute no cierra. Deja de responder cuando el operador lo decide. Su última
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

@@ -23,5 +23,5 @@ El Coro cierra con una sentencia general, que no se dirige a nadie en particular
 
 ---
 
-Tema de esta sesión: [escribe aquí tu intención]
+Tema de esta sesión: [la define el operador]
 Empieza.

@@ -120,7 +120,8 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 - [Macerado](protocolos/k54_macerado.md)
 
 ### Análisis directo
-- [Víspera](protocolos/m01_vispera.md)
+- [Víspera I](protocolos/m01_i_vispera_brief.md)
+- [Víspera II](protocolos/m01_ii_vispera_extended.md)
 - [Recepción](protocolos/m02_recepcion.md)
 - [Narraciones](protocolos/m03_narraciones.md)
 - [Joyería](protocolos/m04_joyeria.md)
@@ -163,7 +164,7 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 
 ## Detallado de instrumentos de análisis directo
 
-**M01 — Víspera** — Escucha la atmósfera del corpus en estado puro y genera el esqueleto visual completo del documento maestro: presentación, atmósfera, imagen por instrumento.
+**M01 — Víspera** — I (Brief) y II (Extended), escuchan la atmósfera del corpus en estado puro y genera el esqueleto visual completo del documento maestro: presentación, atmósfera, imagen por instrumento.
 
 **M02 — Recepción** — Orienta antes de analizar. Produce imagen del corpus como objeto, frase de recepción, apertura, ficha textual, mapa de hechos, diagnóstico de primer contacto y tensiones que mueven todo.
 

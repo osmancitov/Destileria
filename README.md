@@ -1,5 +1,5 @@
 # Destilería Osmancito
-*Versión 19*
+*Versión 20*
 
 *Una destilería es un lugar donde una materia prima entra cruda y sale transformada.* 
 
@@ -116,8 +116,12 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 ### Preparatorios
 - [Granero](protocolos/k51_granero.md)
 - [Tamizado](protocolos/k52_tamizado.md)
-- [Prensa](protocolos/k53_prensa.md)
+- [Prensa i](protocolos/k53_i_prensa.md)
+- [Prensa ii](protocolos/k53_ii_escalpelo.md)
+- [Prensa iii](protocolos/k53_iii_sembrar.md)
 - [Macerado](protocolos/k54_macerado.md)
+- [Inquisidor](protocolos/k55_inquisidor.md)
+- [Factorizar](protocolos/k56_factorizar.md)
 
 ### Análisis directo
 - [Víspera I](protocolos/m01_i_vispera_brief.md)
@@ -154,11 +158,19 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 
 **K52 — Tamizado** — Cata la obra completa de un autor desde su norte declarado. Produce una sentencia por obra y, al final, lo que ninguna pieza individual podría decir sola.
 
-**K53 — Prensa** — Genera el epítome, la versión esquelética del corpus, usando las palabras del autor. El libro mismo, adelgazado.
+**K53 — Prensa** — Genera el epítome, la versión esquelética del corpus usando las palabras del autor: las oraciones que cargan peso propio —acción narrativa, imagen central, pensamiento nuclear, voz del autor— respetando el orden original sin añadir una sola palabra ajena. El radio de extracción lo fija el sistema según la densidad del corpus. El libro mismo, adelgazado. Opera como primer paso de una secuencia de tres instrumentos de naturaleza distinta y orden necesario.
+
+**K53_ii — Escalpelo** — Opera sobre el epítome, no sobre el corpus. Extirpa toda oración cuya única validación sea la experiencia privada, intransferible o inaccesible —todo enunciado que funcione por apelación a la fe, a la autoridad experiencial o a la revelación personal. No evalúa si las ideas son verdaderas: evalúa si son discutibles por terceros.
+
+**K53_III — Sembrar** — Toma el epítome intervenido por el escalpelo y lo usa como mapa de ideas, no como texto a preservar. Cada oración superviviente es una semilla. El sistema evalúa qué proporción del pensamiento allí contenido tiene versiones más robustas en otros autores o tradiciones, y construye desde ahí en prosa continua. El autor original desaparece como autoridad. El output no es un ensayo sobre él —es un ensayo sobre las ideas que tocó.
 
 **K54_i — Macerado** — Cartografía el corpus en seis vértices —mythos, ethos, kairos, pathos, lexis, tropos— antes de cualquier escritura. No resume ni evalúa: abre el terreno.
 
 **K54_ii — Reescritura** — Reescribe el corpus tomando en cuenta el análisis de los seis vértices —mythos, ethos, kairos, pathos, lexis, tropos— y el estilo del autor.
+
+**K55 — Inquisidor** — Produce el documento que permite a quien no ha leído el corpus saber exactamente qué contiene, capítulo por capítulo, bloque por bloque, sin excepción. El criterio rector es la exhaustividad. Si algo ocurre en el corpus, entra en el inquisidor. La selección editorial no existe aquí.
+
+**K56 — Factorizar** —  Produce el expediente narrativo de un corpus organizado por su aporte informacional, no por su orden de exhaustividad pura. Parte de una premisa de teoría de la información: un hecho que repite un patrón ya visto aporta poca o ninguna información nueva; un hecho que rompe el patrón, o que introduce una variable no vista antes, aporta información máxima. El criterio rector no es "¿ocurrió?" —eso es Inquisidor— sino "¿esto ya lo sabíamos, dado lo que vino antes?".
 
 ---
 

@@ -122,6 +122,7 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 - [Macerado](protocolos/k54_macerado.md)
 - [Inquisidor](protocolos/k55_inquisidor.md)
 - [Factorizar](protocolos/k56_factorizar.md)
+- [Nectar](protocolos/k57_nectar.md)
 
 ### Análisis directo
 - [Víspera I](protocolos/m01_i_vispera_brief.md)
@@ -171,6 +172,8 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 **K55 — Inquisidor** — Produce el documento que permite a quien no ha leído el corpus saber exactamente qué contiene, capítulo por capítulo, bloque por bloque, sin excepción. El criterio rector es la exhaustividad. Si algo ocurre en el corpus, entra en el inquisidor. La selección editorial no existe aquí.
 
 **K56 — Factorizar** —  Produce el expediente narrativo de un corpus organizado por su aporte informacional, no por su orden de exhaustividad pura. Parte de una premisa de teoría de la información: un hecho que repite un patrón ya visto aporta poca o ninguna información nueva; un hecho que rompe el patrón, o que introduce una variable no vista antes, aporta información máxima. El criterio rector no es "¿ocurrió?" —eso es Inquisidor— sino "¿esto ya lo sabíamos, dado lo que vino antes?".
+
+**K57 — Nectar** — Produce un extracto compacto y autónomo del corpus, entre 1.000 y 10.000 palabras según lo que el corpus realmente ofrezca. No resume proporcionalmente: selecciona solo lo que tiene peso propio o rompe un patrón que el corpus mismo estableció, y descarta todo lo demás sin culpa. La extensión final es un diagnóstico de temperatura, no una meta editorial.
 
 ---
 

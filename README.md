@@ -1,5 +1,5 @@
 # Destilería Osmancito
-*Versión 20.*
+*Versión 20*
 
 *Una destilería es un lugar donde una materia prima entra cruda y sale transformada.* 
 

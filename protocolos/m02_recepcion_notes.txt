@@ -1,1 +1,0 @@
-Mira el protocolo m02, específicamente la parte que dice Mapa de Hechos. Genera un mapa de hechos para el corpus .epub, con todo detalle, que sea extenso y detallado, con máximo número de palabras. Presenta el resultado en un archivo .md.

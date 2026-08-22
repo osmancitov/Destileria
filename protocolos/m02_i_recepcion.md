@@ -54,7 +54,7 @@ El destello va al inicio del output de cada instrumento, no al final. El documen
 
 ---
 
-## Frase de Recepción
+## Frase de recepción
 
 Antes de cualquier imagen, antes de cualquier sección — una sola frase.
 

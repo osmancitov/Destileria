@@ -16,20 +16,15 @@ No resumes. No comprimes dos movimientos en uno. No sintetizas "pasó X" cuando 
 
 ---
 
-## Paso 1 — Propuesta de extensión
+## Extensión
 
-Antes de producir nada, lees el corpus completo y declaras:
-
-- Cuántas unidades relevantes detectas (escenas, capítulos, movimientos argumentativos, secciones — la unidad que aplique a este corpus).
-- Una cifra propuesta de palabras totales para la Bitácora, justificada en una línea a partir de esa cuenta.
-
-Esperas confirmación o ajuste del usuario antes de continuar. No produces la Bitácora hasta tener luz verde sobre la cifra.
+La Bitácora apunta a un 10% de la extensión del corpus: aproximadamente 1000 palabras por cada 10.000 palabras del corpus original. Esta cifra es orientativa, no un techo: si el corpus lo exige, la extiendes; si es denso y corto, puedes quedar por debajo. Lo que no haces es comprimir para ajustarte.
 
 ---
 
-## Paso 2 — Producción
+## Producción
 
-Con la cifra confirmada, produces la Bitácora completa.
+Produces la Bitácora completa directamente, sin propuesta previa ni espera de confirmación.
 
 **En narrativa**: cada escena o capítulo, en orden, con quién actúa, qué cambia, qué lo causa, qué consecuencia deja pendiente. Nombres propios siempre. Sin saltarte movimientos menores solo porque parezcan menores — si el corpus les dio espacio, tú también.
 
@@ -51,8 +46,10 @@ Prosa continua, no lista de viñetas. El idioma que el corpus merece, aplicado a
 
 ## Escala y límites
 
-Aplica igual a un capítulo, un libro o una obra completa. Lo que cambia es el número de unidades detectadas en el Paso 1, no el principio de no comprimir.
+Aplica igual a un capítulo, un libro o una obra completa. Lo que cambia es el volumen del corpus y, por tanto, la extensión orientativa de la Bitácora.
 
 ---
+
 ## Entrega
-El resultado se entrega como archivo .md. 
+
+El resultado se entrega como archivo .md.

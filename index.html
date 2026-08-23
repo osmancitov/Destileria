@@ -205,18 +205,28 @@
   <p>Inventario de corpus procesados.</p>
 </div>
 
-<!-- OVERLAY (único, fuera de la grilla) -->
-<div id="ov-fondo" role="dialog" aria-modal="true" aria-label="Ficha del destilado">
-  <div id="ov-panel">
-    <button id="ov-cerrar" aria-label="Cerrar">✕</button>
-    <p id="ov-lote"></p>
-    <p id="ov-titulo"></p>
-    <p id="ov-extracto"></p>
-    <a id="ov-enlace" href="#">Ver destilado →</a>
-  </div>
-</div>
-
 <div class="grilla-portadas" id="grilla">
+
+<!-- FICHA DE LOTE 040 -->
+<div class="tarjeta-portada" 
+     data-lote="040" 
+     data-titulo="Beren And Lúthien — J.R.R. Tolkien (2017)" 
+     data-extracto="Llega Pesado Sin Ser Largo: Un Volumen Editado, Con El Aparato Crítico De Un Hijo" 
+     data-href="destilados/040_tolkien_beren_luthien.html" 
+     id="lote-040" 
+     tabindex="0" 
+     role="button">
+  
+  <img src="destilados/img/040_tolkien_beren_luthien_presentacion_1_half.jpg" 
+       alt="Beren And Lúthien" 
+       loading="lazy">
+  
+  <div class="tarjeta-hover" aria-hidden="true">
+    <p class="tarjeta-hover-titulo">Beren And Lúthien (2017)</p>
+    <p class="tarjeta-hover-extracto">Llega Pesado Sin Ser Largo: Un Volumen Editado, Con El Aparato Crítico De Un Hijo</p>
+  </div>
+
+</div>
 
 <!-- FICHA DE LOTE 039 -->
 <div class="tarjeta-portada" 
@@ -771,6 +781,17 @@
 
 </div>
 
+</div>
+
+<!-- OVERLAY (único, fuera de la grilla) -->
+<div id="ov-fondo" role="dialog" aria-modal="true" aria-label="Ficha del destilado">
+  <div id="ov-panel">
+    <button id="ov-cerrar" aria-label="Cerrar">✕</button>
+    <p id="ov-lote"></p>
+    <p id="ov-titulo"></p>
+    <p id="ov-extracto"></p>
+    <a id="ov-enlace" href="#">Ver destilado →</a>
+  </div>
 </div>
 
 <script>

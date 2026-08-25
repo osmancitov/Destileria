@@ -24,7 +24,7 @@ Los hallazgos se presentan en dos capas:
 
 **Hallazgos sobre el corpus** — lo que los instrumentos directos descubrieron que el corpus contiene sin saberlo. Cada hallazgo es una proposición autónoma: puede leerse sola, sin el instrumento que la produjo. Al final de cada una, entre guiones, el instrumento de origen. No como justificación sino como coordenada: el lector que quiera saber cómo se llegó ahí sabe dónde entrar.
 
-**Hallazgos sobre el análisis** — lo que emergió cuando el sistema se miró a sí mismo: el Punto de Fuga y el Palimpsesto operando sobre el conjunto. Esta capa solo existe si esos instrumentos produjeron algo genuinamente nuevo. Si no, no se declara su ausencia: simplemente no aparece.
+**Hallazgos sobre el análisis** — lo que emergió cuando el sistema se miró a sí mismo: no el corpus, sino el conjunto de instrumentos que lo examinaron.
 
 ### Condiciones del inventario
 

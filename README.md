@@ -114,42 +114,42 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 ## Listado de instrumentos
 
 ### Preparatorios
-- [Granero](protocolos/k51_granero.md)
-- [Tamizado](protocolos/k52_tamizado.md)
-- [Prensa i](protocolos/k53_i_prensa.md)
-- [Prensa ii](protocolos/k53_ii_escalpelo.md)
-- [Prensa iii](protocolos/k53_iii_sembrar.md)
-- [Macerado](protocolos/k54_macerado.md)
-- [Inquisidor](protocolos/k55_inquisidor.md)
-- [Factorizar](protocolos/k56_factorizar.md)
-- [Nectar](protocolos/k57_nectar.md)
+- [Granero](https://osmancitov.github.io/protocolos/k51_granero.md)
+- [Tamizado](https://osmancitov.github.io/protocolos/k52_tamizado.md)
+- [Prensa i](https://osmancitov.github.io/protocolos/k53_i_prensa.md)
+- [Prensa ii](https://osmancitov.github.io/protocolos/k53_ii_escalpelo.md)
+- [Prensa iii](https://osmancitov.github.io/protocolos/k53_iii_sembrar.md)
+- [Macerado](https://osmancitov.github.io/protocolos/k54_macerado.md)
+- [Inquisidor](https://osmancitov.github.io/protocolos/k55_inquisidor.md)
+- [Factorizar](https://osmancitov.github.io/protocolos/k56_factorizar.md)
+- [Nectar](https://osmancitov.github.io/protocolos/k57_nectar.md)
+- [Refranero](https://osmancitov.github.io/protocolos/k58_refranero.md)
 
 ### Análisis directo
-- [Víspera I](protocolos/m01_i_vispera_brief.md)
-- [Víspera II](protocolos/m01_ii_vispera_extended.md)
-- [Recepción](protocolos/m02_recepcion.md)
-- [Narraciones](protocolos/m03_narraciones.md)
-- [Joyería](protocolos/m04_joyeria.md)
-- [Batimetría](protocolos/m05_batimetria.md)
-- [Apolo](protocolos/m06_apolo.md)
-- [Escucha dionisíaca](protocolos/m07_i_escucha_dionisiaca_manual.md)
-- [Dioniso](protocolos/m07_ii_dioniso.md)
-- [Hermes](protocolos/m08_hermes.md)
+- [Víspera](https://osmancitov.github.io/protocolos/m01_vispera.md)
+- [Recepción](https://osmancitov.github.io/protocolos/m02_recepcion.md)
+- [Bitácora](https://osmancitov.github.io/protocolos/m03_bitacora.md)
+- [Narraciones](https://osmancitov.github.io/protocolos/m04_narraciones.md)
+- [Joyería](https://osmancitov.github.io/protocolos/m05_joyeria.md)
+- [Batimetría](https://osmancitov.github.io/protocolos/m06_batimetria.md)
+- [Apolo](https://osmancitov.github.io/protocolos/m07_apolo.md)
+- [Dioniso](https://osmancitov.github.io/protocolos/m08_dioniso.md)
+- [Hermes](https://osmancitov.github.io/protocolos/m09_hermes.md)
 
 ### Extendidos
-- [Menú emergente](protocolos/m21_menu_emergente.md)
-- [Márgenes](protocolos/m22_margenes.md)
-- [Testigo del testigo](protocolos/m23_testigo_del_testigo.md)
-- [Bucle](protocolos/m24_bucle.md)
-- [Umbral del reconocimiento](protocolos/m25_umbral_del_reconocimiento.md)
-- [Historia de los efectos](protocolos/m26_historia_de_los_efectos.md)
+- [Menú emergente](https://osmancitov.github.io/protocolos/m21_menu_emergente.md)
+- [Márgenes](https://osmancitov.github.io/protocolos/m22_margenes.md)
+- [Testigo del testigo](https://osmancitov.github.io/protocolos/m23_testigo_del_testigo.md)
+- [Bucle](https://osmancitov.github.io/protocolos/m24_bucle.md)
+- [Umbral del reconocimiento](https://osmancitov.github.io/protocolos/m25_umbral_del_reconocimiento.md)
+- [Historia de los efectos](https://osmancitov.github.io/protocolos/m26_historia_de_los_efectos.md)
 
 ### Orden superior
-- [Síntesis](protocolos/m96_sintesis.md)
-- [Punto de Fuga](protocolos/m97_punto_de_fuga.md)
-- [Palimpsesto](protocolos/m98_palimpsesto.md)
-- [Destilado](protocolos/m99_i_destilado.md)
-- [Destilado de imágenes](protocolos/m99_ii_destilado_imagenes.md)
+- [Síntesis](https://osmancitov.github.io/protocolos/m96_sintesis.md)
+- [Punto de Fuga](https://osmancitov.github.io/protocolos/m97_punto_de_fuga.md)
+- [Palimpsesto](https://osmancitov.github.io/protocolos/m98_palimpsesto.md)
+- [Destilado](https://osmancitov.github.io/protocolos/m99_i_destilado.md)
+- [Destilado de imágenes](https://osmancitov.github.io/protocolos/m99_ii_destilado_imagenes.md)
 
 ---
 
@@ -175,27 +175,29 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 
 **K57 — Nectar** — Produce un extracto compacto y autónomo del corpus, entre 1.000 y 10.000 palabras según lo que el corpus realmente ofrezca. No resume proporcionalmente: selecciona solo lo que tiene peso propio o rompe un patrón que el corpus mismo estableció, y descarta todo lo demás sin culpa. La extensión final es un diagnóstico de temperatura, no una meta editorial.
 
+**k58 — Refranero**  — Extrae del cuerpo del texto —no de fuentes externas— toda unidad de habla sentenciosa: refrán, proverbio, máxima, sentencia filosófica o popular puesta en boca de un personaje o del narrador.
+
 ---
 
 ## Detallado de instrumentos de análisis directo
 
-**M01 — Víspera** — I (Brief) y II (Extended), escuchan la atmósfera del corpus en estado puro y genera el esqueleto visual completo del documento maestro: presentación, atmósfera, imagen por instrumento.
+**M01 — Víspera** — Escucha la atmósfera del corpus en estado puro y genera un esqueleto inicial del documento maestro donde se incorporarán los demás documentos producidos. Genera una primera vista.
 
 **M02 — Recepción** — Orienta antes de analizar. Produce imagen del corpus como objeto, frase de recepción, apertura, ficha textual, mapa de hechos, diagnóstico de primer contacto y tensiones que mueven todo.
 
-**M03 — Narraciones** — Busca lo que ocurre en el corpus —no lo que se argumenta, sino lo que pasa. Índice completo de eventos con ubicación, giro e intensidad. Cierra con diagnóstico de temperatura narrativa.
+**M03 — Bitácora** — Produces el despliegue completo de lo que ocurre en el corpus — cada hecho, cada movimiento, sin comprimir.
 
-**M04 — Joyería** — Recorre el corpus sección por sección abriendo estuches. Cada sección: un fragmento del movimiento argumental y las joyas —pasajes que sobreviven solos, que funcionan sin contexto.
+**M04 — Narraciones** — Busca lo que ocurre en el corpus —no lo que se argumenta, sino lo que pasa. Índice completo de eventos con ubicación, giro e intensidad. Cierra con diagnóstico de temperatura narrativa.
 
-**M05 — Batimetría** — Desciende al interior del corpus y revela su estratigrafía: qué está en superficie, qué está sepultado, qué opera sin nombrarse, qué dejó huella sin quedarse, qué no está. Mapa de profundidades organizado por condiciones de acceso.
+**M05 — Joyería** — Recorre el corpus sección por sección abriendo estuches. Cada sección: un fragmento del movimiento argumental y las joyas —pasajes que sobreviven solos, que funcionan sin contexto.
 
-**M06 — Apolo** — Lee el corpus como arquitectura. Mide, cartografía, identifica fuerzas. Produce seis miradas estructurales, el imán, la topología de ideas, el truco que produce inagotabilidad, y la sentencia final con veredicto explícito.
+**M06 — Batimetría** — Desciende al interior del corpus y revela su estratigrafía: qué está en superficie, qué está sepultado, qué opera sin nombrarse, qué dejó huella sin quedarse, qué no está. Mapa de profundidades organizado por condiciones de acceso.
 
-**M07 I — Escucha dionisíaca** — Llega al corpus antes de que cualquier categoría lo toque. Opera como cadena de pasos que reduce el vocabulario disponible en cada paso, obligando al sistema a encontrar el idioma del corpus en lugar de importar el idioma de la crítica.
+**M07 — Apolo** — Lee el corpus como arquitectura. Mide, cartografía, identifica fuerzas. Produce seis miradas estructurales, el imán, la topología de ideas, el truco que produce inagotabilidad, y la sentencia final con veredicto explícito.
 
-**M07 II — Dioniso** — Lee el corpus como acontecimiento. Escucha lo que late, lo que el corpus carga sin saberlo, lo que se mueve debajo de lo que el texto cree estar diciendo. El análisis de pulso completo.
+**M08 — Dioniso** — Lee el corpus como acontecimiento. Escucha lo que late, lo que el corpus carga sin saberlo, lo que se mueve debajo de lo que el texto cree estar diciendo. El análisis de pulso completo.
 
-**M08 — Hermes** — Lee el suelo donde el corpus ocurrió: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas.
+**M09 — Hermes** — Lee el suelo donde el corpus ocurrió: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas.
 
 ---
 

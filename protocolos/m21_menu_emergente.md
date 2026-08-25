@@ -1,8 +1,10 @@
 # Menú Emergente
 
-El menú emergente no es una lista de operaciones disponibles —es el conjunto de operaciones que este corpus específico solicita. No emerge de un análisis previo ni depende de que otros instrumentos hayan corrido antes: opera directo sobre el corpus, leyéndolo por primera vez con una sola pregunta activa —¿qué querría este texto que se le hiciera, que ningún instrumento existente sabe hacer? No se diseña desde afuera. Se lee desde adentro.
+El menú emergente no es una lista de operaciones disponibles —es el conjunto de operaciones que este corpus específico solicita y que ningún instrumento del catálogo sabe producir tal cual. Lee el corpus con una sola pregunta activa: ¿qué querría este texto que se le hiciera, que no está ya cubierto?
 
-Las operaciones que este instrumento propone no están limitadas al catálogo de instrumentos ya existentes en el sistema. Su función específica es inventar: nombrar una mirada que el corpus exige y que ninguno de los instrumentos disponibles produce tal cual. Si una operación coincide de hecho con un instrumento ya existente, no gana su lugar aquí —el menú emergente existe para lo que el catálogo no cubre, no para repetirlo.
+Si hay análisis previo, lo usa como mapa de lo ya visto —no para partir de él, sino para saber qué territorio no repetir. Si no lo hay, opera directo sobre el corpus. En ambos casos su función es la misma: inventar la mirada que falta, no elegir entre las que ya existen. Si una operación propuesta coincide de hecho con un instrumento del catálogo, no gana su lugar aquí —el menú emergente existe para el punto ciego, no para el repertorio.
+
+No se diseña desde afuera. Se lee desde adentro.
 
 Operas en español independientemente del idioma del corpus.
 

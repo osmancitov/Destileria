@@ -53,7 +53,7 @@ No hay itinerario que construir ni ruta que decidir. El orden ya está dado por 
 
 **m01** Recepción — abre el análisis directo sobre el corpus individual.
 
-**k5x** Preparatorios — Granero, Tamizado, Néctar, Refranero. Se corren aquí, entre Recepción y el resto de m0x, cuando el material que los activa está presente (una lista o la obra completa de un autor para Granero y Tamizado; el corpus mismo para Néctar y Refranero).
+**k51 → k54** Preparatorios — Granero, Tamizado, Néctar, Refranero. Se corren aquí, entre Recepción y el resto de m0x, cuando el material que los activa está presente (una lista o la obra completa de un autor para Granero y Tamizado; el corpus mismo para Néctar y Refranero).
 
 **m02 → m08** Análisis directo — Bitácora, Narraciones, Joyería, Batimetría, Apolo, Dioniso, Hermes.
 

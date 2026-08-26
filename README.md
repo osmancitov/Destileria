@@ -34,6 +34,7 @@ Descripción breve de cada instrumento —suficiente para saber qué es y cuánd
 - **Bucle** — aplica al corpus sus propios mecanismos, cuando el corpus construye herramientas y es del mismo tipo que ellas describen. — https://osmancitov.github.io/protocolos/m24_bucle.md
 - **Umbral del Reconocimiento** — mapea las condiciones bajo las que algo o alguien es reconocido en el corpus, y su costo. — https://osmancitov.github.io/protocolos/m25_umbral_del_reconocimiento.md
 - **Historia de los Efectos** — lee el corpus desde su recepción a través del tiempo, cuando hay distancia histórica documentada. — https://osmancitov.github.io/protocolos/m26_historia_de_los_efectos.md
+- **Contrapunto** — toma la tesis que el análisis acumulado consolidó por convergencia y sostiene junto a ella el caso contrario más fuerte posible, sin dirimir cuál pesa más. — https://osmancitov.github.io/protocolos/m27_contrapunto.md
 
 **Orden superior**
 - **Síntesis** — construye la visión total del análisis acumulado: cartografía, lo que ninguna parte vio, imágenes de cierre. — https://osmancitov.github.io/protocolos/m96_sintesis.md
@@ -56,7 +57,7 @@ No hay itinerario que construir ni ruta que decidir. El orden ya está dado por 
 
 **m02 → m08** Análisis directo — Bitácora, Narraciones, Joyería, Batimetría, Apolo, Dioniso, Hermes.
 
-**m21 → m26** Extendidos — Menú Emergente, Márgenes, Testigo del Testigo, Bucle, Umbral del Reconocimiento, Historia de los Efectos.
+**m21 → m27** Extendidos — Menú Emergente, Márgenes, Testigo del Testigo, Bucle, Umbral del Reconocimiento, Historia de los Efectos, Contrapunto.
 
 **m96 → m99** Orden superior — Síntesis, Punto de Fuga, Palimpsesto, Destilado, Destilado de Imágenes.
 
@@ -72,7 +73,7 @@ No produce un output propio ni separado. Habla en el margen —una intervención
 
 ### Qué observa
 
-**Repetición** — cuando un instrumento está por decir, con otras palabras, algo que otro ya estableció. No lo impide: lo señala, y dice cuál fue el instrumento que ya lo dijo.
+**Repetición** — cuando un instrumento está por decir, con otras palabras, algo que otro ya estableció. No lo impide: lo señala, y dice cuál fue el instrumento que ya lo dijo. Cuando una misma tesis de fondo converge de manera independiente en tres o más instrumentos —no una imagen o un verso citado de nuevo, sino la misma lectura central reapareciendo desde ángulos distintos sin que los instrumentos se hayan copiado entre sí— el auditor no lo trata solo como desgaste a vigilar: lo nombra también como hallazgo posible. Que el sistema entero converja sin proponérselo en la misma idea puede ser señal de algo real en el corpus, no ruido del método. El auditor puede sugerir que esa convergencia se marque explícitamente en el documento final —una nota breve que diga qué instrumentos llegaron ahí y por qué caminos distintos— en vez de simplemente dejarla disuelta entre las secciones o recortada por prolija.
 
 **Extensión** — cuando el conjunto acumulado empieza a exceder lo que el corpus, por su propia naturaleza, puede sostener en atención. No es una cifra fija: es proporción entre lo que el corpus da y lo que el documento ya pesa.
 
@@ -94,6 +95,8 @@ No corta, no acorta, no fusiona ni omite ningún instrumento por sí mismo. No d
 
 ## Entrega
 
-Existe un único documento maestro .md por corpus, no un archivo por instrumento. Cada instrumento, al terminar, añade su sección al final del documento existente —nunca reescribe lo ya producido por instrumentos anteriores. El documento maestro se presenta al operador actualizado después de cada instrumento, para que pueda leer sobre la marcha y el auditor tenga sobre qué señalar.
+Existe un único documento maestro .md por corpus, no un archivo por instrumento. Cada instrumento, al terminar, añade su sección al final del documento existente —nunca reescribe lo ya producido por instrumentos anteriores. El documento maestro se actualiza internamente después de cada instrumento, para que el operador pueda leer sobre la marcha y el auditor tenga sobre qué señalar.
+
+Al cierre de cada bloque de la secuencia (Preparatorios, m01→m08, m21→m27, m96→m99), el documento maestro se presenta al operador como archivo descargable en su estado acumulado hasta ese punto. Esto es un paso obligatorio del protocolo, no una decisión de criterio en el momento: la secuencia completa puede extenderse por varias sesiones, y el operador necesita un punto de control tangible entre una y otra sin depender de que la conversación misma se conserve.
 
 El documento maestro resultante es la suma de lo que cada instrumento produjo, ajustada según las decisiones que el operador tomó a partir de lo que el auditor le señaló en el camino.

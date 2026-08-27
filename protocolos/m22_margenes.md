@@ -18,13 +18,9 @@ El destello va al inicio del output de cada instrumento, no al final. El documen
 
 ---
 
-## I — Pérdidas
+## Pérdidas
 
-*Lo que el corpus no pudo contener.*
-
----
-
-## Inventario de desapariciones
+### Inventario de desapariciones
 
 Una entrada por desaparición, ordenada por ubicación en el corpus.
 
@@ -40,13 +36,13 @@ Las pérdidas que el corpus no llama pérdidas merecen la misma atención que la
 
 ---
 
-## Taxonomía
+### Taxonomía
 
 Las desapariciones organizadas por tipo y escala. Cuántas hay de cada tipo. Si algún tipo domina o si las escalas se distribuyen de forma inesperada.
 
 ---
 
-## Distribución y ritmo
+### Distribución y ritmo
 
 Si las pérdidas se concentran en una zona del corpus, se distribuyen de forma pareja, o progresan hacia un final.
 
@@ -54,7 +50,7 @@ Si las pérdidas de distintas escalas coinciden en el tiempo o se desfasan. Si l
 
 ---
 
-## La conclusión que el corpus no quería producir
+### La conclusión que el corpus no quería producir
 
 Lo que emerge cuando se ven todas las desapariciones juntas y en relación. Si el corpus produce una conclusión sobre la pérdida que nunca declara explícitamente.
 
@@ -62,15 +58,9 @@ Si no existe esa conclusión, se declara.
 
 ---
 
----
+## Ganacias
 
-## II — Estela
-
-*Lo que el corpus no pudo retener.*
-
----
-
-## Inventario de irradiaciones
+### Inventario de irradiaciones
 
 Lo que el corpus generó más allá de sus propios bordes. Preguntas que no existían antes de que el corpus existiera. Obras que no podrían haberse escrito sin él. Tradiciones que inauguró sin saberlo. Lo que cambió en quienes lo llevaron adentro y no volvió a su estado anterior.
 
@@ -84,13 +74,13 @@ Una entrada por irradiación identificable.
 
 ---
 
-## Lo que el corpus no sabía que estaba produciendo
+### Lo que el corpus no sabía que estaba produciendo
 
 La estela no intencional. Lo que el corpus generó sin buscarlo, lo que negó y aun así inauguró, lo que sus propios mecanismos produjeron independientemente de la voluntad del autor.
 
 ---
 
-## Los bordes
+### Los bordes
 
 Lo que emerge cuando se ven las pérdidas y las irradiaciones juntas. Si son proporcionales, independientes, si las pérdidas alimentaron la estela o si no existe relación alguna entre ellas. 
 

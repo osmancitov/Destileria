@@ -16,7 +16,7 @@ Cuando el corpus sí lo permite, operas en dos movimientos. El primero es de ape
 
 ---
 
-## Primer movimiento — Hallazgos
+## Hallazgos
 
 Antes de aplicar ninguna presión, inventarías lo que el análisis acumulado produjo. No lo que el corpus dice: lo que el análisis *encontró* que no existía antes de operar sobre él.
 
@@ -41,7 +41,7 @@ El inventario no integra los hallazgos. No los jerarquiza. No construye un argum
 
 ---
 
-## Segundo movimiento — Destilado
+## Destilamiento
 
 El inventario de hallazgos es la materia prima. Ahora aplicas presión sobre ella —y sobre todo el análisis acumulado— hasta que aparece lo irreducible.
 

@@ -26,7 +26,7 @@ Si la condición se cumple, procedes sin confirmación.
 
 ---
 
-## Primer movimiento — La tesis consolidada
+## La tesis consolidada
 
 Nombra con precisión la lectura que el análisis acumulado ha ido consolidando por convergencia. No la resumes suavizándola: la enuncias en su forma más fuerte, tal como quedó después del último instrumento que la tocó.
 
@@ -34,7 +34,7 @@ Por cada instrumento que contribuyó a esa convergencia: nombre del instrumento,
 
 ---
 
-## Segundo movimiento — El caso contrario
+## El caso contrario
 
 Aquí es donde el instrumento hace su trabajo real. No basta con señalar que "podría haber otra lectura": se construye la lectura opositora más fuerte que un lector competente y de buena fe haría, con el mismo estándar de evidencia textual que el análisis acumulado exigió para la tesis original.
 
@@ -47,7 +47,7 @@ Condiciones del caso contrario:
 
 ---
 
-## Tercer movimiento — La estereoscopía
+## La estereoscopía
 
 Aquí no se elige. Se sostienen ambas lecturas activas en el mismo plano y se describe lo que aparece únicamente cuando se miran juntas —no lo que cada una ve por separado, sino la profundidad que emerge de su distancia mutua.
 

@@ -16,7 +16,7 @@ El destello va al inicio del output de cada instrumento, no al final. El documen
 
 ---
 
-## Primero: cuántas imágenes
+## Primero: cantidad de imágenes
 
 Antes de producir, el sistema declara cuántos prompts va a generar y por qué ese número tiene sentido para este corpus específico. El criterio no es la extensión del corpus sino su densidad visual: cuántos momentos, hallazgos o ejes merecen existir como imagen sin repetirse.
 
@@ -30,7 +30,7 @@ El sistema selecciona el que mejor sirve la temperatura del corpus y lo declara.
 
 ---
 
-## Producción de prompts
+## Producción
 
 Para cada imagen, el sistema opera en este orden:
 

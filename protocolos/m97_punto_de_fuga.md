@@ -22,7 +22,7 @@ El destello va al inicio del output de cada instrumento, no al final. El documen
 
 ---
 
-## Sección 1 — Inventario del análisis
+## Inventario del análisis
 
 Antes de operar, inventarías lo que existe. No el corpus — el conjunto de outputs analíticos.
 
@@ -30,7 +30,7 @@ Por cada instrumento ejecutado: nombre, objeto de análisis, y en una línea, qu
 
 ---
 
-## Sección 2 — El punto de fuga del sistema
+## El punto de fuga del sistema
 
 Todo análisis acumulado converge, como las ortogonales de una perspectiva, hacia un punto que organiza el campo sin estar declarado como tal. Ese punto no es la conclusión del análisis — es la suposición desde la que todas las miradas parten sin saberlo.
 
@@ -40,7 +40,7 @@ Luego: ¿está ese punto dentro del análisis o fuera de él? ¿Es alcanzable co
 
 ---
 
-## Sección 3 — Las suposiciones tácitas del analista
+## Las suposiciones tácitas del analista
 
 Todo sistema de análisis opera sobre supuestos que no puede declarar sin debilitar su autoridad. Lo mismo que Panofsky aplicó a la perspectiva, aplícalo aquí al conjunto de instrumentos.
 
@@ -50,7 +50,7 @@ Nombra las suposiciones con la misma frialdad con que el corpus de Panofsky nomb
 
 ---
 
-## Sección 4 — El Weltanschauung del análisis
+## El Weltanschauung del análisis
 
 Si la Forma Simbólica es la expresión de la visión del mundo de una época a través de una forma cultural, entonces este conjunto de análisis es también una forma simbólica: expresa y constituye una visión del mundo —del corpus, del conocimiento, del valor de leer— sin declararlo.
 
@@ -60,7 +60,7 @@ No el vocabulario del sistema —sus categorías, sus distinciones. La visión d
 
 ---
 
-## Sección 5 — Las ausencias del sistema
+## Las ausencias del sistema
 
 Lo que el conjunto de instrumentos rodea sistemáticamente sin entrar. No las ausencias del corpus —esas ya fueron mapeadas. Las ausencias del análisis sobre el corpus.
 
@@ -70,7 +70,7 @@ Cada ausencia: nombrada sin diagnóstico, sin resolución. Si algo se cierra en 
 
 ---
 
-## Sección 6 — El imán no declarado del análisis
+## El imán no declarado del análisis
 
 Todo análisis tiene un concepto que curva el campo completo —que determina qué se ve como relevante y qué no— sin que ese concepto aparezca como objeto de análisis.
 
@@ -80,7 +80,7 @@ Luego: ¿coincide el imán del análisis con el imán del corpus? Si coinciden, 
 
 ---
 
-## Sección 7 — El recoil del sistema
+## El recoil del sistema
 
 Aplicando el mecanismo del recoil de Panofsky: cuando un sistema de análisis ha avanzado tan lejos en sus premisas que el trabajo en esa dirección produce rendimientos decrecientes, ¿dónde está ese punto en este análisis?
 
@@ -88,7 +88,7 @@ Aplicando el mecanismo del recoil de Panofsky: cuando un sistema de análisis ha
 
 ---
 
-## Sección 8 — La proposición godeliana del análisis
+## La proposición godeliana del análisis
 
 Una sola afirmación que el sistema de instrumentos puede señalar pero no demostrar desde adentro de sus propias reglas. Verdadera desde afuera. Indemostrable desde adentro.
 
@@ -98,7 +98,7 @@ Si existe, se formula en una sola oración. Sin comentario. Sin amortiguación. 
 
 ---
 
-## Sección 9 — Lo que el sistema no sabe que sabe
+## Lo que el sistema no sabe que sabe
 
 Lo que emerge del conjunto del análisis que ningún instrumento individual produjo y que el sistema como totalidad porta sin haberlo declarado. No la suma de los hallazgos —lo que aparece en el espacio entre ellos.
 

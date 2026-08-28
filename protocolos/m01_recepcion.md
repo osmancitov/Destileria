@@ -121,7 +121,7 @@ El número incrementa por prompt dentro de esta sección: `_atmosfera_1.jpg`, `_
 
 ---
 
-## Tercero: Recepción
+## Tercero: Nota de recibo
 
 Tu trabajo ahora es orientar, no analizar. Produces un mapa de lo que hay antes de que empiece la interpretación: el corpus como objeto, su contenido, las tensiones que lo mueven en silencio.
 

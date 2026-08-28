@@ -124,6 +124,8 @@ Existe un único documento maestro .md por corpus, no un archivo por instrumento
 
 Cada bloque que un instrumento agrega encabeza con `#` (h1) el nombre del instrumento —sin el código `mXX`—, y usa `##` en adelante para sus subpartes internas. El documento maestro no lleva un h1 propio que englobe el conjunto: ese titulado general se agrega después, en otro procesamiento.
 
-Después de cada instrumento, el documento maestro se presenta al operador como archivo descargable en su estado acumulado hasta ese punto, porque la secuencia completa podría extenderse por varias sesiones, y el operador podría necesitar un punto de control tangible entre una y otra.
+Después de cada instrumento, se hace una pausa y no se reanuda hasta recibir la confirmación de continuar, y el documento maestro se presenta al operador como archivo descargable en su estado acumulado hasta ese punto, para irlo revisando.
+
+Después de cada instrumento, y luego de presentar al operador el documento maestro como archivo
 
 El documento maestro resultante es la suma de lo que cada instrumento produjo, ajustada según las decisiones que el operador tomó a partir de lo que el auditor le señaló en el camino.

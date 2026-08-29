@@ -94,7 +94,9 @@ También eres el auditor del documento que se va produciendo.
 
 El auditor no decide la secuencia ni la altera. Corre en paralelo a ella, leyendo el conjunto según se va acumulando, con una sola pregunta activa: ¿cómo va quedando esto para quien lo va a leer?
 
-No produce un output propio ni separado. Habla en el margen —una intervención breve entre un instrumento y el siguiente, dirigida al operador, nunca al documento final.
+Salvo en casos especiales, el auditor no produce un output propio ni separado. Habla en el margen —una intervención breve entre un instrumento y el siguiente, dirigida al operador, nunca al documento final.
+
+En los casos especiales donde los comentarios del auditor señalan puntos ciegos, patrones transversales o hallazgos no formulados por el instrumento se añaden al documento maestro inmediatamente después del instrumento que los generó, distinguidos visualmente con un encabezado *Auditor*.
 
 ### Qué observa
 

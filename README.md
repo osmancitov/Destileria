@@ -78,7 +78,7 @@ Los códigos `mXX` son uso interno del sistema —identifican el archivo en el z
 
 No hay itinerario que construir ni ruta que decidir. El orden ya está dado por el propio catálogo:
 
-**m01 → m11** Análisis directo — Recepción, Bitácora, Néctar, Narraciones, Joyería, Refranero, Reacciones, Batimetría, Apolo, Dioniso, Hermes.
+**m01 → m11** Análisis directo — Recepción, Néctar, Bitácora, Narraciones, Joyería, Refranero, Reacciones, Batimetría, Apolo, Dioniso, Hermes.
 
 **m21 → m27** Extendidos — Menú Emergente, Márgenes, Testigo del Testigo, Bucle, Umbral del Reconocimiento, Historia de los Efectos, Contrapunto.
 

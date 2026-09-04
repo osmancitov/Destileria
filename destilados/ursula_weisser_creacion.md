@@ -1,7 +1,7 @@
 ---
 lote: ""
 slug: "ursula_weisser_creacion"
-título: "El misterio de la creación por Pseudo-Apolonio de Tiana"
+titulo: "El misterio de la creación por Pseudo-Apolonio de Tiana"
 titulo_aleman: "Buch über das Geheimnis der Schöpfung und die Darstellung der Natur (Buch der Ursachen) von Pseudo-Apollonios von Tyana"
 titulo_fuente: "Kitāb Sirr al-Ḫalīqa"
 title: "$titulo$"

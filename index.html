@@ -171,6 +171,49 @@
 	}
 	#ov-cerrar:hover { opacity: 1; }
 	#ov-panel { position: relative; }
+
+	/* ── PANEL DE INFO EN LIGHTBOX ── */
+	#lb-panel {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 1.5rem 1.75rem 2rem;
+		background: var(--c-fondo-elevado);
+		border-top: 2px solid var(--c-humo-claro);
+		color: var(--c-texto);
+		z-index: 2001;
+		animation: subir 0.22s ease;
+	}
+	#lb-lote {
+		font-size: 0.65rem;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		opacity: 0.5;
+		margin: 0 0 0.5rem;
+	}
+	#lb-titulo {
+		font-size: 1.05rem;
+		font-weight: 700;
+		line-height: 1.3;
+		margin: 0 0 0.6rem;
+	}
+	#lb-extracto {
+		font-size: 0.84rem;
+		line-height: 1.6;
+		opacity: 0.78;
+		margin: 0 0 1.1rem;
+	}
+	#lb-enlace {
+		display: inline-block;
+		font-size: 0.88rem;
+		font-weight: 700;
+		text-decoration: none;
+		color: inherit;
+		border-bottom: 1px solid currentColor;
+		padding-bottom: 0.1em;
+	}
 	</style>
 
 </head>
@@ -244,9 +287,15 @@
 		<div class="pie-sello"><a href="https://github.com/osmancitov/osmancitov.github.io">Destilería Osmancito</a><br>Entra la materia prima. Sale el destilado puro.</div>
 	</footer>
 
-  <!-- Módulo LightBox -->
-	<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+  <!-- Módulo LightBox con panel de info integrado -->
+	<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Ficha del destilado">
 		<img id="lb-img" src="" alt="">
+		<div id="lb-panel">
+			<p id="lb-lote"></p>
+			<p id="lb-titulo"></p>
+			<p id="lb-extracto"></p>
+			<a id="lb-enlace" href="#">Ver destilado →</a>
+		</div>
 	</div>
 
 
@@ -1249,13 +1298,21 @@ imagen_h: ""
     return 'https://osmancitov.github.io/destilados/page.html?s=' + l.slug;
   });
 
-  /* ── 5. Lightbox ── */
-  var lbOverlay = document.getElementById('lb-overlay');
-  var lbImg     = document.getElementById('lb-img');
+  /* ── 5. Lightbox unificado con panel de info ── */
+  var lbOverlay  = document.getElementById('lb-overlay');
+  var lbImg      = document.getElementById('lb-img');
+  var lbLote     = document.getElementById('lb-lote');
+  var lbTitulo   = document.getElementById('lb-titulo');
+  var lbExtracto = document.getElementById('lb-extracto');
+  var lbEnlace   = document.getElementById('lb-enlace');
 
-  function abrirLightbox(src, alt) {
-    lbImg.src = src;
-    lbImg.alt = alt || '';
+  function abrirLightbox(t) {
+    lbImg.src          = t.dataset.imgSrc;
+    lbImg.alt          = t.dataset.titulo;
+    lbLote.textContent = t.dataset.lote ? 'Lote ' + t.dataset.lote : '';
+    lbTitulo.textContent   = t.dataset.titulo;
+    lbExtracto.textContent = t.dataset.extracto;
+    lbEnlace.href          = t.dataset.href;
     lbOverlay.classList.add('activo');
     document.body.style.overflow = 'hidden';
   }
@@ -1266,68 +1323,32 @@ imagen_h: ""
     document.body.style.overflow = '';
   }
 
+  /* click en imagen o fondo → cerrar; click en panel → no cerrar */
   lbOverlay.addEventListener('click', function (e) {
-    if (e.target === lbOverlay) cerrarLightbox();
+    if (!e.target.closest('#lb-panel')) cerrarLightbox();
   });
+
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && lbOverlay.classList.contains('activo')) cerrarLightbox();
   });
 
-  /* ── 6. Overlay de info ── */
-  var fondo     = document.getElementById('ov-fondo');
-  var elLote    = document.getElementById('ov-lote');
-  var elTit     = document.getElementById('ov-titulo');
-  var elExt     = document.getElementById('ov-extracto');
-  var elLink    = document.getElementById('ov-enlace');
-  var btnCerrar = document.getElementById('ov-cerrar');
-
-  function abrirOverlay(t) {
-    elLote.textContent = t.dataset.lote ? 'Lote ' + t.dataset.lote : '';
-    elTit.textContent  = t.dataset.titulo;
-    elExt.textContent  = t.dataset.extracto;
-    elLink.href        = t.dataset.href;
-    fondo.classList.add('activo');
-    document.body.style.overflow = 'hidden';
-  }
-
-  function cerrarOverlay() {
-    fondo.classList.remove('activo');
-    document.body.style.overflow = '';
-  }
-
-  /* ── 7. Routing de clicks: imagen → lightbox, hover-text → overlay ── */
+  /* ── 6. Click en tarjetas → lightbox unificado ── */
   function manejarClick(e) {
     var t = e.target.closest('.tarjeta-portada');
-    if (!t) return;
+    if (t) abrirLightbox(t);
+  }
 
-    /* click en la zona de texto del hover → overlay */
-    if (e.target.closest('.tarjeta-hover')) {
-      abrirOverlay(t);
-      return;
+  function manejarTeclado(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      var t = e.target.closest('.tarjeta-portada');
+      if (t) { e.preventDefault(); abrirLightbox(t); }
     }
-
-    /* click en la imagen (o en cualquier otra parte de la tarjeta) → lightbox */
-    abrirLightbox(t.dataset.imgSrc, t.dataset.titulo);
   }
 
   grillaPrincipal.addEventListener('click', manejarClick);
   grillaProceso.addEventListener('click', manejarClick);
-
-  /* teclado: Enter/Space en tarjeta → lightbox */
-  function manejarTeclado(e) {
-    if (e.key === 'Enter' || e.key === ' ') {
-      var t = e.target.closest('.tarjeta-portada');
-      if (t) { e.preventDefault(); abrirLightbox(t.dataset.imgSrc, t.dataset.titulo); }
-    }
-  }
   grillaPrincipal.addEventListener('keydown', manejarTeclado);
   grillaProceso.addEventListener('keydown', manejarTeclado);
-
-  btnCerrar.addEventListener('click', cerrarOverlay);
-  fondo.addEventListener('click', function (e) { if (e.target === fondo) cerrarOverlay(); });
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && fondo.classList.contains('activo')) cerrarOverlay();
-  });
 
 })();
 </script>

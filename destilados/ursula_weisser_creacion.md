@@ -14,7 +14,7 @@ idioma: "Alemán"
 genero: "Erudición académica, edición crítica, historia de la ciencia"
 extension: "txt"
 palabra_frecuente: "Sirr"
-imagen: ""
+imagen: "catalogo-en-proceso_presentacion_1_half.jpg"
 imagen_w: "992"
 imagen_h: "1586"
 ---

@@ -1145,6 +1145,24 @@ imagen_h: ""
 
 ---
 lote: ""
+slug: "crowley_thoth"
+titulo: "The Book of Thoth"
+title: "$titulo$"
+autor: "Aleister Crowley"
+ano_publicacion: "1944"
+fecha_lote: "02/09/2026"
+descripcion: "Tratado definitivo del Tarot Thoth: filosofía qabálistica, simbología y uso adivinatorio."
+extracto: "Un libro que no se abre: ya está abierto. Lleva el universo plegado en 78 figuras."
+idioma: "Inglés"
+genero: "Ensayo esotérico / Tratado iniciático"
+extension: "~77 500 palabras / ~310 páginas / 3 partes + catálogo de 78 cartas"
+palabra_frecuente: "card"
+imagen_w: "992"
+imagen_h: "1586"
+---
+
+---
+lote: ""
 slug: "ursula_weisser_creacion"
 titulo: "El misterio de la creación por Pseudo-Apolonio de Tiana"
 titulo_aleman: "Buch über das Geheimnis der Schöpfung und die Darstellung der Natur (Buch der Ursachen) von Pseudo-Apollonios von Tyana"
@@ -1159,7 +1177,6 @@ idioma: "Alemán"
 genero: "Erudición académica, edición crítica, historia de la ciencia"
 extension: "txt"
 palabra_frecuente: "Sirr"
-imagen: "catalogo-en-proceso_presentacion_1_half.jpg"
 imagen_w: "992"
 imagen_h: "1586"
 ---
@@ -1186,7 +1203,7 @@ imagen_h: "1586"
   /* ── 2. Construir grilla genérica ── */
   function construirGrilla(grilla, lotes, buildHref) {
     lotes.forEach(function (l) {
-      var img         = l.imagen || (l.slug + '_presentacion_1_half.jpg');
+      var img = l.imagen;
       var href        = buildHref(l);
       var titulo      = l.titulo + (l.autor ? ' — ' + l.autor : '') + (l.ano_publicacion ? ' (' + l.ano_publicacion + ')' : '');
       var tituloHover = l.titulo + (l.ano_publicacion ? ' (' + l.ano_publicacion + ')' : '');
@@ -1218,6 +1235,9 @@ imagen_h: "1586"
   var lotesPrincipal = rawPrincipal.split('---').map(function (b) { return b.trim(); }).filter(Boolean)
     .map(parseYAML).filter(function (o) { return o.slug; });
   var grillaPrincipal = document.getElementById('grilla');
+	lotesPrincipal.forEach(function (l) {
+  l.imagen = l.imagen || (l.slug + '_presentacion_1_half.jpg');
+});
   construirGrilla(grillaPrincipal, lotesPrincipal, function (l) {
     return 'destilados/' + l.slug + '.html';
   });
@@ -1227,6 +1247,9 @@ imagen_h: "1586"
   var lotesProceso = rawProceso.split('---').map(function (b) { return b.trim(); }).filter(Boolean)
     .map(parseYAML).filter(function (o) { return o.slug; });
   var grillaProceso = document.getElementById('grilla-proceso');
+	lotesProceso.forEach(function (l) {
+  l.imagen = l.imagen || 'catalogo-en-proceso_presentacion_1_half.jpg';
+});
   construirGrilla(grillaProceso, lotesProceso, function (l) {
     return 'https://osmancitov.github.io/destilados/page.html?s=' + l.slug;
   });

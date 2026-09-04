@@ -184,6 +184,12 @@
 		color: var(--c-texto);
 		z-index: 2001;
 		animation: subir 0.22s ease;
+		text-decoration: none;
+		cursor: pointer;
+		display: block;
+	}
+	#lb-panel:hover {
+		background: var(--c-fondo-bloque);
 	}
 	#lb-lote {
 		font-size: 0.65rem;
@@ -205,15 +211,6 @@
 		opacity: 0.78;
 		margin: 0 0 1.1rem;
 	}
-	#lb-enlace {
-		display: inline-block;
-		font-size: 0.88rem;
-		font-weight: 700;
-		text-decoration: none;
-		color: inherit;
-		border-bottom: 1px solid currentColor;
-		padding-bottom: 0.1em;
-	}
 	</style>
 
 </head>
@@ -232,7 +229,8 @@
 		<img src="destilados/img/000_destileria_260518_12.jpg" 
 		alt="El Destilado"
 		width="1024"
-		height="1536">
+		height="1536"
+		data-no-lightbox>
 	</figure>
 </div>
 
@@ -290,12 +288,11 @@
   <!-- Módulo LightBox con panel de info integrado -->
 	<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Ficha del destilado">
 		<img id="lb-img" src="" alt="">
-		<div id="lb-panel">
+		<a id="lb-panel" href="#">
 			<p id="lb-lote"></p>
 			<p id="lb-titulo"></p>
 			<p id="lb-extracto"></p>
-			<a id="lb-enlace" href="#">Ver destilado →</a>
-		</div>
+		</a>
 	</div>
 
 
@@ -1247,7 +1244,7 @@ idioma: "Alemán"
 genero: "Erudición académica, edición crítica, historia de la ciencia"
 extension: "txt"
 palabra_frecuente: "Sirr"
-imagen: ""
+imagen: "001_durant_i_heritage_presentacion_1_half.jpg"
 imagen_w: "992"
 imagen_h: "1586"
 ---
@@ -1325,15 +1322,15 @@ imagen_h: "1586"
   var lbLote     = document.getElementById('lb-lote');
   var lbTitulo   = document.getElementById('lb-titulo');
   var lbExtracto = document.getElementById('lb-extracto');
-  var lbEnlace   = document.getElementById('lb-enlace');
+  var lbPanel    = document.getElementById('lb-panel');
 
   function abrirLightbox(t) {
     lbImg.src          = t.dataset.imgSrc;
     lbImg.alt          = t.dataset.titulo;
-    lbLote.textContent = t.dataset.lote ? 'Lote ' + t.dataset.lote : '';
+    lbLote.textContent     = t.dataset.lote ? 'Lote ' + t.dataset.lote : '';
     lbTitulo.textContent   = t.dataset.titulo;
     lbExtracto.textContent = t.dataset.extracto;
-    lbEnlace.href          = t.dataset.href;
+    lbPanel.href           = t.dataset.href;
     lbOverlay.classList.add('activo');
     document.body.style.overflow = 'hidden';
   }
@@ -1372,6 +1369,18 @@ imagen_h: "1586"
   grillaProceso.addEventListener('keydown', manejarTeclado);
 
 })();
+</script>
+
+<!-- Excluir imágenes de presentación del lightbox -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('img[data-no-lightbox]').forEach(function (img) {
+    img.style.cursor = '';
+    img.addEventListener('click', function (e) {
+      e.stopImmediatePropagation();
+    }, true);
+  });
+});
 </script>
 
 </body>

@@ -222,6 +222,21 @@
 
 </section>
 
+<!-- CORPUS EN PROCESO -->
+<section class="modulo recepcion" id="en-proceso">
+<div class="modulo-cabecera">
+  <h1>En proceso</h1>
+</div>
+<div class="bitacora">
+  <p>Corpus actualmente en destilación.</p>
+</div>
+
+<div class="grilla-portadas" id="grilla-proceso">
+<!-- Las tarjetas se generan desde el catálogo YAML -->
+</div>
+
+</section>
+
 </main>
 
 	<!-- PIE -->
@@ -243,7 +258,7 @@
      ano_publicacion, extracto, imagen (opcional — si se omite
      se construye automáticamente como {slug}_presentacion_1_half.jpg)
      ═══════════════════════════════════════════════════ -->
-<script id="catalogo" type="text/yaml">
+<script id="catalogo-principal" type="text/yaml">
 
 ---
 lote: "048"
@@ -1161,6 +1176,16 @@ imagen_h: ""
 
 
 <!-- ═══════════════════════════════════════════════════
+     CATÁLOGO EN PROCESO
+     Mismo formato que el catálogo principal.
+     El href se construye como: destilados/page.html?s={slug}
+     ═══════════════════════════════════════════════════ -->
+<script id="catalogo-en-proceso" type="text/yaml">
+
+</script>
+
+
+<!-- ═══════════════════════════════════════════════════
      MOTOR — no tocar
      ═══════════════════════════════════════════════════ -->
 <script>
@@ -1176,40 +1201,79 @@ imagen_h: ""
     return obj;
   }
 
-  /* ── 2. Leer catálogo ── */
-  var raw = document.getElementById('catalogo').textContent;
-  var bloques = raw.split('---').map(function (b) { return b.trim(); }).filter(Boolean);
-  var lotes = bloques.map(parseYAML).filter(function (o) { return o.slug; });
+  /* ── 2. Construir grilla genérica ── */
+  function construirGrilla(grilla, lotes, buildHref) {
+    lotes.forEach(function (l) {
+      var img         = l.imagen || (l.slug + '_presentacion_1_half.jpg');
+      var href        = buildHref(l);
+      var titulo      = l.titulo + (l.autor ? ' — ' + l.autor : '') + (l.ano_publicacion ? ' (' + l.ano_publicacion + ')' : '');
+      var tituloHover = l.titulo + (l.ano_publicacion ? ' (' + l.ano_publicacion + ')' : '');
 
-  /* ── 3. Construir grilla ── */
-  var grilla = document.getElementById('grilla');
-  lotes.forEach(function (l) {
-    var img    = l.imagen || (l.slug + '_presentacion_1_half.jpg');
-    var href   = 'destilados/' + l.slug + '.html';
-    var titulo = l.titulo + (l.autor ? ' — ' + l.autor : '') + (l.ano_publicacion ? ' (' + l.ano_publicacion + ')' : '');
-    var tituloHover = l.titulo + (l.ano_publicacion ? ' (' + l.ano_publicacion + ')' : '');
+      var div = document.createElement('div');
+      div.className  = 'tarjeta-portada';
+      div.id         = 'lote-' + l.lote;
+      div.tabIndex   = 0;
+      div.setAttribute('role', 'button');
+      div.dataset.lote     = l.lote;
+      div.dataset.titulo   = titulo;
+      div.dataset.extracto = l.extracto;
+      div.dataset.href     = href;
+      div.dataset.imgSrc   = 'destilados/img/' + img;
 
-    var div = document.createElement('div');
-    div.className  = 'tarjeta-portada';
-    div.id         = 'lote-' + l.lote;
-    div.tabIndex   = 0;
-    div.setAttribute('role', 'button');
-    div.dataset.lote     = l.lote;
-    div.dataset.titulo   = titulo;
-    div.dataset.extracto = l.extracto;
-    div.dataset.href     = href;
+      div.innerHTML =
+        '<img src="destilados/img/' + img + '" alt="' + l.titulo + '" loading="lazy">' +
+        '<div class="tarjeta-hover" aria-hidden="true">' +
+          '<p class="tarjeta-hover-titulo">' + tituloHover + '</p>' +
+          '<p class="tarjeta-hover-extracto">' + l.extracto + '</p>' +
+        '</div>';
 
-    div.innerHTML =
-      '<img src="destilados/img/' + img + '" alt="' + l.titulo + '" loading="lazy">' +
-      '<div class="tarjeta-hover" aria-hidden="true">' +
-        '<p class="tarjeta-hover-titulo">' + tituloHover + '</p>' +
-        '<p class="tarjeta-hover-extracto">' + l.extracto + '</p>' +
-      '</div>';
+      grilla.appendChild(div);
+    });
+  }
 
-    grilla.appendChild(div);
+  /* ── 3. Grilla principal ── */
+  var rawPrincipal = document.getElementById('catalogo-principal').textContent;
+  var lotesPrincipal = rawPrincipal.split('---').map(function (b) { return b.trim(); }).filter(Boolean)
+    .map(parseYAML).filter(function (o) { return o.slug; });
+  var grillaPrincipal = document.getElementById('grilla');
+  construirGrilla(grillaPrincipal, lotesPrincipal, function (l) {
+    return 'destilados/' + l.slug + '.html';
   });
 
-  /* ── 4. Overlay ── */
+  /* ── 4. Grilla en proceso ── */
+  var rawProceso = document.getElementById('catalogo-en-proceso').textContent;
+  var lotesProceso = rawProceso.split('---').map(function (b) { return b.trim(); }).filter(Boolean)
+    .map(parseYAML).filter(function (o) { return o.slug; });
+  var grillaProceso = document.getElementById('grilla-proceso');
+  construirGrilla(grillaProceso, lotesProceso, function (l) {
+    return 'https://osmancitov.github.io/destilados/page.html?s=' + l.slug;
+  });
+
+  /* ── 5. Lightbox ── */
+  var lbOverlay = document.getElementById('lb-overlay');
+  var lbImg     = document.getElementById('lb-img');
+
+  function abrirLightbox(src, alt) {
+    lbImg.src = src;
+    lbImg.alt = alt || '';
+    lbOverlay.classList.add('activo');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function cerrarLightbox() {
+    lbOverlay.classList.remove('activo');
+    lbImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lbOverlay.addEventListener('click', function (e) {
+    if (e.target === lbOverlay) cerrarLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && lbOverlay.classList.contains('activo')) cerrarLightbox();
+  });
+
+  /* ── 6. Overlay de info ── */
   var fondo     = document.getElementById('ov-fondo');
   var elLote    = document.getElementById('ov-lote');
   var elTit     = document.getElementById('ov-titulo');
@@ -1217,7 +1281,7 @@ imagen_h: ""
   var elLink    = document.getElementById('ov-enlace');
   var btnCerrar = document.getElementById('ov-cerrar');
 
-  function abrir(t) {
+  function abrirOverlay(t) {
     elLote.textContent = t.dataset.lote ? 'Lote ' + t.dataset.lote : '';
     elTit.textContent  = t.dataset.titulo;
     elExt.textContent  = t.dataset.extracto;
@@ -1226,26 +1290,44 @@ imagen_h: ""
     document.body.style.overflow = 'hidden';
   }
 
-  function cerrar() {
+  function cerrarOverlay() {
     fondo.classList.remove('activo');
     document.body.style.overflow = '';
   }
 
-  grilla.addEventListener('click', function (e) {
+  /* ── 7. Routing de clicks: imagen → lightbox, hover-text → overlay ── */
+  function manejarClick(e) {
     var t = e.target.closest('.tarjeta-portada');
-    if (t) abrir(t);
-  });
+    if (!t) return;
 
-  grilla.addEventListener('keydown', function (e) {
+    /* click en la zona de texto del hover → overlay */
+    if (e.target.closest('.tarjeta-hover')) {
+      abrirOverlay(t);
+      return;
+    }
+
+    /* click en la imagen (o en cualquier otra parte de la tarjeta) → lightbox */
+    abrirLightbox(t.dataset.imgSrc, t.dataset.titulo);
+  }
+
+  grillaPrincipal.addEventListener('click', manejarClick);
+  grillaProceso.addEventListener('click', manejarClick);
+
+  /* teclado: Enter/Space en tarjeta → lightbox */
+  function manejarTeclado(e) {
     if (e.key === 'Enter' || e.key === ' ') {
       var t = e.target.closest('.tarjeta-portada');
-      if (t) { e.preventDefault(); abrir(t); }
+      if (t) { e.preventDefault(); abrirLightbox(t.dataset.imgSrc, t.dataset.titulo); }
     }
-  });
+  }
+  grillaPrincipal.addEventListener('keydown', manejarTeclado);
+  grillaProceso.addEventListener('keydown', manejarTeclado);
 
-  btnCerrar.addEventListener('click', cerrar);
-  fondo.addEventListener('click', function (e) { if (e.target === fondo) cerrar(); });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') cerrar(); });
+  btnCerrar.addEventListener('click', cerrarOverlay);
+  fondo.addEventListener('click', function (e) { if (e.target === fondo) cerrarOverlay(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && fondo.classList.contains('activo')) cerrarOverlay();
+  });
 
 })();
 </script>

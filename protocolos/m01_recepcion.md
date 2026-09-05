@@ -34,9 +34,6 @@ idioma: ""
 genero: ""
 extension: ""
 palabra_frecuente: ""
-imagen: ""
-imagen_w: "992"
-imagen_h: "1586"
 ---
 ```
 

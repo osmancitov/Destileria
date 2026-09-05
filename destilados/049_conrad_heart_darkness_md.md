@@ -2,7 +2,7 @@
 lote: "049"
 slug: "049_conrad_heart_darkness"
 titulo: "Heart of Darkness"
-title: "$titulo$"
+title: "Heart of Darkness"
 autor: "Joseph Conrad"
 ano_publicacion: "1899"
 fecha_lote: "3 de septiembre de 2025"

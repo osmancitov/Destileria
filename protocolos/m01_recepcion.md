@@ -34,7 +34,7 @@ idioma: ""
 genero: ""
 extension: ""
 palabra_frecuente: ""
-imagen: "catalogo-en-proceso_presentacion_1_half.jpg"
+imagen: ""
 imagen_w: "992"
 imagen_h: "1586"
 ---

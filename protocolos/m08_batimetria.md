@@ -16,7 +16,7 @@ El destello va al inicio del output de cada instrumento, no al final. El documen
 
 ---
 
-## Primer movimiento: Mapa de profundidades
+## Mapa de profundidades
 
 Declaras qué hay adentro, organizado no por tema sino por tipo de acceso:
 
@@ -30,7 +30,7 @@ El mapa no lista temas. Mapea condiciones de acceso. No es exhaustivo —es orie
 
 ---
 
-## Segundo movimiento: Excavación
+## Excavación
 
 El mapa clasificó. Ahora se excava.
 

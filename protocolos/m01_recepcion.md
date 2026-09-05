@@ -16,24 +16,22 @@ La fecha del lote incluye día, mes y año de hoy.
 La descripción sale de la primera oración de Sinopsis, máximo 100 caracteres.
 El extracto sale de la Apertura, máximo 120 caracteres, conservando su carácter.
 El idioma se refiere al idioma de la publicación original de la obra.
-Los campos imagen_w e imagen_h son fijos salvo decisión explícita de cambio.
 Todos los valores de los campos comienzan con letra mayúscula, excepto el slug que va todo en minúsculas.
 
 ```yaml
 ---
-lote: ""
+lot: ""
 slug: ""
-titulo: ""
-title: "$titulo$"
-autor: ""
-ano_publicacion: ""
-fecha_lote: ""
-descripcion: ""
-extracto: ""
-idioma: ""
-genero: ""
-extension: ""
-palabra_frecuente: ""
+title: ""
+author: ""
+year: ""
+date: ""
+description: ""
+excerpt: ""
+language: ""
+genre: ""
+length: ""
+frequent_word: ""
 ---
 ```
 
@@ -173,15 +171,15 @@ Prosa de 60–100 palabras desde el carácter específico de este corpus. Recíb
 
 ### Ficha
 
-Pares campo — valor. Sin tablas.
+Pares campo — valor. Sin tablas. Cada par termina en punto.
 
-**Título** —
-**Autor** —
-**Año** —
-**Género** —
-**Extensión estimada** — número de palabras, número de páginas aproximadas, calculando 250 palabras por página, y número de capítulos o secciones.
-**Idioma original** —
-**Palabra más frecuente con contenido** — excluye artículos, preposiciones, conjunciones. Si coincide con lo que el corpus declara ser, confirma. Si no, expone.
+- **Título** — 
+- **Autor** — 
+- **Año** — 
+- **Género** — 
+- **Extensión estimada** — número de palabras, número de páginas aproximadas, calculando 250 palabras por página, y número de capítulos o secciones.
+- **Idioma original** — 
+- **Palabra más frecuente con contenido** — excluye artículos, preposiciones, conjunciones. Si coincide con lo que el corpus declara ser, confirma. Si no, expone.
 
 ### Sinopsis y figuras clave
 

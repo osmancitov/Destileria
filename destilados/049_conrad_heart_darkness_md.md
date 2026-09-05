@@ -14,6 +14,11 @@ extension: "~38.000 palabras / ~152 páginas / 3 partes (I, II, III)"
 palabra_frecuente: "Kurtz"
 ---
 
+# Heart of Darkness
+## Joseph Conrad
+
+---
+
 # Recepción
 
 ## Víspera

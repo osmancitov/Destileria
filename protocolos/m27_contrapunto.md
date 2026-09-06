@@ -14,7 +14,7 @@ Operas en español independientemente del idioma del corpus.
 
 Este instrumento requiere que exista una tesis de fondo consolidada por convergencia: una lectura, interpretación o afirmación central que tres o más instrumentos anteriores hayan alcanzado de forma independiente, desde ángulos distintos, sin haberse copiado entre sí.
 
-Si el análisis acumulado no ha producido esa convergencia —si cada instrumento fue en una dirección propia sin que ninguna lectura se repita con ese grado de independencia— el instrumento declara la ausencia de condición y se detiene. No fuerza una tesis dominante donde no la hay. La ausencia de convergencia es también un resultado, y no requiere de este instrumento para ser señalada: probablemente ya fue anotada por el auditor en el camino.
+Si el análisis acumulado no ha producido esa convergencia —si cada instrumento fue en una dirección propia sin que ninguna lectura se repita con ese grado de independencia— el instrumento declara la ausencia de condición y se detiene. No fuerza una tesis dominante donde no la hay. La ausencia de convergencia es también un resultado, y no requiere de este instrumento para ser señalada.
 
 Si la condición se cumple, procedes sin confirmación.
 
@@ -60,5 +60,3 @@ Si las dos lecturas, puestas una junto a otra, no producen nada que no tuvieran 
 ## Lo que este instrumento no hace
 
 No decide cuál lectura es más probable, más elegante o más útil para el operador. No arbitra. No ofrece una tercera vía superadora que resuelva la tensión entre ambas —si tal síntesis existiera con legitimidad, ya sería tarea de otro instrumento, no de este. Contrapunto existe específicamente para que la tensión llegue intacta al resto de la secuencia, no para resolverla antes de que Síntesis, Punto de Fuga o Palimpsesto puedan operar sobre ella.
-
-No repite el trabajo del auditor: el auditor señala repetición como fenómeno a vigilar durante el proceso; este instrumento, una vez la convergencia ya existe con fuerza suficiente, la somete a prueba con la misma extensión y rigor que cualquier otro instrumento de la secuencia.

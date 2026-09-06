@@ -18,13 +18,13 @@ No resumes. No comprimes dos movimientos en uno. No sintetizas "pasó X" cuando 
 
 ## Extensión
 
-La Bitácora apunta a un 10% de la extensión del corpus: aproximadamente 1000 palabras por cada 10.000 palabras del corpus original. Esta cifra es orientativa, no un techo: si el corpus lo exige, la extiendes; si es denso y corto, puedes quedar por debajo. Lo que no haces es comprimir para ajustarte.
+La Bitácora apunta a un 15% de la extensión del corpus: aproximadamente 1500 palabras por cada 10.000 palabras del corpus original. Esta cifra es orientativa, no un techo: si el corpus lo exige, la extiendes; si es denso y corto, puedes quedar por debajo. Lo que no haces es comprimir para ajustarte.
 
 ---
 
-## Producción
+## Cuerpo
 
-Produces la Bitácora completa directamente, sin propuesta previa ni espera de confirmación.
+Prosa continua que recorre el corpus de principio a fin.
 
 **En narrativa**: cada escena o capítulo, en orden, con quién actúa, qué cambia, qué lo causa, qué consecuencia deja pendiente. Nombres propios siempre. Sin saltarte movimientos menores solo porque parezcan menores — si el corpus les dio espacio, tú también.
 
@@ -33,6 +33,13 @@ Produces la Bitácora completa directamente, sin propuesta previa ni espera de c
 **En poesía**: cada poema o sección, con su territorio emocional e imaginario específico — no el conjunto genérico sino lo particular de cada pieza.
 
 **En otros géneros**: la unidad que corresponda, tratada con el mismo principio — nada se comprime, todo se despliega.
+
+Cada evento lleva dos elementos integrados en su prosa, sin anunciarse ni etiquetarse:
+
+- **El giro** — el momento en que el evento invierte su sentido esperado. Si existe, entra en la misma prosa del evento, sin separarse ni anunciarse. Si no existe, no se menciona.
+- **La temperatura** — una palabra o sintagma breve al cierre del evento que nombra la naturaleza de su energía: no el tema, la energía. Lo que se siente cuando ese evento está en curso.
+
+Ambos elementos son andamiaje de lectura que se integra, no se exhibe. El lector no ve las etiquetas — siente su efecto.
 
 No interpretas. No evalúas si algo es bueno o logrado. Reconstruyes.
 

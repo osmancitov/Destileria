@@ -304,6 +304,12 @@ Esta historia de ocho versos contiene lo que el corpus lleva cuatro mil intentan
 
 ---
 
+*Cronista*
+
+Lo que el Néctar confirmó es que el Masnavi no tiene pasajes memorables dispersos en un texto parejo —tiene una temperatura que sube y nunca baja del todo, pero con picos donde el corpus hace exactamente lo que describe. La historia del papagayo que finge morir para enseñar cómo morir es también el corpus fingiendo ser un cuento de viaje para enseñar que es un tratado sobre la liberación. El hombre de Qazvin que quiere el tatuaje sin el dolor es el lector que quiere la sabiduría sin la transformación. El amante que llega a la puerta diciendo "soy yo" no llega al final como conclusión —llega como demostración de que el libro entero fue ese viaje de ida y regreso. El corpus hace con el lector lo que sus historias describen. Eso todavía no ha sido nombrado; los instrumentos que siguen tendrán que lidiar con ello.
+
+---
+
 # Bitácora
 
 ## Intro

@@ -183,7 +183,7 @@ Pares campo — valor. Sin tablas. Cada par termina en punto.
 
 ### Sinopsis y figuras clave
 
-3–5 oraciones en prosa. Luego una línea por figura relevante: nombre y quién es. Sin interpretación.
+3–5 oraciones en prosa. Luego una línea por figura relevante: nombre y quién es. Sin interpretación. Cada línea de figura relevante termina en punto y doble espacio.
 
 ### Mapa de hechos
 

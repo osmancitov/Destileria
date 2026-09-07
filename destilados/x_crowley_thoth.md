@@ -1,17 +1,16 @@
 ---
-lote: ""
+lot: ""
 slug: "x_crowley_thoth"
-titulo: "The Book of Thoth"
-title: "$titulo$"
-autor: "Aleister Crowley"
-ano_publicacion: "1944"
-fecha_lote: "02/09/2026"
-descripcion: "Tratado definitivo del Tarot Thoth: filosofía qabálistica, simbología y uso adivinatorio."
-extracto: "Un libro que no se abre: ya está abierto. Lleva el universo plegado en 78 figuras."
-idioma: "Inglés"
-genero: "Ensayo esotérico / Tratado iniciático"
-extension: "~77 500 palabras / ~310 páginas / 3 partes + catálogo de 78 cartas"
-palabra_frecuente: "card"
+title: "The Book of Thoth"
+author: "Aleister Crowley"
+year: "1944"
+date: "02/09/2026"
+description: "Tratado definitivo del Tarot Thoth: filosofía qabálistica, simbología y uso adivinatorio."
+excerpt: "Un libro que no se abre: ya está abierto. Lleva el universo plegado en 78 figuras."
+language: "Inglés"
+genre: "Ensayo esotérico / Tratado iniciático"
+length: "~77 500 palabras / ~310 páginas / 3 partes + catálogo de 78 cartas"
+frequent_word: "card"
 ---
 
 # Recepción

@@ -134,7 +134,13 @@ El Masnavi no se resume. Se recibe o no se recibe. Llega cargado de siglos de vo
 
 El Libro Uno del Masnavi es el primer volumen de un poema místico de 26.000 versos compuesto por el poeta sufi Rumi en el siglo XIII en Konya, Anatolia. No tiene trama única: es una acumulación de parábolas, alegorías, homilías y comentarios coránicos que giran compulsivamente alrededor de una sola pregunta —cómo el alma separada de su origen puede encontrar el camino de regreso. El corpus abre con el lamento de la flauta de caña (*nay*) cortada del cañaveral como imagen maestra, y despliega desde allí 67 secciones narrativas que incluyen reyes, esclavos enfermos, leones, liebres, papagayos, profetas, santos, charlatanes, poetas y ángeles caídos, todos funcionando como espejos del mismo dilema.
 
-Figuras clave: **Rumi** — poeta y maestro sufi, voz del corpus. **Hosamoddin Chalabi** — discípulo y escriba, su presencia es la condición de posibilidad del texto. **Shams-e Tabriz** — maestro desaparecido cuya ausencia es la llaga que el Masnavi no puede dejar de tocar. **El rey y la esclava enferma** — primera parábola, modelo de amor que fracasa y amor que cura. **El médico divino** — figura del maestro sufi verdadero. **La flauta de caña** — símbolo estructural de todo el poema.
+Figuras clave:  
+**Rumi** — poeta y maestro sufi, voz del corpus.  
+**Hosamoddin Chalabi** — discípulo y escriba, su presencia es la condición de posibilidad del texto.  
+**Shams-e Tabriz** — maestro desaparecido cuya ausencia es la llaga que el Masnavi no puede dejar de tocar.  
+**El rey y la esclava enferma** — primera parábola, modelo de amor que fracasa y amor que cura.  
+**El médico divino** — figura del maestro sufi verdadero.  
+**La flauta de caña** — símbolo estructural de todo el poema.  
 
 ---
 
@@ -195,3 +201,157 @@ El Masnavi llega como un texto que ya sabe que no puede entregarse completo. Tie
 **Forma y contenido / envoltura y esencia.** Una y otra vez el corpus opone lo que algo parece a lo que algo es: el barro de Adán frente a la luz que lleva adentro; la esclavitud de la jaula frente a la libertad del papagayo que finge morir; la pared pulida que supera la pintura. El corpus desconfía de las superficies —incluida la suya propia.
 
 **Conocimiento intelectual versus conocimiento experiencial.** El gramático y el barquero. El que quiere el tatuaje sin el dolor. La hoopoe y el cuervo. Satán y su análisis correcto del barro. El corpus propone repetidamente que el conocimiento que no transforma es peligroso —y que la transformación requiere entrega a un maestro, no comprensión independiente.
+
+---
+
+*Cronista*
+
+El Masnavi llega con su lamento ya formulado —no hay que buscarlo. Lo primero que emerge del contacto con el corpus es que su imagen maestra (la flauta de caña cortada del cañaveral) no es decoración de apertura: es la forma del libro entero. Un texto que habla de la separación está él mismo separado de su idioma original, de su poeta, de su contexto de recitación oral. Lo que el análisis encontrará es un corpus profundamente consciente de su propia condición de objeto incompleto. La tensión entre conocimiento intelectual y conocimiento experiencial ya apunta a algo incómodo para cualquier sistema de análisis: el Masnavi desconfía de exactamente lo que estamos por hacerle.
+
+---
+
+# Néctar
+
+*El Masnavi no esconde su mejor material: lo pone al principio, en los primeros treinta y cuatro versos, y luego lo repite durante cuatro mil más. Lo que la selección que sigue ofrece no es un resumen —es la temperatura del corpus concentrada en los puntos donde esa temperatura se vuelve insoportable.*
+
+---
+
+El corpus abre con una imagen tan precisa que todo lo que viene después es variación: una flauta de caña que llora desde que la cortaron del cañaveral. La flauta no lamenta la cortadura como accidente —la reclama como condición de su música. Sin el corte, sin la separación, no hay sonido. La herida es el instrumento.
+
+"Desde que del cañaveral me arrancaron, / mi canto ha expresado la agonía de cada hombre." El secreto más profundo está en ese lamento, pero ojos y oídos no pueden penetrar el velo. El fuego del amor quema al que no lo tiene. El amado es todo; el amante, solo una pantalla. Un muerto, mientras el amado vive, invisible.
+
+Esta imagen —la caña cortada, el hueco donde estaba la raíz, la música que nace exactamente de la pérdida— es la forma del Libro Uno entero. No es metáfora de apertura. Es la arquitectura del poema.
+
+---
+
+La primera historia que sigue al prólogo empieza como cuento de amor y termina como tratado sobre su naturaleza. Un rey compra una esclava; la esclava enferma; los médicos fracasan. El rey ora en la mezquita y recibe en sueños la promesa de un médico divino. Ese médico llega, examina a la esclava, y diagnostica lo que los demás no vieron: ella no está enferma del cuerpo. Está enferma de amor. Enamorada de un orfebre en Samarcanda.
+
+El médico divino trae al orfebre. Los casa. Luego, en secreto, le administra un veneno lento. El hombre mengua semana a semana; su belleza desaparece; la esclava lo ve pudrirse frente a ella. Cuando muere, todo el amor que tenía por él se ha ido con él.
+
+La moraleja que el corpus extrae es brutal: el amor que se aferra a la forma muere con la forma. El médico divino no curó a la esclava liberándola del amor —la curó destruyendo el objeto de un amor que no podía sobrevivir al tiempo. Lo que quedó en ella, una vez vaciada, era el espacio para algo más.
+
+Este es el modelo del maestro sufi que recorre todo el Libro Uno: no el que consuela, sino el que opera.
+
+---
+
+A mitad del corpus aparece un papagayo enjaulado cuyo dueño viaja a la India. Antes de partir, el mercader pregunta a cada criado qué desea que le traiga. Al papagayo le pide lo mismo. El pájaro responde: lleva mi mensaje a los papagayos de la India. Diles que aquí, enjaulada, una de su especie los extraña.
+
+El mercader cumple el encargo. Al escuchar el mensaje, los papagayos de la India caen muertos —uno tras otro— en el campo. El mercader regresa consternado, convencido de haber causado una tragedia. Cuando le comunica la noticia al papagayo enjaulado, el pájaro cae también muerto en el suelo de la jaula.
+
+El mercader llora. Le abre la jaula para recoger el cuerpo. El papagayo vuela.
+
+Explica desde la rama: los papagayos indios no murieron —le enseñaron cómo morir. El que exhibe su voz queda enjaulado por ella. El que finge su propia muerte es libre. La instrucción del maestro llega muchas veces en la forma de una muerte que no lo es.
+
+La ruptura de patrón aquí es técnica, no solo temática: el lector que siguió la historia como tragedia ha sido engañado junto con el mercader. El corpus aplica sobre el lector el mismo mecanismo que describe.
+
+---
+
+Un gramático sube a un bote. Pregunta al barquero si ha estudiado gramática. El barquero dice que no. El gramático le informa que ha desperdiciado la mitad de su vida. El barquero calla.
+
+Estalla una tormenta. El barquero pregunta al gramático si sabe nadar. El gramático dice que no. El barquero: "Grammarian, your whole life has been in vain: / We're sinking fast—what good now is your brain!"
+
+El corpus añade inmediatamente: no es la gramática sino el autoborrado lo que se necesita aquí. Los cadáveres flotan en el mar tormentoso. Los vivos se hunden. El que murió a sí mismo navega en el mar del misterio.
+
+La historia es perfecta sin esa coda. La coda la convierte en otra cosa: en una demostración de que la parábola correcta y la doctrina correcta son el mismo movimiento, solo en idiomas distintos. Quien entendió la parábola ya recibió la doctrina. Quien necesita la coda todavía no aprendió a nadar.
+
+---
+
+Un hombre de Qazvin quiere tatuarse un león en la espalda. El tatuador empieza por la cola. El hombre grita de dolor y pide que suprima la cola. El tatuador pasa a las garras; el hombre pide que suprima las garras. El cuerpo. El estómago. Las orejas. El tatuador, al final, tira la aguja: nadie ha visto un león sin cola, sin garras, sin cuerpo. No existe tal animal.
+
+El corpus no espera: "Brother, you have to bear the needle's pain / To flee your infidel self's poisonous reign." La transformación que el hombre deseaba —convertirse en algo con la fuerza del león— requería exactamente el proceso que no podía tolerar. Quería el resultado sin el procedimiento. Quería el símbolo sin la herida.
+
+Esta historia tiene la temperatura de un chiste hasta que el lector reconoce que el hombre de Qazvin es él.
+
+---
+
+Los chinos y los griegos compiten en el arte de decorar una sala. El sultán divide un espacio en dos con una cortina. Los chinos piden pintura; el sultán les provee generosamente. Los griegos piden solo permiso para pulir su pared.
+
+Cuando el sultán levanta la cortina divisoria, la pintura china —extraordinaria— se refleja en la pared griega pulida con más esplendor que en la pared original. Los ojos caen de sus órbitas.
+
+El corpus explica: los griegos son los sufis. No acumularon imágenes —eliminaron la herrumbre. El corazón pulido no produce sus propias visiones; recibe y refleja las del cielo. El que pinta genera; el que pule, contiene. La diferencia no es de talento sino de dirección: hacia adentro o hacia afuera.
+
+"The heart's a mirror with such purity / It can reflect forms from eternity." No es metáfora —es la física del sistema. El corazón no es el lugar donde se elabora la experiencia mística. Es la superficie donde esa experiencia aparece cuando se ha eliminado todo lo que la oscurecía.
+
+---
+
+En batalla, Alí tiene a un enemigo derribado y levanta la espada para el golpe final. El hombre le escupe en la cara. Alí baja la espada.
+
+El enemigo, atónito, le pregunta por qué. La explicación de Alí es la más extraña del corpus: cuando el hombre le escupió, su propia ira se movió. En ese instante, matar ya no habría sido un acto puro —habría sido, en parte, por él mismo. Y Alí solo actúa cuando su acción es enteramente de Dios.
+
+"Thus both God and my passions had their shares / But sharing's not allowed in God's affairs."
+
+El enemigo se convierte. Cincuenta de su familia lo siguen. La espada de la clemencia, dice el corpus, redimió más almas que el hierro.
+
+La ruptura aquí no es moral sino epistemológica: Alí no bajó la espada por misericordia hacia el enemigo. La bajó por exigencia de pureza hacia sí mismo. La misericordia fue la consecuencia, no el motivo. Y esa diferencia —entre actuar por el otro y actuar desde la integridad del propio acto— es la distinción que el Libro Uno lleva cuatro mil versos intentando formular.
+
+---
+
+Al final del libro, un hombre llama a la puerta de su amada. Ella pregunta quién es. Él responde: soy yo. Ella le cierra la puerta: no conoce a nadie llamado "yo".
+
+El hombre parte. Vaga durante meses, "cocinado por la llama de la separación". Regresa. Llama de nuevo. La amada pregunta quién es. Esta vez responde: nadie, amor, salvo tú.
+
+Ella lo deja entrar: ahora que eres yo, entra. Para dos yos no hay espacio aquí.
+
+Esta historia de ocho versos contiene lo que el corpus lleva cuatro mil intentando decir. No como conclusión —como demostración. El amante que llega a la puerta diciendo "soy yo" lleva consigo exactamente el objeto que le impide entrar. El que regresa diciendo "eres tú" ya ha desaparecido lo suficiente para caber.
+
+---
+
+## Veredicto
+
+**Valor.** El Masnavi, Libro Uno merece el lugar que ocupa en la historia de la poesía mística —no por deferencia sino porque resuelve un problema que la mayoría de los textos devocionales evaden: cómo hacer que la doctrina sea inseparable de su demostración. Aquí la forma y el contenido no ilustran lo mismo; son lo mismo. Eso es raro.
+
+**Goce.** Esto se disfruta con una condición: que el lector acepte ser el gramático que no sabe nadar, el hombre que quiere el tatuaje sin la aguja, el amante que llega diciendo "soy yo". Si acepta eso, el placer es real y a veces físico. Si llega a leerlo como objeto de estudio desde afuera, sigue siendo admirable —pero el corpus sabe que eso es perder el tiempo, y en algún momento lo dice directamente.
+
+---
+
+# Bitácora 
+
+## Bloque 1
+
+### Introduction
+
+El texto abre situando a Rumi dentro de la tradición sufí como una de sus figuras más determinantes: no solo produjo la poesía sufí más fina en persa, sino que fue maestro de los discípulos que luego nombraron su orden en su honor, y encarna por antonomasia el arquetipo del discípulo devoto. El autor señala que el interés masivo en Rumi durante las últimas décadas en América del Norte y Europa no es del todo sorprendente: cuando su poesía empezó a circular en inglés en forma atractiva, coincidió con un auge del interés en el misticismo entre los lectores occidentales.
+
+La introducción reconstruye el surgimiento del sufismo como camino espiritual identificable: en los siglos X y XI aparecen los primeros manuales y colecciones de biografías de santos sufíes, en su mayoría provenientes del noreste de Persia. Estos textos trazaban los orígenes de la tradición hasta el Profeta Mohammad y cartografiaban un camino de ascenso hacia la unión con Dios. Ya entonces, figuras como Abu Yazid Bestami criticaban el ascetismo que solo incrementaba la atención sobre uno mismo; el amor a Dios comenzaba a imponerse como medio de superar el sentido de ser propio. La práctica más debatida en esos manuales es la audición musical —sama'—, que inducía el éxtasis en los practicantes. La ceremonia giratoria de los seguidores de Rumi, aunque se atribuye a su propensión al trance extático, no tomó su forma conocida hasta el siglo XVII. Delirio contenido en ritual tardío.
+
+La sección "Rumi and his Times" despliega el siglo XIII como escenario de convulsión total: la invasión mongola bajo Gengis Kan dejó muerte y destrucción desde Asia Central hasta el Medio Oriente, culminando con la conquista de Bagdad en 1258 y el colapso del califato abasí, símbolo del mundo islámico. La familia de Rumi emigró del noreste de Persia dos años antes de que los mongoles conquistaran esa región. Entre los contemporáneos de Rumi el texto sitúa a figuras de peso: Ebn Arabi, el más importante teósofo sufí, muerto en 1240; su discípulo Sadroddin Qunyavi, que se instaló en Konya; el poeta árabe Ebn al-Farez; y Faridoddin Attar, predecesor directo de Rumi en el género del masnavi místico, muerto precisamente a manos de los mongoles en Nishapur. La leyenda quiere que Attar reconociera al joven Rumi como su sucesor en el género cuando la familia migraba de Balkh.
+
+Rumi nació en septiembre de 1207 en Balkh. Su padre, Baha Valad, era predicador, erudito religioso y maestro sufí. La familia emigró a Anatolia tras pasar por Samarcanda, haciendo primero la peregrinación a La Meca antes de asentarse definitivamente en Konya. Allí Baha Valad encontró el patronazgo del soberano selyúcida Alaoddin Kay Qobad I y continuó su labor de predicación y enseñanza. Murió en 1231, apenas instalado. Uno de sus estudiantes, Borhanoddin Mohaqqeq, llegó desde el noreste de Persia para tomar las riendas de la escuela y supervisar la educación de Rumi, quien fue enviado a Alepo y Damasco para completar su formación en las ciencias religiosas. Regresó a Konya hacia 1237 como joven erudito consumado.
+
+El acontecimiento decisivo llega en noviembre de 1244: Rumi encuentra a Shamsoddin de Tabriz, un místico errante. Una de las versiones más simples del encuentro lo describe así: un extraño de aspecto humilde pregunta a Rumi por sus libros; Rumi responde con desdén, y los libros arden de repente. El extraño explica lo ocurrido con las mismas palabras que Rumi había usado: "algo que tú no entiendes." Los dos pasaron horas interminables en retiro. Lo que compartieron permanece como misterio. Los discípulos de Rumi, celosos y resentidos, expulsaron a Shams; Rumi envió a su propio hijo Soltan Valad a buscarlo; Shams regresó en 1247 y desapareció para siempre poco después. La tradición afirma que fue asesinado por los discípulos, aunque la evidencia externa es escasa. Dos años en total, y una transformación irreversible.
+
+La transformación que Shams produjo en Rumi fue radical: de la erudición seca y la piedad popular, Rumi giró hacia la poesía mística, los trances extáticos públicos, y un amor que disuelve la reputación y el intelecto. Nombró su colección de poemas líricos "La Colección de Shams" —Divan-e Shams— en lugar de con su propio nombre, y en muchos de los poemas individuales insertó el nombre de Shams donde la convención exigía el del propio poeta. El Masnavi, que comenzó a componer unos quince años después de la desaparición de Shams, lo tiene presente desde el verso 124.
+
+Tras la desaparición de Shams, Rumi nombró como adjunto a Salahoddin el Orfebre, también despreciado por los discípulos por ser iletrado. La leyenda del primer encuentro: Rumi cayó en éxtasis giratorio al escuchar el golpeteo rítmico de Salahoddin trabajando en su puesto del mercado. Tras la muerte de Salahoddin en 1258, el nuevo adjunto fue Hosamoddin Chalabi, quien aportó sus propios discípulos, la riqueza de su orden y, sobre todo, su función de escriba: fue él quien puso el Masnavi por escrito mientras Rumi lo recitaba en voz alta, quien lo leyó de vuelta para corregirlo, y quien lo inspiró a continuar. Rumi llama al Masnavi en ocasiones "el libro de Hosam."
+
+La introducción describe luego las tres obras en prosa que sobreviven: las cartas de Rumi, que revelan su influencia política y sus esfuerzos por colocar discípulos en posiciones de importancia —contradiciendo la imagen popular de retiro total tras la desaparición de Shams—; siete sermones que atestiguan su estima en la mezquita principal de Konya; y setenta y un discursos compilados por sus estudiantes tras su muerte, titulados "En ello está lo que en ello está", que ofrecen vislumbres íntimas de Rumi como maestro sufí.
+
+Rumi murió el 17 de diciembre de 1273. Los médicos no identificaron la enfermedad; se sospechó que había decidido abrazar su muerte física. Su funeral convocó a toda la comunidad de Konya, incluyendo cristianos y judíos. La "Cúpula Verde" donde hoy está su mausoleo se construyó poco después. Es hoy uno de los lugares de peregrinación más visitados del mundo, frecuentado por fieles de todas las religiones mayores.
+
+La sección sobre el Masnavi propiamente dicho explica la forma poética: el masnavi es un poema de rima interna que cambia en cada pareado (aa bb cc dd), lo que permite composiciones de miles de versos, a diferencia de las formas monorimadas. El metro adoptado por Rumi es el ramal en forma apocopada, el mismo que usó Attar en La Conferencia de las Aves. El Masnavi completo suma aproximadamente 26.000 versos divididos en seis libros de unos 4.000 versos cada uno, sin epílogos, cada uno con su propia introducción en prosa y prólogo. El Libro Uno está separado del resto por la pausa de casi un año debida a la muerte de la esposa de Hosamoddin, entre 1263 y 1264.
+
+El texto señala que el Masnavi carece de narrativa marco: a diferencia de La Conferencia de las Aves, el material se organiza por asociación temática, por palabras clave o por conexiones entre personajes, casi siempre entre el final de una sección y el inicio de la siguiente —lo que sugiere composición extemporánea. Rumi interrumpe con frecuencia sus propias narrativas para insertar explicaciones y homilías, retomándolas solo después. Las rúbricas de sección fueron insertadas tras la preparación del texto y funcionan como marcadores para recitadores, no como estructura organizativa.
+
+El prólogo del Libro Uno —"La Canción de la Caña"— es el pasaje más conocido del Masnavi. Su innovación formal: en lugar de la invocación convencional al Creador y al Profeta, Rumi comienza con la flauta de caña humilde y se dirige al lector en segunda persona con "¡Escucha!" La caña que llora haber sido cortada del cañaveral simboliza al místico que siente la separación de su origen en Dios. El amor es la fuerza que intensifica ese anhelo. La aplastación del Monte Sinaí ante Moisés ilustra el poder del amor divino. El amante se borra; solo Dios, el amado, permanece.
+
+La introducción cierra identificando la figura del maestro sufí como el eje narrativo del Libro Uno: está presente en al menos nueve de las doce narrativas principales, representado por curanderos divinos, profetas, reyes, califas y animales. La sección sobre impostores que se hacen pasar por maestros sufíes refuerza, por contraste, la importancia del mediador genuino —eco directo de la propia experiencia de Rumi con Shams. Tensión sin resolución posible.
+
+---
+
+### Note on the Translation
+
+El traductor declara haber optado por verter el Masnavi al inglés en verso —pentámetros yámbicos rimados— como el equivalente más cercano en inglés a la forma del masnavi persa en pareados rimados. Los versos están numerados y referenciados en las notas. El Libro Uno consta de unos 4.000 pareados cuya continuidad se rompe solo por las rúbricas de sección; en la traducción se añaden cortes adicionales por claridad, y los títulos del índice son alternativos a los del texto —más descriptivos, pues las rúbricas originales funcionaban como marcadores para recitadores y en muchos casos refieren solo a los primeros versos de la sección.
+
+El texto árabe del original —citas de fuentes árabes, fórmulas religiosas y la introducción en prosa completa— se indica en cursiva en la traducción, salvo en las rúbricas de sección, que van íntegramente en cursiva. Los términos árabes integrados al persa no se señalan. Las mayúsculas indican referencia a Dios, incluyendo sus noventa y nueve nombres y ciertos términos filosóficos.
+
+La traducción sigue exactamente el texto de la edición crítica de Mohammad Estelami (Teherán, 2ª edición, 1990), considerada la mejor edición existente por su aparato crítico completo. La edición de Nicholson, más accesible por estar publicada en Europa, tiene limitaciones hoy ampliamente reconocidas. Los términos técnicos se traducen al equivalente inglés cuando es posible; la transliteración de nombres y términos se simplifica eliminando diacríticos. Precisión técnica al servicio de la legibilidad.
+
+---
+
+### A Chronology of Rumi
+
+La cronología presenta los hitos de la vida de Rumi en tabla: nace en Balkh en 1207; hacia 1216 la familia emigra de Persia; en 1219 Alaoddin Kay Qobad asciende al trono selyúcida en Anatolia; en 1220 muere Attar; en 1221 los mongoles conquistan Balkh; hacia 1222 la familia se instala provisionalmente en Karaman; en 1224 Rumi se casa con Gowhar Khatun; en 1226 nace Soltan Valad; hacia 1229 la familia se traslada a Konya; en 1231 muere Baha Valad; en 1232 llega a Konya Borhanoddin Termezi; hacia 1233 Rumi inicia sus estudios en Siria; en 1235 muere Ebn al-Farez en Egipto; en 1237 Rumi regresa a Konya como líder de la escuela de su padre, mismo año en que Ghiyasoddin Kay Khosrow II asciende al trono selyúcida; en 1240 muere Ebn Arabi en Damasco; en 1243 los mongoles extienden su imperio a Anatolia; en 1244 Rumi conoce por primera vez a Shams-e Tabriz en Konya; en 1246 Shams abandona Konya; en 1247 Shams regresa; hacia 1247–48 Shams desaparece definitivamente y Salahoddin el Orfebre comienza su mandato como adjunto de Rumi; en 1258 muere Salahoddin, Hosamoddin Chalabi inicia su mandato como adjunto, y los mongoles conquistan Bagdad; en 1260 los mongoles son derrotados en Siria por los mamelucos; hacia 1262 comienza la composición del Masnavi; hacia 1264 se reanuda tras la pausa por la muerte de la esposa de Hosamoddin; el 17 de diciembre de 1273 muere Rumi en Konya. Vida cartografiada, pérdida a pérdida.
+
+---
+
+

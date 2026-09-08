@@ -393,7 +393,7 @@ La cronología presenta los hitos de la vida de Rumi en tabla: nace en Balkh en 
 
 ---
 
-## I
+## I — Versos 0–820
 
 ### Introducción en prosa
 
@@ -587,4 +587,116 @@ El griterío repetido del niño fue tan fuerte que el asombro llenó las almas d
 
 ---
 
+## II — Versos 820–1485
 
+---
+
+### Cómo la sonrisa burlona del hombre que pronunció el nombre de Mohammad con mofa quedó fija en su rostro
+
+El corpus abre con un episodio breve y vertical: un hombre que pronunció el nombre del Profeta Mohammad con mofa descubrió que la mueca burlona quedó fijada en su rostro. Incapaz de borrarla, fue a pedir perdón. El episodio no se desarrolla narrativamente sino que funciona como imagen inaugural: Dios hace que los inmaduros se mofen de los puros —es Su modo de exponerlos— pero también oculta las faltas de los hombres cuando quiere preservarlos. La gracia no se gana sin humillación previa. El texto declara que las lágrimas terminan en risa, que donde hubo agua creció hierba, que donde hubo llanto se manifestó misericordia; la consigna es llorar sin pausa, como la rueda de agua, para que el alma florezca. Energía de umbral ardiente.
+
+### El reproche del fuego al rey de los judíos
+
+Desde esa apertura el corpus entra en la escena del rey judío y el fuego. El rey, figura de tiranía religiosa que perseguía a los creyentes, interpela al fuego porque este se ha negado a quemar a los fieles: ¿qué le pasó, por qué no cumple su naturaleza? El fuego responde que no ha cambiado —sigue siendo el mismo— pero que actúa como espada de Dios: hiere a quien Dios señala, protege a quien Dios protege. La comparación es con los perros del turcomano: fieles con los familiares, feroces con los extraños. El fuego no es menos que un perro en su servidumbre a Dios. El giro está en que el agente de terror —el fuego— se revela instrumento de amor; su selectividad no es falla sino obediencia. El texto explota esta imagen hacia una cosmología completa: tierra, agua, viento y fuego son esclavos fieles de Dios, vivos ante Él aunque muertos ante nosotros; un chispazo sale de la piedra y el hierro solo porque Dios lo decreta; la causa visible siempre tiene una causa anterior invisible, y esas causas superiores —las que conocen solo los Profetas— pueden activar o anular las causas inferiores. Los profetas no están atrapados en la cadena causal visible. El hilo de causalidad oculta se ilustra con la cuerda dentro del pozo: el agua mueve la cuerda, pero quien no ve el agua solo ve el movimiento sin origen. No ser capaz de ver esto es ignorancia. Se suma el ejemplo del profeta Hud, que trazó una línea protectora para sus justos y el viento devastador de Aad se detuvo al llegar al borde —sin traspasar— mientras arrasaba todo lo que quedaba del otro lado; lo mismo hizo Shayban el pastor, cuyo círculo trazado en el suelo mantenía a los lobos alejados del rebaño los viernes que él iba a rezar, y ninguna oveja cruzaba la línea. El mundo sobrenatural no es excepción al orden: es el orden verdadero. Tensión doctrinal sostenida.
+
+### El rey judío se burla, niega y se niega a aceptar el consejo de su propia élite
+
+El rey judío ve todas estas maravillas y las descarta con burla. Sus consejeros le advierten: no estires demasiado la cuerda. El rey los golpea y encarcela, y continúa con su tiranía. En ese momento una voz llega desde el cielo: cesa, perro, la ira divina ha llegado. Un fuego de doce metros sube del suelo, rodea a sus hombres y los consume. El texto anota que era lógico: su origen era el fuego, y los elementos vuelven a su origen. El fuego que debía quemar a los creyentes se consumió a sí mismo porque no encontró material apropiado. La madre del rey se llama Hawiya, que significa infierno —así que el infierno es literalmente su madre, y una madre siempre busca a su hijo. El origen atrae a su derivado. Este movimiento de retorno al origen no es castigo externo sino gravitación metafísica. El texto abre hacia una digresión sobre el aliento: igual que el agua atrapada en un estanque es extraída por el viento y devuelta suavemente a su fuente, el aliento humano asciende hacia Dios y trae gracia de vuelta. Las palabras perfumadas suben solas. Energía de cierre inevitable.
+
+Sin transición brusca el texto pasa a una meditación sobre la atracción entre los seres y sus fuentes. Cada ojo mira hacia donde están sus anhelos. La parte añora el todo. Agua y pan no tienen afinidad aparente pero se vuelven carne una vez ingeridos —la incompatibilidad superficial no niega la compatibilidad profunda. Sin embargo las afinidades falsas existen y son trampas: el silbido del cazador imita el canto del pájaro, el vapor marino engaña al sediento, el oro falso convence hasta que llega al toque. La advertencia es no dejarse desviar por semejanzas superficiales. El texto cita aquí brevemente a Kalila y Dimna como paralelo y pivota sin demora hacia la parábola central.
+
+### Explicación de la confianza en Dios: las presas del león le piden que deje de esforzarse
+
+En un valle vivían todas las bestias bajo el terror de un león que las cazaba sin descanso. Llegaron a un acuerdo: cada día le enviarían una presa voluntaria si él dejaba de atacar. Así la muerte se volvió turno. Lo que sigue es un debate filosófico sostenido entre el león y sus presas sobre confianza en Dios frente a esfuerzo propio. Las bestias sostienen que el esfuerzo es vanidad —Dios decreta todo, la entrega total es la única postura genuina. El león responde con el hadiz: confía en Dios, pero ata tu camello. El debate va y vuelve —las bestias insisten en que mirad a cuántos se esforzaron y fracasaron, el león insiste en que el esfuerzo es gratitud por tener pies y manos— hasta que el texto lo interrumpe con la parábola de Azrael.
+
+### Cómo Azrael miró fijamente a un hombre que huyó al palacio de Salomón; demostración de la superioridad de la confianza sobre el esfuerzo, siendo este último de valor relativo escaso
+
+Un hombre llega aterrorizado al palacio de Salomón porque el ángel de la muerte lo miró con furia; pide al viento que lo traslade a la India para escapar. Azrael después le explica a Salomón que él no lo ahuyentó —estaba asombrado de verlo ahí, porque Dios había decretado que ese hombre moriría ese día en la India. El hombre huyó hacia su destino. El giro es que el instrumento de la huida fue el instrumento de la caída. Energía de fatalidad fría.
+
+### El león vuelve a afirmar la superioridad del esfuerzo sobre la confianza y explica sus ventajas
+
+### El establecimiento de la superioridad del esfuerzo sobre la confianza
+
+El león no cede: el esfuerzo de los profetas fue bendecido porque venía de hombres finos; este mundo es una cárcel y hay que cavar el túnel hacia afuera. Salomón, dueño del mundo, prefería el título de pobre porque su corazón estaba sellado con aire de derviche. Las bestias se rinden y se retoma el acuerdo de la presa diaria voluntaria.
+
+### Los otros animales culpan a la liebre por su demora en ir al león
+
+### La liebre les responde
+
+### Los otros animales objetan las palabras de la liebre
+
+### La respuesta de la liebre a los otros animales
+
+Cuando le toca el turno a la liebre, esta se niega a ir inmediatamente. Las otras bestias la presionan: siempre hemos cumplido, no nos avergüences. La liebre pide tiempo —tiene un plan que salvará a todos. Las bestias objetan: ¿quién eres tú para hablarnos así? La liebre responde que Dios da inspiración a los débiles: le enseñó a la abeja a hacer miel, cosa que no le enseñó al león ni al jabalí; Adán aprendió los Nombres de Dios y el fuego se elevó hasta el cielo con esa luz, mientras el orgullo de Satán fue borrado por negarse a reconocerla. Los sentidos físicos son bozales que impiden beber la verdad mística. Lo que hace al hombre no es su forma —el Profeta y Bu Jahl tenían la misma forma humana— sino el alma que lo habita. Incluso el perro de los Compañeros de la Caverna alcanzó la perfección animal por la luz que lo rodeaba.
+
+### Relato del conocimiento de la liebre y explicación de la virtud y los beneficios del conocimiento
+
+### Los otros animales le piden a la liebre que revele el secreto de sus pensamientos
+
+### La liebre les oculta ese secreto
+
+### La historia del ardid de la liebre
+
+### Sobre la interpretación superficial de la mosca
+
+### El león ruge en voz alta porque la liebre llega tarde
+
+### Nueva explicación del ardid de la liebre
+
+El texto vuelve a la liebre. Retrasó el viaje adrede para ensayar su plan. El león ruge de impaciencia. Una digresión breve sobre las palabras vacías: el camino parece liso pero hay trampas debajo; la adulación es arena seca que agota; el hombre de Dios, en cambio, es la arena que mana agua. La inteligencia que primero lideraba ahora obedece al espíritu —como Gabriel le dijo al Profeta: si avanzo un paso más, me quemo. El texto abre aquí la imagen de la mosca que navega sobre orina en una pajita y cree surcar el océano: el intérprete estrecho que confunde la gota con el mar. Luego una meditación sobre la luz: los colores solo se ven con luz —de noche desaparecen, lo que demuestra que dependen de ella. La luz interior del corazón tiene su origen en la luz de Dios, inalcanzable por los sentidos ni la razón. A Dios no le existe opuesto —y por eso permanece oculto en sí mismo, irreductible a la lógica de los pares. Las formas emergen del pensamiento como leones del bosque; el pensamiento emerge de un mar sin ubicación conocida. Cada momento el mundo muere y renace —creación sucesiva tan veloz que parece continua, como una antorcha girada que parece círculo de fuego. Esta meditación se interrumpe para volver a la narración, y esa interrupción es parte de su sentido: el conocimiento de la fuente última no termina, se suspende. Energía de vértigo quieto.
+
+### La liebre llega al león
+
+### La disculpa de la liebre
+
+La liebre finalmente se aproxima al cubil: llega airada, altiva, sin suplicar —sabe que la mansedumbre no habría funcionado. El león ruge. La liebre pide perdón: la tiranía la detuvo en el camino.
+
+### El león responde a la liebre y parte con ella
+
+Y aquí despliega la trampa: otro león los interceptó a ella y a una liebre compañera en el camino; ese otro retó la autoridad del rey, los amenazó, y retuvo a la compañera —más grande y más noble— como garantía para soltarla a ella. Si el rey quiere seguir recibiendo sus cuotas diarias debe liberar el camino. La mentira es perfecta: apela al orgullo del rey, a su interés material, y lo arrastra hacia el pozo. El león acepta sin vacilar. El texto recuerda cómo el pequeño destruye al grande —la rana con media ala que partió el cráneo de Nemrod, Moisés que venció al Faraón a través del Nilo— y advierte: cuando el destino golpea, el hombre ve los medios pero no reconoce al enemigo disfrazado de amigo. Energía de trampa que se tensa.
+
+### La historia del abubilla y Salomón, explicando que cuando el destino se cumple los ojos abiertos quedan ciegos
+
+### El ataque del cuervo a la afirmación del abubilla
+
+### El abubilla responde a la crítica del cuervo
+
+### La historia de Adán: el destino le cegó la vista, de modo que no pudo observar el mensaje ni abstenerse de interpretarlo de otra manera
+
+La parábola del abubilla y Salomón interrumpe la marcha narrativa para instalar un episodio sobre destino y ceguera. En la tienda de Salomón se reúnen todos los pájaros. El abubilla habla primero: desde el cénit puede ver el agua subterránea con precisión de mano propia —su profundidad, color, el lugar donde cavar. Salomón lo acepta como guía de agua en el desierto. El cuervo, celoso, lo denuncia: ¿cómo puede decir que ve todo si fue atrapado en una trampa sin verla? Salomón repite la acusación. El abubilla responde: veo todas las trampas cuando el destino no me ciega. Cuando el destino decreta que la mente duerma, el sol se eclipsa y la luna ennegrece —el destino también quiere que el cuervo niegue el destino. El episodio de Adán refuerza esto: Adán recibió el conocimiento de los Nombres, incluso de quiénes serían fieles y quiénes infieles al final de los tiempos. Pero cuando el destino decretó que violara la prohibición, su sabiduría no lo protegió; quiso interpretar por su cuenta si la fruta era verdaderamente prohibida, y esa voluntad de interpretar fue la caída. El jardinero que pisa una espina se distrae un momento —y el ladrón aprovecha ese momento para llevarse todo. Quien sigue la justicia y depone su poder será asistido incluso cuando el destino lo arroje a una zanja —porque la zanja del destino viene con tienda en el cielo. Energía de servidumbre oscura.
+
+### La liebre se echa atrás cuando el león se acerca al pozo
+
+### El león pregunta por qué la liebre se ha echado atrás
+
+La liebre y el león se acercan al pozo. La liebre retrocede, palidece, tiembla. El texto abre una digresión sobre el semblante como señal: el rostro delata el interior; el olor y el color son campanas; la voz de cada cosa revela su naturaleza. La liebre continúa: ha visto al Que desencaja los miembros, al Que derriba las raíces de los árboles más viejos. El texto se expande en una meditación cosmológica: el sol sube en llamas y se hunde de cabeza; las estrellas arden; la luna enferma; la tierra tiembla; las montañas se aplastan; el aire se vuelve rancio; el agua dulce se amarga; el fuego se extingue. Todo lo compuesto de opuestos vive en tensión constante. El mundo que no logra reconciliar sus opuestos muere. La liebre dice: por eso llegué tarde. El león ordena mirar. La liebre sugiere que el rey la proteja con su sombra para que ella pueda asomarse sin miedo.
+
+### El león se asoma al pozo y ve su propio reflejo y el de la liebre
+
+Juntos se asoman al borde del pozo y ven dos imágenes: el león y junto a él una liebre rolliza. El león cree haber encontrado a su rival y salta. Cae en el pozo de su propio crimen. El texto lo dice con precisión: los crímenes de los opresores son pozos sin luz; el peor opresor cava más hondo. El giro es que el propio reflejo fue el enemigo —el rey vio su vileza proyectada afuera y se lanzó contra ella. Lo que ves de feo en otros es el espejo de tus propias faltas: te golpeas a ti mismo. Los creyentes son espejos los unos de los otros. Quienes no ven por la luz de Dios ven con fuego, y el fuego confunde lo bueno con lo obsceno. La solución: verter agua, gota a gota, sobre el fuego. Energía de abismo que se cierra sobre sí.
+
+### La liebre lleva la noticia de la caída del león en el pozo a los otros animales
+
+### Las bestias de presa se reúnen alrededor de la liebre para elogiarla
+
+La liebre corre de vuelta a los suyos dando volteretas. La imagen es de una hoja que escapa de la cárcel de la tierra cuando el viento la levanta —las hojas ascienden hasta el extremo más alto del árbol. Las almas atadas en cuerpos de arcilla sienten éxtasis cuando pueden volar. El texto hace el giro interpretativo: el león está en el pozo no porque lo mató una liebre sino porque lo mató su propia alma carnal. El asno que hay en ti pasta en el llano; el rey que había en ti está en el pozo atado por sus preguntas. Las bestias forman un círculo en torno a la liebre y la adoran: ¿eres un ángel, un espíritu, el mismo Azrael? La liebre responde: fue el cuidado amoroso de Dios —sin eso, ¿qué es una liebre? Dios le dio fuerza e iluminó su corazón. De Dios vienen tanto el favor como la ira. Energía de liberación que no se queda en sí misma.
+
+### La liebre aconseja a los otros animales: '¡No os alegréis solo de esto!'
+
+Porque la liebre no les deja celebrar. Les advierte: no os alegréis de la riqueza temporal. Los reyes eternos no están atados por el tiempo. Dejad de beber aquí por un momento —probad el vino eterno.
+
+### Interpretación de 'Hemos regresado de la jihad menor a la jihad mayor'
+
+Y entonces el texto hace el giro doctrinal mayor de todo el corpus: la victoria sobre el enemigo exterior es la jihad menor. Hay un enemigo peor dentro. El yo es el infierno, un dragón que no se puede apagar con los siete mares —su sed no se sacia. Los infieles entran en ese fuego y el infierno grita que quiere más. Solo cuando Dios lo pisa desde la No-Localización el infierno se siente lleno. Nuestro yo obstinado es una parte del infierno, y las partes revelan la naturaleza del todo. Solo Dios puede asestar el golpe fatal —la cuerda de ese arco nadie más puede tensar. El arquero que pasa al combate interno encuentra que el arco de su ego solo admite flechas torcidas. La flecha recta es la que Dios dispara. Cuando la liebre se alejó del combate exterior descubrió la guerra interior: dejamos atrás la jihad pequeña para la grande. Energía de batalla que se interioriza sin consuelo.
+
+### El emisario de Bizancio llega ante Omar, el Comandante de los Creyentes, y contempla sus milagros
+
+### El emisario de Bizancio encuentra al Comandante de los Creyentes durmiendo bajo el árbol
+
+Un hombre viaja desde el oeste a través del desierto buscando el palacio del Califa Omar. Le dicen: no tiene palacio —solo su alma iluminada como oro puro; vive en una choza como los pobres. El texto interpela: ¿cómo podrías ver ese palacio con un solo pelo que te ciega el ojo del corazón? Quien haya liberado su alma de la lujuria ha entrado al reino de Dios. El Profeta Mohammad, purgado de fuego y humo, veía el rostro de Dios en cualquier dirección. Si tienes una apertura en el corazón verás los rayos del sol en todo. El emisario abandona su caballo y su carga y busca a Omar como un loco. Una mujer árabe lo guía: Omar duerme bajo aquella palmera, a solas, lejos del pueblo. El emisario se acerca y se paraliza: un hombre dormido y desarmado le produce un miedo que ningún campo de batalla le había producido. Había explorado junglas de leones sin palidecer. Comprende: es el temor a Dios, no a un hombre. El que vive en el temor de Dios es temido por los genios y los hombres. Omar despierta. El emisario lo saluda. Omar lo invita a acercarse, le dice que no tema —el texto anota la precisión: "no temas" es adecuado para los asustados, no para los que ya no lo están; dirigirlo al emisario implicaría insultarlo. Omar le habla de los atributos de Dios, de las estaciones y estados del alma —el estado es el desvelamiento de la novia ante todos los huéspedes; la estación es quedarse a solas con ella. Muchos sufíes han vivido estados, pocos conocen las estaciones. Omar le habla del viaje del alma, del tiempo que está más allá del tiempo, del reino donde el espíritu voló antes de esta vida. Al ver que el emisario es un amigo genuino, Omar siembra buena semilla en tierra que reconoce como buena.
+
+### El emisario de Bizancio interroga al Comandante de los Creyentes
+
+El emisario le hace la pregunta final: ¿cómo bajó el espíritu a la tierra? ¿Cómo ese pájaro fue encerrado en una celda? Omar responde: Dios entonó un encantamiento al alma. Los no-existentes no tienen oído ni ojo, pero cuando Dios entona un conjuro, se agitan y vuelan hacia la existencia. Y cuando los existentes escuchan la fórmula de Dios, su camino es el inverso: regresan hacia la no-existencia. La rosa sonrió cuando Él entonó a su tallo. Una piedra se vuelve gema por Sus palabras. Los cuerpos se vuelven almas por una sola línea suya; sus palabras oscuras provocan los eclipses; hizo llorar a las nubes como odres. Quien está sumido en la duda: el Señor entona un acertijo en su oído que lo mantiene vacilando entre obedecer o desobedecer —pero la preferencia divina está implícita y ayuda al vacilante a decidir. Para dejar de ser perturbado por las dudas hay que quitar el algodón de los oídos del espíritu —no el oído racional, que solo puede pretender, sino el oído espiritual que oye la revelación. La palabra "compulsión" no asusta al que ama —no es compulsión sino comunión divina; no es nube sino luna llena en unión total. La compulsión del místico es distinta a la del alma comandante ciega: a estos hombres Dios les ha dado un ojo interior que ve lo oculto y el futuro. Para ellos las gotas se vuelven perlas dentro de la ostra. Son como la glándula del almizcle del ciervo: por fuera solo sangre, por dentro almizcle. El cobre que se vuelve oro por alquimia. En el pan sobre la mesa no hay vida; en el vientre el alma lo transmuta con vino celestial. Lo que el alma puede, más aún Dios que rige al alma. El hombre sería solo carne si no fuera por el corazón: el corazón parte las rocas, levanta las montañas, y la prueba es que el versículo de Dios partió la luna. Solo levanta el velo de este misterio y tu alma buscará el Trono de Dios con avidez. Energía de disolución que no se cierra.
+
+---
